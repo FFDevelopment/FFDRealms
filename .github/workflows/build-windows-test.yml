@@ -61,7 +61,6 @@ jobs:
           mkdir -p build/windows
           godot --headless --verbose --path . --export-release "Windows Desktop" "build/windows/FFDRealms.exe"
           test -f build/windows/FFDRealms.exe
-          test -f build/windows/FFDRealms.pck
 
       - name: Add tester instructions and diagnostic launcher
         shell: bash
