@@ -1,0 +1,98 @@
+name: Build Windows Test
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "project.godot"
+      - "export_presets.cfg"
+      - "scripts/**"
+      - "scenes/**"
+      - "assets/**"
+      - "data/**"
+      - "shaders/**"
+      - ".github/workflows/build-windows-test.yml"
+
+permissions:
+  contents: read
+
+env:
+  GODOT_VERSION: "4.3"
+  EXPORT_NAME: "FFDRealms"
+
+jobs:
+  windows:
+    name: Windows x86_64 playable build
+    runs-on: ubuntu-24.04
+    container:
+      image: barichello/godot-ci:4.3
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Install Godot export templates
+        shell: bash
+        run: |
+          mkdir -p ~/.local/share/godot/export_templates/
+          mkdir -p ~/.config/
+          if [ -d /root/.config/godot ]; then
+            mv /root/.config/godot ~/.config/godot
+          fi
+          mv /root/.local/share/godot/export_templates/4.3.stable ~/.local/share/godot/export_templates/4.3.stable
+
+      - name: Validate project imports
+        shell: bash
+        run: godot --headless --editor --path . --quit
+
+      - name: Run startup smoke test
+        shell: bash
+        run: |
+          set -o pipefail
+          timeout 30s godot --headless --path . -- --smoke-test 2>&1 | tee startup-smoke.log
+          grep -q "SMOKE PASS:" startup-smoke.log
+
+      - name: Export Windows release
+        shell: bash
+        run: |
+          mkdir -p build/windows
+          godot --headless --verbose --path . --export-release "Windows Desktop" "build/windows/FFDRealms.exe"
+          test -f build/windows/FFDRealms.exe
+
+      - name: Add tester instructions and diagnostic launcher
+        shell: bash
+        run: |
+          cat > build/windows/README-TEST-BUILD.txt <<'EOF'
+          FFDRealms Windows Test Build
+
+          1. Extract this ZIP completely.
+          2. Run FFDRealms.exe.
+          3. If it closes immediately, run RUN-WITH-LOG.bat instead.
+          4. Send ffdrealms-startup.log when reporting startup problems.
+          5. For multiplayer testing, start the separate development backend from the source repository/server folder first.
+          EOF
+          cat > build/windows/RUN-WITH-LOG.bat <<'EOF'
+          @echo off
+          cd /d "%~dp0"
+          echo Starting FFDRealms...
+          "FFDRealms.exe" --verbose > ffdrealms-startup.log 2>&1
+          echo.
+          echo FFDRealms exited. Startup log:
+          echo ----------------------------------------
+          type ffdrealms-startup.log
+          echo ----------------------------------------
+          echo Log saved to: %CD%\ffdrealms-startup.log
+          pause
+          EOF
+
+      - name: Upload playable Windows build
+        uses: actions/upload-artifact@v4
+        with:
+          name: FFDRealms-Windows-Test
+          path: build/windows/
+          if-no-files-found: error
+          compression-level: 9
+          retention-days: 30
