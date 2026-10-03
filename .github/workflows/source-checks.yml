@@ -1,0 +1,21 @@
+name: Source checks
+
+on:
+  push:
+    branches: [main, development]
+  pull_request:
+
+jobs:
+  repository-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify repository structure
+        shell: bash
+        run: |
+          test -f README.md
+          test -f SERVER_ADMIN_SETUP.md
+          test -f manifests/development.json
+          test -f manifests/beta.json
+          test -f manifests/stable.json
+          echo "FFDRealms repository structure OK"
