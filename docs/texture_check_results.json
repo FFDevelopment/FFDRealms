@@ -1,0 +1,1027 @@
+{
+  "version": "0.3.0",
+  "scope": "Asset pixels/import metadata and source invariants only; no Godot execution or rendered review",
+  "passed": 253,
+  "failed": 0,
+  "assets": 36,
+  "negative_controls": {
+    "safe_area_regression_rejected": true,
+    "mesh_dimensions_regression_rejected": true,
+    "attack_warning_regression_rejected": true,
+    "corrupt_asset_hash_rejected": true
+  },
+  "checks": [
+    {
+      "check": "Exactly 18 original albedo/normal map pairs are packaged",
+      "passed": true
+    },
+    {
+      "check": "Texture manifest has no duplicate path entries",
+      "passed": true
+    },
+    {
+      "check": "All and only the packaged maps are explicitly preloaded for export inclusion",
+      "passed": true
+    },
+    {
+      "check": "grass_albedo matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "grass_albedo is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "grass_albedo has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "grass_albedo has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "grass_albedo remains neutral to preserve its source tint",
+      "passed": true
+    },
+    {
+      "check": "grass_albedo contains restrained visible detail, not a flat fill or full-contrast noise",
+      "passed": true
+    },
+    {
+      "check": "grass_normal matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "grass_normal is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "grass_normal has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "grass_normal has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "grass_normal has normalized, positive-Z tangent normals",
+      "passed": true
+    },
+    {
+      "check": "grass_normal is marked as normal data",
+      "passed": true
+    },
+    {
+      "check": "earth_albedo matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "earth_albedo is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "earth_albedo has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "earth_albedo has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "earth_albedo remains neutral to preserve its source tint",
+      "passed": true
+    },
+    {
+      "check": "earth_albedo contains restrained visible detail, not a flat fill or full-contrast noise",
+      "passed": true
+    },
+    {
+      "check": "earth_normal matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "earth_normal is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "earth_normal has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "earth_normal has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "earth_normal has normalized, positive-Z tangent normals",
+      "passed": true
+    },
+    {
+      "check": "earth_normal is marked as normal data",
+      "passed": true
+    },
+    {
+      "check": "path_albedo matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "path_albedo is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "path_albedo has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "path_albedo has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "path_albedo remains neutral to preserve its source tint",
+      "passed": true
+    },
+    {
+      "check": "path_albedo contains restrained visible detail, not a flat fill or full-contrast noise",
+      "passed": true
+    },
+    {
+      "check": "path_normal matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "path_normal is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "path_normal has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "path_normal has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "path_normal has normalized, positive-Z tangent normals",
+      "passed": true
+    },
+    {
+      "check": "path_normal is marked as normal data",
+      "passed": true
+    },
+    {
+      "check": "cobble_albedo matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "cobble_albedo is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "cobble_albedo has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "cobble_albedo has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "cobble_albedo remains neutral to preserve its source tint",
+      "passed": true
+    },
+    {
+      "check": "cobble_albedo contains restrained visible detail, not a flat fill or full-contrast noise",
+      "passed": true
+    },
+    {
+      "check": "cobble_normal matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "cobble_normal is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "cobble_normal has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "cobble_normal has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "cobble_normal has normalized, positive-Z tangent normals",
+      "passed": true
+    },
+    {
+      "check": "cobble_normal is marked as normal data",
+      "passed": true
+    },
+    {
+      "check": "stone_albedo matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "stone_albedo is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "stone_albedo has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "stone_albedo has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "stone_albedo remains neutral to preserve its source tint",
+      "passed": true
+    },
+    {
+      "check": "stone_albedo contains restrained visible detail, not a flat fill or full-contrast noise",
+      "passed": true
+    },
+    {
+      "check": "stone_normal matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "stone_normal is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "stone_normal has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "stone_normal has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "stone_normal has normalized, positive-Z tangent normals",
+      "passed": true
+    },
+    {
+      "check": "stone_normal is marked as normal data",
+      "passed": true
+    },
+    {
+      "check": "masonry_albedo matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "masonry_albedo is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "masonry_albedo has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "masonry_albedo has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "masonry_albedo remains neutral to preserve its source tint",
+      "passed": true
+    },
+    {
+      "check": "masonry_albedo contains restrained visible detail, not a flat fill or full-contrast noise",
+      "passed": true
+    },
+    {
+      "check": "masonry_normal matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "masonry_normal is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "masonry_normal has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "masonry_normal has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "masonry_normal has normalized, positive-Z tangent normals",
+      "passed": true
+    },
+    {
+      "check": "masonry_normal is marked as normal data",
+      "passed": true
+    },
+    {
+      "check": "plaster_albedo matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "plaster_albedo is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "plaster_albedo has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "plaster_albedo has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "plaster_albedo remains neutral to preserve its source tint",
+      "passed": true
+    },
+    {
+      "check": "plaster_albedo contains restrained visible detail, not a flat fill or full-contrast noise",
+      "passed": true
+    },
+    {
+      "check": "plaster_normal matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "plaster_normal is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "plaster_normal has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "plaster_normal has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "plaster_normal has normalized, positive-Z tangent normals",
+      "passed": true
+    },
+    {
+      "check": "plaster_normal is marked as normal data",
+      "passed": true
+    },
+    {
+      "check": "shingles_albedo matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "shingles_albedo is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "shingles_albedo has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "shingles_albedo has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "shingles_albedo remains neutral to preserve its source tint",
+      "passed": true
+    },
+    {
+      "check": "shingles_albedo contains restrained visible detail, not a flat fill or full-contrast noise",
+      "passed": true
+    },
+    {
+      "check": "shingles_normal matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "shingles_normal is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "shingles_normal has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "shingles_normal has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "shingles_normal has normalized, positive-Z tangent normals",
+      "passed": true
+    },
+    {
+      "check": "shingles_normal is marked as normal data",
+      "passed": true
+    },
+    {
+      "check": "timber_albedo matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "timber_albedo is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "timber_albedo has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "timber_albedo has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "timber_albedo remains neutral to preserve its source tint",
+      "passed": true
+    },
+    {
+      "check": "timber_albedo contains restrained visible detail, not a flat fill or full-contrast noise",
+      "passed": true
+    },
+    {
+      "check": "timber_normal matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "timber_normal is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "timber_normal has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "timber_normal has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "timber_normal has normalized, positive-Z tangent normals",
+      "passed": true
+    },
+    {
+      "check": "timber_normal is marked as normal data",
+      "passed": true
+    },
+    {
+      "check": "planks_albedo matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "planks_albedo is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "planks_albedo has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "planks_albedo has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "planks_albedo remains neutral to preserve its source tint",
+      "passed": true
+    },
+    {
+      "check": "planks_albedo contains restrained visible detail, not a flat fill or full-contrast noise",
+      "passed": true
+    },
+    {
+      "check": "planks_normal matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "planks_normal is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "planks_normal has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "planks_normal has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "planks_normal has normalized, positive-Z tangent normals",
+      "passed": true
+    },
+    {
+      "check": "planks_normal is marked as normal data",
+      "passed": true
+    },
+    {
+      "check": "bark_albedo matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "bark_albedo is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "bark_albedo has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "bark_albedo has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "bark_albedo remains neutral to preserve its source tint",
+      "passed": true
+    },
+    {
+      "check": "bark_albedo contains restrained visible detail, not a flat fill or full-contrast noise",
+      "passed": true
+    },
+    {
+      "check": "bark_normal matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "bark_normal is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "bark_normal has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "bark_normal has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "bark_normal has normalized, positive-Z tangent normals",
+      "passed": true
+    },
+    {
+      "check": "bark_normal is marked as normal data",
+      "passed": true
+    },
+    {
+      "check": "leaves_albedo matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "leaves_albedo is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "leaves_albedo has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "leaves_albedo has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "leaves_albedo remains neutral to preserve its source tint",
+      "passed": true
+    },
+    {
+      "check": "leaves_albedo contains restrained visible detail, not a flat fill or full-contrast noise",
+      "passed": true
+    },
+    {
+      "check": "leaves_normal matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "leaves_normal is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "leaves_normal has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "leaves_normal has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "leaves_normal has normalized, positive-Z tangent normals",
+      "passed": true
+    },
+    {
+      "check": "leaves_normal is marked as normal data",
+      "passed": true
+    },
+    {
+      "check": "ore_albedo matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "ore_albedo is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "ore_albedo has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "ore_albedo has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "ore_albedo remains neutral to preserve its source tint",
+      "passed": true
+    },
+    {
+      "check": "ore_albedo contains restrained visible detail, not a flat fill or full-contrast noise",
+      "passed": true
+    },
+    {
+      "check": "ore_normal matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "ore_normal is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "ore_normal has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "ore_normal has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "ore_normal has normalized, positive-Z tangent normals",
+      "passed": true
+    },
+    {
+      "check": "ore_normal is marked as normal data",
+      "passed": true
+    },
+    {
+      "check": "canvas_albedo matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "canvas_albedo is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "canvas_albedo has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "canvas_albedo has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "canvas_albedo remains neutral to preserve its source tint",
+      "passed": true
+    },
+    {
+      "check": "canvas_albedo contains restrained visible detail, not a flat fill or full-contrast noise",
+      "passed": true
+    },
+    {
+      "check": "canvas_normal matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "canvas_normal is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "canvas_normal has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "canvas_normal has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "canvas_normal has normalized, positive-Z tangent normals",
+      "passed": true
+    },
+    {
+      "check": "canvas_normal is marked as normal data",
+      "passed": true
+    },
+    {
+      "check": "metal_albedo matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "metal_albedo is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "metal_albedo has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "metal_albedo has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "metal_albedo remains neutral to preserve its source tint",
+      "passed": true
+    },
+    {
+      "check": "metal_albedo contains restrained visible detail, not a flat fill or full-contrast noise",
+      "passed": true
+    },
+    {
+      "check": "metal_normal matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "metal_normal is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "metal_normal has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "metal_normal has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "metal_normal has normalized, positive-Z tangent normals",
+      "passed": true
+    },
+    {
+      "check": "metal_normal is marked as normal data",
+      "passed": true
+    },
+    {
+      "check": "moss_albedo matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "moss_albedo is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "moss_albedo has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "moss_albedo has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "moss_albedo remains neutral to preserve its source tint",
+      "passed": true
+    },
+    {
+      "check": "moss_albedo contains restrained visible detail, not a flat fill or full-contrast noise",
+      "passed": true
+    },
+    {
+      "check": "moss_normal matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "moss_normal is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "moss_normal has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "moss_normal has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "moss_normal has normalized, positive-Z tangent normals",
+      "passed": true
+    },
+    {
+      "check": "moss_normal is marked as normal data",
+      "passed": true
+    },
+    {
+      "check": "fur_albedo matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "fur_albedo is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "fur_albedo has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "fur_albedo has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "fur_albedo remains neutral to preserve its source tint",
+      "passed": true
+    },
+    {
+      "check": "fur_albedo contains restrained visible detail, not a flat fill or full-contrast noise",
+      "passed": true
+    },
+    {
+      "check": "fur_normal matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "fur_normal is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "fur_normal has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "fur_normal has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "fur_normal has normalized, positive-Z tangent normals",
+      "passed": true
+    },
+    {
+      "check": "fur_normal is marked as normal data",
+      "passed": true
+    },
+    {
+      "check": "water_albedo matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "water_albedo is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "water_albedo has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "water_albedo has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "water_albedo remains neutral to preserve its source tint",
+      "passed": true
+    },
+    {
+      "check": "water_albedo contains restrained visible detail, not a flat fill or full-contrast noise",
+      "passed": true
+    },
+    {
+      "check": "water_normal matches its manifest checksum",
+      "passed": true
+    },
+    {
+      "check": "water_normal is an opaque 512x512 RGB map",
+      "passed": true
+    },
+    {
+      "check": "water_normal has matching opposite tile boundaries",
+      "passed": true
+    },
+    {
+      "check": "water_normal has portable lossless/mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "water_normal has normalized, positive-Z tangent normals",
+      "passed": true
+    },
+    {
+      "check": "water_normal is marked as normal data",
+      "passed": true
+    },
+    {
+      "check": "World mapping is explicit and moving creatures default to local-space textures",
+      "passed": true
+    },
+    {
+      "check": "Repeating textures use mipmapped filtering",
+      "passed": true
+    },
+    {
+      "check": "Materials are cached instead of recreated per frame",
+      "passed": true
+    },
+    {
+      "check": "Emissive/transparent indicators are excluded from material replacement",
+      "passed": true
+    },
+    {
+      "check": "Material application preserves each original mesh tint",
+      "passed": true
+    },
+    {
+      "check": "Textured world materials retain restrained specular highlights",
+      "passed": true
+    },
+    {
+      "check": "World tick does not load new material scripts",
+      "passed": true
+    },
+    {
+      "check": "No texture allocation or application occurs in the world frame loop",
+      "passed": true
+    },
+    {
+      "check": "Enemy animation does not recreate or remap textures each frame",
+      "passed": true
+    },
+    {
+      "check": "Every solid-surface preset is assigned to a mesh or blended terrain material",
+      "passed": true
+    },
+    {
+      "check": "scripts/enemy_ai.gd is byte-identical to the 0.2.2 gameplay base",
+      "passed": true
+    },
+    {
+      "check": "scripts/combat_rules.gd is byte-identical to the 0.2.2 gameplay base",
+      "passed": true
+    },
+    {
+      "check": "scripts/world_layout.gd is byte-identical to the 0.2.2 gameplay base",
+      "passed": true
+    },
+    {
+      "check": "scripts/actor.gd is byte-identical to the 0.2.2 gameplay base",
+      "passed": true
+    },
+    {
+      "check": "scripts/appearance.gd is byte-identical to the 0.2.2 gameplay base",
+      "passed": true
+    },
+    {
+      "check": "scripts/wardrobe.gd is byte-identical to the 0.2.2 gameplay base",
+      "passed": true
+    },
+    {
+      "check": "scripts/geometry.gd is byte-identical to the 0.2.2 gameplay base",
+      "passed": true
+    },
+    {
+      "check": "scenes/main.tscn is byte-identical to the 0.2.2 gameplay base",
+      "passed": true
+    },
+    {
+      "check": "Catalog differs only by the release version, not item/skill/economy rules",
+      "passed": true
+    },
+    {
+      "check": "scripts/world.gd _build_environment preserves behavior after height projection",
+      "passed": true
+    },
+    {
+      "check": "scripts/world.gd _process preserves behavior after height projection",
+      "passed": true
+    },
+    {
+      "check": "scripts/world.gd show_hover preserves behavior after height projection",
+      "passed": true
+    },
+    {
+      "check": "scripts/enemy_visual.gd _triangle_mesh preserves behavior after height projection",
+      "passed": true
+    },
+    {
+      "check": "scripts/enemy_visual.gd _warning_material preserves behavior after height projection",
+      "passed": true
+    },
+    {
+      "check": "All original creature geometry construction calls are preserved",
+      "passed": true
+    },
+    {
+      "check": "Water keeps the reduced-glare roughness and specular settings",
+      "passed": true
+    },
+    {
+      "check": "New water shader requires no screen/depth texture, transparency or glow",
+      "passed": true
+    },
+    {
+      "check": "Water vertex motion has the original amplitude and period",
+      "passed": true
+    },
+    {
+      "check": "Every water shader uniform is bound by world.gd with no misspelled names",
+      "passed": true
+    },
+    {
+      "check": "Water normal detail has a bounded strength and a disable path",
+      "passed": true
+    },
+    {
+      "check": "New visual settings default to textures with normal detail enabled",
+      "passed": true
+    },
+    {
+      "check": "Both solid surfaces and water retain legacy material fallback",
+      "passed": true
+    },
+    {
+      "check": "Windows runner includes the new native import/material suite",
+      "passed": true
+    },
+    {
+      "check": "Four intentional asset/geometry/safety/warning regressions are rejected",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "scope": "Historical v0.2.3 texture bake verification; the 36 original maps are retained byte-identically in v0.3.0. Terrain reproducibility is recorded separately.",
+  "matched_pngs": 36,
+  "mismatches": 0,
+  "generator_sha256": "21835cd79378dca8f85a678c1b743eb01bcbdaf20e4de14f901e1fdf7db81879"
+}

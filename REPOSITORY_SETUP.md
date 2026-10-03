@@ -1,10 +1,13 @@
-# FFDRealms Repository
+# One-time GitHub repository setup
 
-Repository: `FFDevelopment/FFDRealms`
+Create an empty GitHub repository named `FFDRealms` under the `FFDevelopment` account/organization.
 
-Recommended during active development:
-- Visibility: private
-- Default branch: `main`
-- Keep runtime databases, credentials, exported builds, and local saves out of source control.
+Recommended initial settings:
+- Visibility: **Private** during active development
+- Initialize with README: **No**
+- Add .gitignore: **No**
+- Add license: **No**
 
-Release channels are stored in `manifests/`.
+The repository should be empty so this prepared project can become the first commit without merge conflicts.
+
+Once `FFDevelopment/FFDRealms` exists, ChatGPT's connected GitHub integration can populate and maintain files, branches, PRs, and release workflows in that repository.

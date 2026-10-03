@@ -1,0 +1,107 @@
+{
+  "version": "0.2.1",
+  "base_archive": "FFDRealms_0.2.0.zip",
+  "base_archive_sha256": "c2ca8bdfba19d9128c6c1365c0d0d0f411739f6662af3057350763e768c866f2",
+  "native_engine_tests": "NOT RUN: no usable Godot executable",
+  "rendered_review": "NOT RUN",
+  "offline_results": {
+    "source": {
+      "passed": 252,
+      "failed": 0,
+      "scope": "Structural, catalog and reference-grid validation; not native Godot execution"
+    },
+    "frontier": {
+      "passed": 100,
+      "failed": 0,
+      "scope": "Source/data and independent reference navigation checks only; no GDScript execution"
+    },
+    "appearance": {
+      "passed": 82,
+      "failed": 0,
+      "scope": "Data/source and independent Python geometry/navigation only; no GDScript execution"
+    },
+    "grammar": {
+      "passed": 19,
+      "failed": 0,
+      "scope": "Grammar only; no Godot API/type checking, compilation, or execution"
+    }
+  },
+  "geometry_oracle": {
+    "executed": true,
+    "samples": 10000,
+    "mismatches": 0
+  },
+  "packaging": {
+    "zip_crc_verified": true,
+    "fresh_extraction_checks": true,
+    "fresh_extraction_suites": [
+      "check_project.py",
+      "check_frontier.py",
+      "check_appearance.py",
+      "check_grammar.py"
+    ],
+    "per_file_hashes_verified_before_and_after_tests": true
+  },
+  "files": {
+    ".gitignore": "8cdafdf9926de2a5635311e603e7dd64ca05c5d632a8ee46db1b49e567542810",
+    "ASSET_NOTES.md": "3d921c4db6a80c961ba0b2d44ccbab19e35a36a32993289843b1bb83964cd900",
+    "Launch Game.bat": "0015190e9910718f215ce64f26e3697f1594537f2ae2e7636df67fd2deeeed6c",
+    "Run Tests.bat": "4f5628dd0150bad744f9cbb4c05c74ce6ff49647283d7750b97971f7e72e929a",
+    "START_HERE.md": "320c70e6e792d884cc9e7ecf7e6d89dabd82dbf841e2447ab92ab8cbf48d97b9",
+    "docs/API_REFERENCES.md": "a584d47eefcab5f26a53af9f4d3a469b7cc3e7ec9221d2c51a0d7db243f845d0",
+    "docs/ARCHITECTURE.md": "16b1000c7e81bf136efb073c4e9bce56c404bf2c4c10e27d9666d570cee9c4be",
+    "docs/CHANGELOG.md": "44247d2265da977bfff96446cbe1d5f91bb10f8f52892c1d214693ff4ec4670b",
+    "docs/TESTING.md": "1ffbf66cb7cb2ef61d994fa121a3ac6d752f84fd9ca110a1cc569c287b76a353",
+    "docs/appearance_check_output.txt": "c757bdf5e52b1480bd379b2dbc602fb5ec7895e7b2d5dccef54b41ff5a340d99",
+    "docs/appearance_check_results.json": "31df8b7b5a283ca1e0d8878ce04752d32d99a57e81ffb6679f30c84e5aa15c2c",
+    "docs/frontier_check_output.txt": "acf2984229ea4a33c306d53395db66269e70956de65ac1a309dc0712395a53f9",
+    "docs/frontier_check_results.json": "ff2680d5d188db580a36104a08b14c7e9530b5f93dce8d434c1766c06607d1ca",
+    "docs/grammar_check_output.txt": "a32533b9516beda59c3fd7c366738cc83fa116f076c55341e4d27e12ad30dcf2",
+    "docs/grammar_check_results.json": "8964e962676fb80f1e75fb8e1f57866a85cbe474e75a51c1fa72b63b2296f2bd",
+    "docs/history/0.1.0_grammar_results.json": "d9c10ce9025120003a10d3e3ab5f4e5869d04025bd6d76b26d3c6bccb3b38c8b",
+    "docs/history/0.1.1_enum_hotfix_results.json": "3040f3b190be76f8aa777a4ff77a001fd64cc260f377f3dbb8bd5dc9707212ad",
+    "docs/history/0.1.2_build_manifest.json": "80bf7c46636079c2b1eacf5a7669c758ccdf8e9aeed3514e2fa8645b7153f678",
+    "docs/history/0.1.2_static_check_results.json": "2ea9ac8b1955593198ba2987544139b2e30cddf5a87bddf60ae7f025356c2ef8",
+    "docs/history/0.1.3_BUILD_MANIFEST.json": "0f45bc4a0540ab9fd8eb9801bba7b366bf2ed0e1921b4de469433abe0af0e707",
+    "docs/history/0.1.3_TESTING.md": "1f934eb7a977517eb824fee734d9cd09dbce5e560928daaf05c271bde7635df6",
+    "docs/history/0.1.3_grammar_check_results.json": "535b3a3d0817279448456821278458f6e39dd4bf642bb852e888cacc6a63530c",
+    "docs/history/0.1.3_static_check_results.json": "cc3db6e9f19d46e5d8e132f74ed235204e656cb846bae0808fd5bffe9fe4fa22",
+    "docs/history/0.2.0_BUILD_MANIFEST.json": "39854140a9a726cbb58768d84b171f1e86ad6ef82109a73388e9eaf2da55c209",
+    "docs/history/0.2.0_TESTING.md": "88dc5badc27f504e75dec26cf270e2490095307cdc082b0e0f5e069b874e5fde",
+    "docs/history/0.2.0_frontier_check_results.json": "d963d5a12909c822a983b14f7dd98aafa3dbc7cf368dd8a05bda3e192d91b9f9",
+    "docs/history/0.2.0_grammar_check_results.json": "c552dd5484eb9d7eee84a03a0f5d43fb6fcaec2adf08f6530f13306626da5e46",
+    "docs/history/0.2.0_static_check_results.json": "b56ba40b58b855915f1b2b2967d9fae8b344da2d02bb1bb06b747fcccbc05ca3",
+    "docs/static_check_output.txt": "bd40e9c05cc0a1ff284e3ce23ee2ab44f3fbdcb2b2254ebd8ad029c541cfcf3e",
+    "docs/static_check_results.json": "08eda4d6f06e05f6221e9535a018f1d5dd8f2947baa7a7f5c8d9759ee8767282",
+    "icon.svg": "f0821a06b3fac5842fe512645de965d2fa1efb086c6b4bf4b0c66a83eda32410",
+    "project.godot": "6c767459ea50342de4ad66a1ca625e03e655d9e9f883fe8a725c3518001d90e7",
+    "scenes/main.tscn": "f02badeff65240926443203373225b9f1bf5007e42f2a7a8356c638d16868f66",
+    "scripts/actor.gd": "916d33acd0a8f648a8f28981fa62870a08e5411aef1dc5558c56069ce891a09a",
+    "scripts/appearance.gd": "204e0eb8c1b762dc4b807374a2700c36a3c2041d541447696e283ce16e85640c",
+    "scripts/catalog.gd": "f297e22ea9a121f45eeb194eb61e5653e085663cf0e2d9932f341bc5ad0dfd5b",
+    "scripts/enemy_ai.gd": "2127856886148ff20fddcd4c07b8ebcde6d3ec5124c23eb343d63fa12355bc70",
+    "scripts/enemy_visual.gd": "1b6329bd976b6b3f9acf797bc000e8e8b6865d2c7f2d1630d21e13415ba29076",
+    "scripts/game_state.gd": "3c9ca3572692b5bb0a5dbacef06d31c20cb3f1ff4cc51a90d30e3f117ada1e67",
+    "scripts/geometry.gd": "8bbcbb2a5f43093a98bdf04aefa210e9071e09ad6ea9898c340d6fff6b89bfb6",
+    "scripts/hud.gd": "a20a22ed327b0874108ef53117c406240d557d2196ace8be708564d1a82fbde3",
+    "scripts/main.gd": "779450afed399002ad1a94f3b9e778d8a8542f5ebd61c76b785b338f64c9bc38",
+    "scripts/navigation.gd": "0b78266a778d53c206a1c8cf3ca60f9f04fce4748a5c5eb35e19797e08395f31",
+    "scripts/save_store.gd": "a23db8ce4d6369fdd9ca54bb45fde70a366f01776768ed59975c0af5e4d4ccb0",
+    "scripts/wardrobe.gd": "fb7dee939c50d14a70d06cb66fd37beca89534a00c75b41943113fe4d73fba21",
+    "scripts/world.gd": "b2cc6703cfdabef3c999e5a6f58d2de4c3c01fdf31480d36dd58470765bac156",
+    "scripts/world_layout.gd": "ff9830ff3e19f739afac53768113b950261c1dc86cd63502cc9d39b683d9a5e9",
+    "scripts/world_map.gd": "9af4c9e104ab031d445d57cd8fc2cece526f8c21d61332707c1e883f6398e14e",
+    "tests/appearance_runner.gd": "6323b6d2a33453a8b9bc4eb445916f6774f5c69b2cd82b8647d8ba1ceb46d2f6",
+    "tests/check_appearance.py": "5b0f21bea9c3cf52aa2b6fa35ed16d39b73d679b1cbe8d5881fb77c7a51a4e92",
+    "tests/check_frontier.py": "27f51e2514b672f1a814a8ae38d9e72f638863acdd40eca907f736e9f23a7190",
+    "tests/check_grammar.py": "12f5aaa837e32595b58a19ed87f1465183bceb292b28259cf49317d4028528cd",
+    "tests/check_project.py": "fce526208a63892f40afacddc0719f1f960a885cce10821b8363326251f2b54c",
+    "tests/frontier_runner.gd": "33043728ed5b3db3ee1d6bf6d9c107c830409dd7f03631461168b57ad0a0fe58",
+    "tests/smoke_runner.gd": "133d91f47f225900522d6a3692ff33ba84c00cfdcd1a824ec62baaa6ad8165a7",
+    "tests/test_runner.gd": "004dc359b69674386cdb5aa7f67e7d4ab2a834583778a233dec2854b704b28a7",
+    "tests/vendor/gdtoolkit/LICENSE": "cbd07061b68c2e40a1334009d35376dcbc371aa2df25a7c30788b7334f952b5b",
+    "tests/vendor/gdtoolkit/gdscript.lark": "ab12e2c0de314918ffff037d90223d85f9d69c0c0782f011c6f6ca8362f38beb",
+    "tools/find_godot.bat": "f0a3b498a8a8ce9f79686c7ee2db6055a0fb6721a2dfb2e35a332a40ee260d74"
+  },
+  "manifest_hash_note": "Manifest itself excluded to avoid a self-referential hash; the ZIP has a separate SHA-256 file."
+}

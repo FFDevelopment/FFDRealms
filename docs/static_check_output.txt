@@ -1,0 +1,347 @@
+PASS: Resource exists: actor.gd -> res://scripts/geometry.gd
+PASS: Resource exists: actor.gd -> res://scripts/appearance.gd
+PASS: Unique function names: actor.gd
+PASS: Tab indentation: actor.gd
+PASS: Unique function names: appearance.gd
+PASS: Tab indentation: appearance.gd
+PASS: Unique function names: catalog.gd
+PASS: Tab indentation: catalog.gd
+PASS: Unique function names: combat_rules.gd
+PASS: Tab indentation: combat_rules.gd
+PASS: Resource exists: enemy_ai.gd -> res://scripts/world_layout.gd
+PASS: Resource exists: enemy_ai.gd -> res://scripts/combat_rules.gd
+PASS: Unique function names: enemy_ai.gd
+PASS: Tab indentation: enemy_ai.gd
+PASS: Resource exists: enemy_visual.gd -> res://scripts/terrain.gd
+PASS: Resource exists: enemy_visual.gd -> res://scripts/geometry.gd
+PASS: Resource exists: enemy_visual.gd -> res://scripts/world_materials.gd
+PASS: Resource exists: enemy_visual.gd -> res://scripts/combat_rules.gd
+PASS: Unique function names: enemy_visual.gd
+PASS: Tab indentation: enemy_visual.gd
+PASS: Resource exists: game_state.gd -> res://scripts/catalog.gd
+PASS: Resource exists: game_state.gd -> res://scripts/world_layout.gd
+PASS: Resource exists: game_state.gd -> res://scripts/navigation.gd
+PASS: Resource exists: game_state.gd -> res://scripts/save_store.gd
+PASS: Resource exists: game_state.gd -> res://scripts/enemy_ai.gd
+PASS: Resource exists: game_state.gd -> res://scripts/combat_rules.gd
+PASS: Resource exists: game_state.gd -> res://scripts/appearance.gd
+PASS: Unique function names: game_state.gd
+PASS: Tab indentation: game_state.gd
+PASS: Unique function names: geometry.gd
+PASS: Tab indentation: geometry.gd
+PASS: Resource exists: hud.gd -> res://scripts/combat_rules.gd
+PASS: Resource exists: hud.gd -> res://scripts/catalog.gd
+PASS: Resource exists: hud.gd -> res://scripts/world_layout.gd
+PASS: Resource exists: hud.gd -> res://scripts/save_store.gd
+PASS: Resource exists: hud.gd -> res://scripts/world_map.gd
+PASS: Resource exists: hud.gd -> res://scripts/wardrobe.gd
+PASS: Unique function names: hud.gd
+PASS: Tab indentation: hud.gd
+PASS: Resource exists: main.gd -> res://scripts/terrain.gd
+PASS: Resource exists: main.gd -> res://scripts/world.gd
+PASS: Resource exists: main.gd -> res://scripts/actor.gd
+PASS: Resource exists: main.gd -> res://scripts/hud.gd
+PASS: Resource exists: main.gd -> res://scripts/geometry.gd
+PASS: Resource exists: main.gd -> res://scripts/world_layout.gd
+PASS: Unique function names: main.gd
+PASS: Tab indentation: main.gd
+PASS: Resource exists: navigation.gd -> res://scripts/terrain.gd
+PASS: Resource exists: navigation.gd -> res://scripts/world_layout.gd
+PASS: Unique function names: navigation.gd
+PASS: Tab indentation: navigation.gd
+PASS: Unique function names: save_store.gd
+PASS: Tab indentation: save_store.gd
+PASS: Resource exists: terrain.gd -> res://scripts/terrain_data.gd
+PASS: Resource exists: terrain.gd -> res://data/terrain/hearthmere_heightfield.tres
+PASS: Unique function names: terrain.gd
+PASS: Tab indentation: terrain.gd
+PASS: Unique function names: terrain_data.gd
+PASS: Tab indentation: terrain_data.gd
+PASS: Resource exists: terrain_mesh.gd -> res://scripts/terrain.gd
+PASS: Resource exists: terrain_mesh.gd -> res://scripts/world_materials.gd
+PASS: Resource exists: terrain_mesh.gd -> res://scripts/geometry.gd
+PASS: Resource exists: terrain_mesh.gd -> res://shaders/terrain.gdshader
+PASS: Resource exists: terrain_mesh.gd -> res://assets/textures/terrain/land_tint.png
+PASS: Resource exists: terrain_mesh.gd -> res://assets/textures/terrain/land_blend.png
+PASS: Unique function names: terrain_mesh.gd
+PASS: Tab indentation: terrain_mesh.gd
+PASS: Resource exists: wardrobe.gd -> res://scripts/appearance.gd
+PASS: Resource exists: wardrobe.gd -> res://scripts/actor.gd
+PASS: Resource exists: wardrobe.gd -> res://scripts/geometry.gd
+PASS: Unique function names: wardrobe.gd
+PASS: Tab indentation: wardrobe.gd
+PASS: Resource exists: world.gd -> res://scripts/terrain.gd
+PASS: Resource exists: world.gd -> res://scripts/terrain_mesh.gd
+PASS: Resource exists: world.gd -> res://scripts/geometry.gd
+PASS: Resource exists: world.gd -> res://scripts/world_materials.gd
+PASS: Resource exists: world.gd -> res://shaders/pond_water.gdshader
+PASS: Resource exists: world.gd -> res://scripts/world_layout.gd
+PASS: Resource exists: world.gd -> res://scripts/catalog.gd
+PASS: Resource exists: world.gd -> res://scripts/actor.gd
+PASS: Resource exists: world.gd -> res://scripts/enemy_visual.gd
+PASS: Unique function names: world.gd
+PASS: Tab indentation: world.gd
+PASS: Unique function names: world_layout.gd
+PASS: Tab indentation: world_layout.gd
+PASS: Resource exists: world_map.gd -> res://scripts/terrain.gd
+PASS: Resource exists: world_map.gd -> res://assets/textures/terrain/world_relief.png
+PASS: Resource exists: world_map.gd -> res://scripts/world_layout.gd
+PASS: Unique function names: world_map.gd
+PASS: Tab indentation: world_map.gd
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/grass_albedo.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/earth_albedo.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/path_albedo.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/cobble_albedo.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/stone_albedo.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/masonry_albedo.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/plaster_albedo.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/shingles_albedo.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/timber_albedo.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/planks_albedo.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/bark_albedo.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/leaves_albedo.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/ore_albedo.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/canvas_albedo.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/metal_albedo.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/moss_albedo.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/fur_albedo.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/water_albedo.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/grass_normal.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/earth_normal.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/path_normal.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/cobble_normal.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/stone_normal.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/masonry_normal.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/plaster_normal.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/shingles_normal.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/timber_normal.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/planks_normal.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/bark_normal.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/leaves_normal.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/ore_normal.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/canvas_normal.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/metal_normal.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/moss_normal.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/fur_normal.png
+PASS: Resource exists: world_materials.gd -> res://assets/textures/world/water_normal.png
+PASS: Unique function names: world_materials.gd
+PASS: Tab indentation: world_materials.gd
+PASS: Resource exists: appearance_runner.gd -> res://scripts/game_state.gd
+PASS: Resource exists: appearance_runner.gd -> res://scripts/appearance.gd
+PASS: Resource exists: appearance_runner.gd -> res://scripts/actor.gd
+PASS: Resource exists: appearance_runner.gd -> res://scripts/wardrobe.gd
+PASS: Resource exists: appearance_runner.gd -> res://scripts/world_layout.gd
+PASS: Resource exists: appearance_runner.gd -> res://scripts/enemy_ai.gd
+PASS: Resource exists: appearance_runner.gd -> res://scripts/save_store.gd
+PASS: Unique function names: appearance_runner.gd
+PASS: Tab indentation: appearance_runner.gd
+PASS: Resource exists: combat_runner.gd -> res://scripts/game_state.gd
+PASS: Resource exists: combat_runner.gd -> res://scripts/enemy_ai.gd
+PASS: Resource exists: combat_runner.gd -> res://scripts/combat_rules.gd
+PASS: Resource exists: combat_runner.gd -> res://scripts/world_layout.gd
+PASS: Resource exists: combat_runner.gd -> res://scripts/enemy_visual.gd
+PASS: Unique function names: combat_runner.gd
+PASS: Tab indentation: combat_runner.gd
+PASS: Resource exists: frontier_runner.gd -> res://scripts/game_state.gd
+PASS: Resource exists: frontier_runner.gd -> res://scripts/enemy_ai.gd
+PASS: Resource exists: frontier_runner.gd -> res://scripts/catalog.gd
+PASS: Resource exists: frontier_runner.gd -> res://scripts/world_layout.gd
+PASS: Resource exists: frontier_runner.gd -> res://scripts/world_map.gd
+PASS: Unique function names: frontier_runner.gd
+PASS: Tab indentation: frontier_runner.gd
+PASS: Resource exists: smoke_runner.gd -> res://scripts/enemy_ai.gd
+PASS: Resource exists: smoke_runner.gd -> res://scenes/main.tscn
+PASS: Resource exists: smoke_runner.gd -> res://scripts/terrain.gd
+PASS: Unique function names: smoke_runner.gd
+PASS: Tab indentation: smoke_runner.gd
+PASS: Resource exists: terrain_runner.gd -> res://scripts/terrain.gd
+PASS: Resource exists: terrain_runner.gd -> res://scripts/terrain_mesh.gd
+PASS: Resource exists: terrain_runner.gd -> res://scripts/world.gd
+PASS: Resource exists: terrain_runner.gd -> res://scripts/world_map.gd
+PASS: Resource exists: terrain_runner.gd -> res://scripts/world_layout.gd
+PASS: Resource exists: terrain_runner.gd -> res://scripts/navigation.gd
+PASS: Resource exists: terrain_runner.gd -> res://scripts/enemy_visual.gd
+PASS: Resource exists: terrain_runner.gd -> res://scripts/enemy_ai.gd
+PASS: Unique function names: terrain_runner.gd
+PASS: Tab indentation: terrain_runner.gd
+PASS: Resource exists: test_runner.gd -> res://scripts/game_state.gd
+PASS: Resource exists: test_runner.gd -> res://scripts/catalog.gd
+PASS: Resource exists: test_runner.gd -> res://scripts/save_store.gd
+PASS: Resource exists: test_runner.gd -> res://scripts/world_layout.gd
+PASS: Unique function names: test_runner.gd
+PASS: Tab indentation: test_runner.gd
+PASS: Resource exists: texture_runner.gd -> res://scripts/world_materials.gd
+PASS: Resource exists: texture_runner.gd -> res://scripts/world.gd
+PASS: Resource exists: texture_runner.gd -> res://scripts/geometry.gd
+PASS: Resource exists: texture_runner.gd -> res://scripts/actor.gd
+PASS: Unique function names: texture_runner.gd
+PASS: Tab indentation: texture_runner.gd
+PASS: Reflection setting uses the documented Environment enum
+PASS: No invalid Environment.REFLECTED_SOURCE_* references in GDScript
+PASS: Entry scene is configured
+PASS: Game autoload is configured
+PASS: Compatibility renderer is configured
+PASS: 36 interactive world targets are defined
+PASS: Target identifiers are unique
+PASS: 6 skills and 20 item types are defined
+PASS: Recipe item references: smelt_steel
+PASS: Positive recipe costs: smelt_steel
+PASS: Recipe skill and XP: smelt_steel
+PASS: Recipe item references: forge_steel
+PASS: Positive recipe costs: forge_steel
+PASS: Recipe skill and XP: forge_steel
+PASS: Recipe item references: cook_trout
+PASS: Positive recipe costs: cook_trout
+PASS: Recipe skill and XP: cook_trout
+PASS: Recipe item references: smelt_bronze
+PASS: Positive recipe costs: smelt_bronze
+PASS: Recipe skill and XP: smelt_bronze
+PASS: Recipe item references: forge_bronze
+PASS: Positive recipe costs: forge_bronze
+PASS: Recipe skill and XP: forge_bronze
+PASS: Recipe item references: smelt_iron
+PASS: Positive recipe costs: smelt_iron
+PASS: Recipe skill and XP: smelt_iron
+PASS: Recipe item references: forge_iron
+PASS: Positive recipe costs: forge_iron
+PASS: Recipe skill and XP: forge_iron
+PASS: Gathering references: pine_1
+PASS: Gathering timer and stock: pine_1
+PASS: Gathering references: pine_2
+PASS: Gathering timer and stock: pine_2
+PASS: Gathering references: pine_3
+PASS: Gathering timer and stock: pine_3
+PASS: Gathering references: oak_1
+PASS: Gathering timer and stock: oak_1
+PASS: Gathering references: copper_1
+PASS: Gathering timer and stock: copper_1
+PASS: Gathering references: copper_2
+PASS: Gathering timer and stock: copper_2
+PASS: Gathering references: tin_1
+PASS: Gathering timer and stock: tin_1
+PASS: Gathering references: iron_1
+PASS: Gathering timer and stock: iron_1
+PASS: Gathering references: fish_1
+PASS: Gathering timer and stock: fish_1
+PASS: Gathering references: oak_2
+PASS: Gathering timer and stock: oak_2
+PASS: Gathering references: oak_3
+PASS: Gathering timer and stock: oak_3
+PASS: Gathering references: pine_4
+PASS: Gathering timer and stock: pine_4
+PASS: Gathering references: iron_2
+PASS: Gathering timer and stock: iron_2
+PASS: Gathering references: iron_3
+PASS: Gathering timer and stock: iron_3
+PASS: Gathering references: coal_1
+PASS: Gathering timer and stock: coal_1
+PASS: Gathering references: coal_2
+PASS: Gathering timer and stock: coal_2
+PASS: Gathering references: coal_3
+PASS: Gathering timer and stock: coal_3
+PASS: Spawn is walkable in the reference grid
+PASS: Reachable interaction approach in reference grid: guide
+PASS: Reachable interaction approach in reference grid: bank
+PASS: Reachable interaction approach in reference grid: campfire
+PASS: Reachable interaction approach in reference grid: forge
+PASS: Reachable interaction approach in reference grid: market
+PASS: Reachable interaction approach in reference grid: pine_1
+PASS: Reachable interaction approach in reference grid: pine_2
+PASS: Reachable interaction approach in reference grid: pine_3
+PASS: Reachable interaction approach in reference grid: oak_1
+PASS: Reachable interaction approach in reference grid: copper_1
+PASS: Reachable interaction approach in reference grid: copper_2
+PASS: Reachable interaction approach in reference grid: tin_1
+PASS: Reachable interaction approach in reference grid: iron_1
+PASS: Reachable interaction approach in reference grid: bait_bucket
+PASS: Reachable interaction approach in reference grid: fish_1
+PASS: Reachable interaction approach in reference grid: slime_1
+PASS: Reachable interaction approach in reference grid: slime_2
+PASS: Reachable interaction approach in reference grid: slime_3
+PASS: Reachable interaction approach in reference grid: ranger
+PASS: Reachable interaction approach in reference grid: camp_bank
+PASS: Reachable interaction approach in reference grid: camp_fire
+PASS: Reachable interaction approach in reference grid: camp_forge
+PASS: Reachable interaction approach in reference grid: camp_shop
+PASS: Reachable interaction approach in reference grid: oak_2
+PASS: Reachable interaction approach in reference grid: oak_3
+PASS: Reachable interaction approach in reference grid: pine_4
+PASS: Reachable interaction approach in reference grid: iron_2
+PASS: Reachable interaction approach in reference grid: iron_3
+PASS: Reachable interaction approach in reference grid: coal_1
+PASS: Reachable interaction approach in reference grid: coal_2
+PASS: Reachable interaction approach in reference grid: coal_3
+PASS: Reachable interaction approach in reference grid: wolf_1
+PASS: Reachable interaction approach in reference grid: wolf_2
+PASS: Reachable interaction approach in reference grid: crawler_1
+PASS: Reachable interaction approach in reference grid: crawler_2
+PASS: Reachable interaction approach in reference grid: watchwarden
+PASS: Reference grid contains no isolated walkable islands
+PASS: Bucket is a shop and cannot define a fish yield
+PASS: Pond fish require the catalog bait item
+PASS: Fish visual/cast point lies in the pond
+PASS: Fish target does not hard-code one bank position
+PASS: Many reachable bank cells exist, not just a few fixed spots
+PASS: Every sampled west bank cell is clear and reachable
+PASS: Every sampled east bank cell is clear and reachable
+PASS: Every sampled north bank cell is clear and reachable
+PASS: Every sampled south bank cell is clear and reachable
+PASS: Every sampled corners bank cell is clear and reachable
+PASS: Off-grid dry shoreline sample is valid: 11.8, 11.2
+PASS: Off-grid dry shoreline sample is valid: 26.2, 6.4
+PASS: Off-grid dry shoreline sample is valid: 15.4, 2.8
+PASS: Off-grid dry shoreline sample is valid: 21.6, 16.2
+PASS: Nearest casts from all reachable bank cells lie in water within rod range
+PASS: Water, unsafe edge and far-away positions are not fishing stands
+PASS: Bait bucket is not a valid stand or fish source
+PASS: Bait bucket remains on dry land
+PASS: Bucket obstacle and fishing visual have separate navigation roles
+PASS: Bait is explicitly stackable
+PASS: Existing item types retain one-slot-per-unit behavior
+PASS: Bait price and offered pack sizes match the requested design
+PASS: Bait has no buy/sell profit loop
+PASS: Backpack capacity remains 28 slots
+PASS: Existing save directory is unchanged
+PASS: Save file schema remains version 1
+PASS: Simulation uses live target positions and a separate fishing plan
+PASS: Catch commits the bait/fish exchange as one bag replacement
+PASS: Catch completion contains a fresh bait/capacity check
+PASS: Purchase handler checks offered pack sizes
+PASS: Inventory capacity checks use post-transaction slot usage
+PASS: Actor has a rod-tip marker and fishing-specific pose
+PASS: Fishing visuals connect the actor rod tip and water cast point
+PASS: Fishing visuals are hidden outside active fishing
+PASS: Water hit area is centered over the pond, not the bucket
+PASS: Map pond clicks remain separate from service marker interactions
+PASS: Bait shop buttons use the shared purchase/capacity rules
+PASS: Ambient energy reduced from 0.55 to 0.32
+PASS: Sun energy reduced from 1.45 to 0.90
+PASS: Exposure is explicitly set below the former default
+PASS: Fog brightness and density reduced
+PASS: Water shader has reduced specular glare
+PASS: World materials have restrained specular highlights
+PASS: Directional shadows remain enabled
+PASS: Catalog and project versions both identify 0.3.0
+PASS: Single action consumes both active and pending target
+PASS: Both harvesting and combat require a single-use completion
+PASS: Action tick does not reset a repeat timer or run a repeated-action loop
+PASS: Duplicate or premature completion is rejected
+PASS: Busy interaction clicks are rejected before they can restart the timer
+PASS: Reward resolution rejects reentrant interaction requests
+PASS: World input records click readiness before deferred physics handling
+PASS: World actions use press events rather than held mouse polling
+PASS: Keyboard repeat events are ignored by HUD hotkeys
+PASS: World and map clicks both carry pond coordinates into the same simulation
+PASS: Rod float follows the per-action cast point
+PASS: Fishing keeps exact nearby bank position
+PASS: Far casts select a reachable dry bank through navigation
+PASS: Simulation validates water intent type and pond bounds
+PASS: Active fishing revalidates bank and cast range
+PASS: Enemy retaliation has a separate simulation update
+PASS: Canceling a player action cannot reset enemy retaliation
+PASS: Enemy retaliation never produces player attacks or harvests
+PASS: Player swing is tied to one action timeline instead of cycling
+PASS: In-game instructions describe the manual action rule
+PASS: Native regression suite includes shoreline and single-action tests (execution separate)
+
+STRUCTURAL RESULT: 345 passed, 0 failed

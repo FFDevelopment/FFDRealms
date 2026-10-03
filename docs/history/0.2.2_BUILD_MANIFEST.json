@@ -1,0 +1,148 @@
+{
+  "version": "0.2.2",
+  "base_archive": "FFDRealms_0.2.1.zip",
+  "base_archive_sha256": "7164e340aad214c6add69fd958994925f27ded4282f68ef81ed201dd94ba56c5",
+  "save_schema_changed": false,
+  "save_directory_changed": false,
+  "native_engine_tests": "NOT RUN: no usable Godot executable; download attempts failed",
+  "rendered_review": "NOT RUN",
+  "manual_gameplay": "NOT RUN",
+  "windows_launchers": "NOT RUN",
+  "offline_results": {
+    "source": {
+      "passed": 266,
+      "failed": 0,
+      "scope": "Structural, catalog and reference-grid validation; not native Godot execution"
+    },
+    "frontier": {
+      "passed": 100,
+      "failed": 0,
+      "scope": "Source/data and independent reference navigation checks only; no GDScript execution"
+    },
+    "appearance": {
+      "passed": 82,
+      "failed": 0,
+      "scope": "Data/source and independent Python geometry/navigation only; no GDScript execution"
+    },
+    "combat": {
+      "passed": 99,
+      "failed": 0,
+      "scope": "Source/data and independent Python sector/timing checks only; no GDScript execution"
+    },
+    "grammar": {
+      "passed": 21,
+      "failed": 0,
+      "scope": "Grammar only; no Godot API/type checking, compilation, or execution"
+    }
+  },
+  "combat_reference_oracle": {
+    "samples": 12000,
+    "mismatches": 0,
+    "scope": "Independent Python vector-vs-angle sector comparison; no GDScript execution"
+  },
+  "negative_source_controls": "4 intentional regressions rejected; docs/combat_negative_controls.json",
+  "packaging": {
+    "zip_crc_verified": true,
+    "fresh_extraction_checks": [
+      {
+        "script": "check_project.py",
+        "exit_code": 0,
+        "summary": "STRUCTURAL RESULT: 266 passed, 0 failed"
+      },
+      {
+        "script": "check_frontier.py",
+        "exit_code": 0,
+        "summary": "FRONTIER REFERENCE RESULT: 100 passed; 0 failed"
+      },
+      {
+        "script": "check_appearance.py",
+        "exit_code": 0,
+        "summary": "APPEARANCE REFERENCE RESULT: 82 passed; 0 failed"
+      },
+      {
+        "script": "check_combat.py",
+        "exit_code": 0,
+        "summary": "COMBAT REFERENCE RESULT: 99 passed; 0 failed. No engine execution."
+      },
+      {
+        "script": "check_grammar.py",
+        "exit_code": 0,
+        "summary": "GRAMMAR RESULT: 21 passed; 0 failed. Native compilation not checked."
+      }
+    ],
+    "file_hashes_exclude_manifest_itself": true
+  },
+  "sha256": {
+    ".gitignore": "8cdafdf9926de2a5635311e603e7dd64ca05c5d632a8ee46db1b49e567542810",
+    "ASSET_NOTES.md": "0c10530e66e7bdf4aa94719efe8d04021c42e241ca756d7d7d53b0d57c6bdec3",
+    "Launch Game.bat": "0015190e9910718f215ce64f26e3697f1594537f2ae2e7636df67fd2deeeed6c",
+    "Run Tests.bat": "e82ec62af0f3c0bf834f679d3001698429b9ffd9c319188fea70673422d99b19",
+    "START_HERE.md": "b7acb19060f6f490b3f12865d26116de1f414d45c4632b6643b37f7b03aa9ae8",
+    "docs/API_REFERENCES.md": "6e501ce7e28223f9234e465175e7dd7a0c70bd051e421b27bd5e6b34e4bcc451",
+    "docs/ARCHITECTURE.md": "88fd139bd02a93041bbee233b06468c2a83c601013491fb94ca678ac2dbfecc1",
+    "docs/CHANGELOG.md": "fde40d815019853f24d1584bb4d0fec67ba0cb98c98dec277daade36ace55ca4",
+    "docs/TESTING.md": "9b95ed5fb9e1ad6714b24d778b917f763d01e0b7c8c9149331b310cd45939543",
+    "docs/appearance_check_output.txt": "c757bdf5e52b1480bd379b2dbc602fb5ec7895e7b2d5dccef54b41ff5a340d99",
+    "docs/appearance_check_results.json": "6f55ea1dd0f91a5ed8c750aa992bd415857ac0c703854b00f7785c86c19db4dc",
+    "docs/combat_check_output.txt": "d1608badebefb9c6f0958e87e10f999d726b7c62fbdb0ed0156130fbc9a9ce95",
+    "docs/combat_check_results.json": "41ebcb33e118f158bfefa09f7d71cfb50f84c3b3ec0f3cdde26a9d4af379920d",
+    "docs/combat_negative_controls.json": "1203fdd06324b6171c8aaca0237afdc3c2470a4fc394cbd45974aa5b12fbc7b4",
+    "docs/frontier_check_output.txt": "acf2984229ea4a33c306d53395db66269e70956de65ac1a309dc0712395a53f9",
+    "docs/frontier_check_results.json": "ff2680d5d188db580a36104a08b14c7e9530b5f93dce8d434c1766c06607d1ca",
+    "docs/grammar_check_output.txt": "70e277eb9b5fb7bb114b0a2be2fbe9dc63db5d9c21a3864ac3ab49d4b7f6a530",
+    "docs/grammar_check_results.json": "75e3a93e5fc6930c9f2c8b3747aa6978298be6a560f240dab7bfe8d1d82370fa",
+    "docs/history/0.1.0_grammar_results.json": "d9c10ce9025120003a10d3e3ab5f4e5869d04025bd6d76b26d3c6bccb3b38c8b",
+    "docs/history/0.1.1_enum_hotfix_results.json": "3040f3b190be76f8aa777a4ff77a001fd64cc260f377f3dbb8bd5dc9707212ad",
+    "docs/history/0.1.2_build_manifest.json": "80bf7c46636079c2b1eacf5a7669c758ccdf8e9aeed3514e2fa8645b7153f678",
+    "docs/history/0.1.2_static_check_results.json": "2ea9ac8b1955593198ba2987544139b2e30cddf5a87bddf60ae7f025356c2ef8",
+    "docs/history/0.1.3_BUILD_MANIFEST.json": "0f45bc4a0540ab9fd8eb9801bba7b366bf2ed0e1921b4de469433abe0af0e707",
+    "docs/history/0.1.3_TESTING.md": "1f934eb7a977517eb824fee734d9cd09dbce5e560928daaf05c271bde7635df6",
+    "docs/history/0.1.3_grammar_check_results.json": "535b3a3d0817279448456821278458f6e39dd4bf642bb852e888cacc6a63530c",
+    "docs/history/0.1.3_static_check_results.json": "cc3db6e9f19d46e5d8e132f74ed235204e656cb846bae0808fd5bffe9fe4fa22",
+    "docs/history/0.2.0_BUILD_MANIFEST.json": "39854140a9a726cbb58768d84b171f1e86ad6ef82109a73388e9eaf2da55c209",
+    "docs/history/0.2.0_TESTING.md": "88dc5badc27f504e75dec26cf270e2490095307cdc082b0e0f5e069b874e5fde",
+    "docs/history/0.2.0_frontier_check_results.json": "d963d5a12909c822a983b14f7dd98aafa3dbc7cf368dd8a05bda3e192d91b9f9",
+    "docs/history/0.2.0_grammar_check_results.json": "c552dd5484eb9d7eee84a03a0f5d43fb6fcaec2adf08f6530f13306626da5e46",
+    "docs/history/0.2.0_static_check_results.json": "b56ba40b58b855915f1b2b2967d9fae8b344da2d02bb1bb06b747fcccbc05ca3",
+    "docs/history/0.2.1_BUILD_MANIFEST.json": "e7d49d6c74830b693fe4bdc264cdc4933a88b779fc97558bb39ae4766b3e2a78",
+    "docs/history/0.2.1_TESTING.md": "1ffbf66cb7cb2ef61d994fa121a3ac6d752f84fd9ca110a1cc569c287b76a353",
+    "docs/history/0.2.1_appearance_check_results.json": "31df8b7b5a283ca1e0d8878ce04752d32d99a57e81ffb6679f30c84e5aa15c2c",
+    "docs/history/0.2.1_frontier_check_results.json": "ff2680d5d188db580a36104a08b14c7e9530b5f93dce8d434c1766c06607d1ca",
+    "docs/history/0.2.1_grammar_check_results.json": "8964e962676fb80f1e75fb8e1f57866a85cbe474e75a51c1fa72b63b2296f2bd",
+    "docs/history/0.2.1_static_check_results.json": "08eda4d6f06e05f6221e9535a018f1d5dd8f2947baa7a7f5c8d9759ee8767282",
+    "docs/static_check_output.txt": "3d2a924f4b0c4be1245556d8fb0125ab074f81e0f7bfc8af6a42301e7246e85e",
+    "docs/static_check_results.json": "83427757a17da147d552da926b3ca34e791146acdeaa8569b3801696ca8e6904",
+    "icon.svg": "f0821a06b3fac5842fe512645de965d2fa1efb086c6b4bf4b0c66a83eda32410",
+    "project.godot": "a92b1cbc0d11afea6bc7f7e1c7ecce568ac66c6a054fa0411e9035b0f20d6150",
+    "scenes/main.tscn": "f02badeff65240926443203373225b9f1bf5007e42f2a7a8356c638d16868f66",
+    "scripts/actor.gd": "916d33acd0a8f648a8f28981fa62870a08e5411aef1dc5558c56069ce891a09a",
+    "scripts/appearance.gd": "204e0eb8c1b762dc4b807374a2700c36a3c2041d541447696e283ce16e85640c",
+    "scripts/catalog.gd": "fe1428f0d3be2df4ac3d87fdb1d24ae6d9d47bafaf31918baae3dcaa33ec5e8f",
+    "scripts/combat_rules.gd": "0c6a73e6e80a31f3741f511d486e9965e8f904adea536ec7981984be8b2253d0",
+    "scripts/enemy_ai.gd": "a7fc40e23e8f0eca92dd2fc35f1ed5cbe995f0cc72f100be835a49979152584f",
+    "scripts/enemy_visual.gd": "25e7057d46075340fcde04402e2fe934a153e6d8f01c4038cc74977ca6d8a0bd",
+    "scripts/game_state.gd": "b58e91ca44b2d36124071e11e435182b19179ec2e79af5d1b1a458261c207fe4",
+    "scripts/geometry.gd": "8bbcbb2a5f43093a98bdf04aefa210e9071e09ad6ea9898c340d6fff6b89bfb6",
+    "scripts/hud.gd": "794a5f96b8267e99aa42838f5c41cb423bdea049da6f2fc65df3304c8095274d",
+    "scripts/main.gd": "1fbe03efc9ab3ad87a0941667c622cfa216cbba38e00c0dab1f2b4a0adaaff61",
+    "scripts/navigation.gd": "0b78266a778d53c206a1c8cf3ca60f9f04fce4748a5c5eb35e19797e08395f31",
+    "scripts/save_store.gd": "a23db8ce4d6369fdd9ca54bb45fde70a366f01776768ed59975c0af5e4d4ccb0",
+    "scripts/wardrobe.gd": "fb7dee939c50d14a70d06cb66fd37beca89534a00c75b41943113fe4d73fba21",
+    "scripts/world.gd": "6fc6d2d04e031fa3b8d283b03b5e1239f8b38a58f37238f29cefd7c97a38a323",
+    "scripts/world_layout.gd": "6b4df5f689119c092c005ad11659774c5b523e5fd36ba3c45837d32007609cc4",
+    "scripts/world_map.gd": "9af4c9e104ab031d445d57cd8fc2cece526f8c21d61332707c1e883f6398e14e",
+    "tests/appearance_runner.gd": "1bff3ca9270f9508f918f5b3d48b1c751edb2ea5d9279d6d755e9c2f6b5a7731",
+    "tests/check_appearance.py": "5b0f21bea9c3cf52aa2b6fa35ed16d39b73d679b1cbe8d5881fb77c7a51a4e92",
+    "tests/check_combat.py": "5eb3c67b153520b0e7b8c364d80d985f18850aa5b6268bc5ad26462630c32325",
+    "tests/check_frontier.py": "ba336b66eddeddd71dcc8bf744e6bb3003fb172c84148c2549e1765f7f256344",
+    "tests/check_grammar.py": "12f5aaa837e32595b58a19ed87f1465183bceb292b28259cf49317d4028528cd",
+    "tests/check_project.py": "507270312a1b8c48fd6b1d02413ee80e1bb223f20062b8f02c4479594937acd0",
+    "tests/combat_runner.gd": "6a1a821c823026bb5d0ee75c05b20bcbdde229e2b25068598b50b1b72a93eae7",
+    "tests/frontier_runner.gd": "40cbe4b8765d897fe896c8f1f896a866a82e1551f9b99df166a1c09d2a3688b0",
+    "tests/smoke_runner.gd": "5cf7e2e84b39a3d99f3d460cda6187bc958d33c802d022ae0e13a2dd2456100d",
+    "tests/test_runner.gd": "cf86f0d520794de96066c35fd92ec860d8508ba8282b498236870574f315eeee",
+    "tests/vendor/gdtoolkit/LICENSE": "cbd07061b68c2e40a1334009d35376dcbc371aa2df25a7c30788b7334f952b5b",
+    "tests/vendor/gdtoolkit/gdscript.lark": "ab12e2c0de314918ffff037d90223d85f9d69c0c0782f011c6f6ca8362f38beb",
+    "tools/find_godot.bat": "f0a3b498a8a8ce9f79686c7ee2db6055a0fb6721a2dfb2e35a332a40ee260d74"
+  }
+}

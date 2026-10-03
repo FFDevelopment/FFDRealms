@@ -1,0 +1,38 @@
+{
+  "base": "FFDRealms_0.2.2.zip",
+  "base_sha256": "699c4a0c9d7c325af243033171c6a8806f2bfa7a5a3143b3e9163fff855c3777",
+  "unchanged_files": {
+    "scripts/game_state.gd": "b58e91ca44b2d36124071e11e435182b19179ec2e79af5d1b1a458261c207fe4",
+    "scripts/enemy_ai.gd": "a7fc40e23e8f0eca92dd2fc35f1ed5cbe995f0cc72f100be835a49979152584f",
+    "scripts/combat_rules.gd": "0c6a73e6e80a31f3741f511d486e9965e8f904adea536ec7981984be8b2253d0",
+    "scripts/navigation.gd": "0b78266a778d53c206a1c8cf3ca60f9f04fce4748a5c5eb35e19797e08395f31",
+    "scripts/world_layout.gd": "6b4df5f689119c092c005ad11659774c5b523e5fd36ba3c45837d32007609cc4",
+    "scripts/actor.gd": "916d33acd0a8f648a8f28981fa62870a08e5411aef1dc5558c56069ce891a09a",
+    "scripts/appearance.gd": "204e0eb8c1b762dc4b807374a2700c36a3c2041d541447696e283ce16e85640c",
+    "scripts/wardrobe.gd": "fb7dee939c50d14a70d06cb66fd37beca89534a00c75b41943113fe4d73fba21",
+    "scripts/hud.gd": "794a5f96b8267e99aa42838f5c41cb423bdea049da6f2fc65df3304c8095274d",
+    "scripts/main.gd": "1fbe03efc9ab3ad87a0941667c622cfa216cbba38e00c0dab1f2b4a0adaaff61",
+    "scripts/world_map.gd": "9af4c9e104ab031d445d57cd8fc2cece526f8c21d61332707c1e883f6398e14e",
+    "scripts/save_store.gd": "a23db8ce4d6369fdd9ca54bb45fde70a366f01776768ed59975c0af5e4d4ccb0",
+    "scripts/geometry.gd": "8bbcbb2a5f43093a98bdf04aefa210e9071e09ad6ea9898c340d6fff6b89bfb6",
+    "scenes/main.tscn": "f02badeff65240926443203373225b9f1bf5007e42f2a7a8356c638d16868f66"
+  },
+  "catalog_sha256": "fe1428f0d3be2df4ac3d87fdb1d24ae6d9d47bafaf31918baae3dcaa33ec5e8f",
+  "protected_functions": {
+    "scripts/world.gd": {
+      "_build_environment": "0d4be75aa35a1e0956a0c9054ccc48166c7cadf9a31402d014ef47b73ab81ea6",
+      "_process": "d2436d1b93b89639c1273cfa3b22c8683133f5464e96a3419a7937c8182a6135",
+      "show_hover": "5c12cd85b9f490ffc3517ab481c7faf9bf28486b8ca9d3028c0320d7d7c6f816"
+    },
+    "scripts/enemy_visual.gd": {
+      "build_warning": "b43e6b1fe878184048d5f3c4592f784a8597e5f6854e0abb5392cd8be44428e4",
+      "_triangle_mesh": "ac6ce99ffbcd8239090454b4fbe21a870bea1d26397a604590b001d8714d037c",
+      "_warning_material": "2c6fd7b0c1b71d1bfe300efa90c97031d6614c279ea66128467c63f47e6564e7",
+      "animate": "92481df02e7871acece9b705e57462d126631c13f6831ee8b4d80b7be6055855"
+    }
+  },
+  "geometry_calls_sha256": {
+    "scripts/world.gd": "235ec98fd3ee95e70f29ffff48454ea46224c263a4ab34e911605ad1d3e471c9",
+    "scripts/enemy_visual.gd": "a8c27e175ef4891ebba709cd5d34683815cdab282023c513b4acf87a61792b8e"
+  }
+}

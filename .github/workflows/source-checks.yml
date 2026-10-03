@@ -1,21 +1,23 @@
-name: Source checks
+name: Source Checks
 
 on:
   push:
-    branches: [main, development]
   pull_request:
 
 jobs:
-  repository-checks:
+  static-checks:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Verify repository structure
-        shell: bash
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run project source checks
         run: |
-          test -f README.md
-          test -f SERVER_ADMIN_SETUP.md
-          test -f manifests/development.json
-          test -f manifests/beta.json
-          test -f manifests/stable.json
-          echo "FFDRealms repository structure OK"
+          python tests/check_project.py
+          python tests/check_grammar.py
+          python tests/check_frontier.py
+          python tests/check_appearance.py
+          python tests/check_combat.py
+          python tests/check_textures.py
+          python tests/check_terrain.py

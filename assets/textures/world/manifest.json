@@ -1,0 +1,339 @@
+{
+  "generator": "tools/bake_world_textures.py",
+  "seed_base": 83021,
+  "source": "Original deterministic algorithms; no downloaded images",
+  "asset_count": 36,
+  "dimensions": [
+    512,
+    512
+  ],
+  "normal_convention": "OpenGL / Y+, RGB, tangent space",
+  "color_workflow": "Neutral albedo maps multiplied by existing scene dyes; normal maps are linear data",
+  "runtime_dependencies": "Godot only; Python/NumPy/Pillow are build-time tools",
+  "assets": [
+    {
+      "path": "assets/textures/world/grass_albedo.png",
+      "kind": "grass",
+      "map": "albedo",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "df646f1ae20fbb0f6f1a1fd31642a9e3eec24139c5af338b6b366568e02495d7"
+    },
+    {
+      "path": "assets/textures/world/grass_normal.png",
+      "kind": "grass",
+      "map": "normal",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "59dd6ccbd748d14f8bcf6e5e214f05d03b2f33c7942497612378629374218384"
+    },
+    {
+      "path": "assets/textures/world/earth_albedo.png",
+      "kind": "earth",
+      "map": "albedo",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "d6834e0063a3a1008ce2d91319694dffd3126a98994c70a04ba49dcd2ed82923"
+    },
+    {
+      "path": "assets/textures/world/earth_normal.png",
+      "kind": "earth",
+      "map": "normal",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "5a4d3052d5b82c9af659ac19c5ceceee1190e0f549b504002997440c9f34bfad"
+    },
+    {
+      "path": "assets/textures/world/path_albedo.png",
+      "kind": "path",
+      "map": "albedo",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "4a7ffb58dfc1eb741cc8cdc7b1de3eb957c5359d177d08e46e305b1ea870290b"
+    },
+    {
+      "path": "assets/textures/world/path_normal.png",
+      "kind": "path",
+      "map": "normal",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "10c0db956949ad3e9a6c7be8236f2a493ec31c0fd70acc5d74701a5fc6019d18"
+    },
+    {
+      "path": "assets/textures/world/cobble_albedo.png",
+      "kind": "cobble",
+      "map": "albedo",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "a6df57aba4d472e2dd2120922f4f40c781d4072ab26429c9a0abe909460aaeb3"
+    },
+    {
+      "path": "assets/textures/world/cobble_normal.png",
+      "kind": "cobble",
+      "map": "normal",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "16c13c6bd1eac0dcb20f5b8dfa44ec6b0f13d3689c37dcb96d453901af4f71bc"
+    },
+    {
+      "path": "assets/textures/world/stone_albedo.png",
+      "kind": "stone",
+      "map": "albedo",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "f33034daa999dff4fef3b11e9a301c12ac41a359b4d83527a29a889fd2b6aa88"
+    },
+    {
+      "path": "assets/textures/world/stone_normal.png",
+      "kind": "stone",
+      "map": "normal",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "ed32f1d53c215affb80bded559653c3ac54ec605702e0e6f3e5f19060d01f3bc"
+    },
+    {
+      "path": "assets/textures/world/masonry_albedo.png",
+      "kind": "masonry",
+      "map": "albedo",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "fb850a0072533d456cb9d0babeb8497ed0c64dc08f81db0980b2c53f58af3452"
+    },
+    {
+      "path": "assets/textures/world/masonry_normal.png",
+      "kind": "masonry",
+      "map": "normal",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "654d86f590f45501b862d2e5f729a44ae9378dab9fea10e722a17500b2f8c799"
+    },
+    {
+      "path": "assets/textures/world/plaster_albedo.png",
+      "kind": "plaster",
+      "map": "albedo",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "55dd6b0888436c768e66c91a35694f9268974097ca4e04abf2c9ddfb88e75b23"
+    },
+    {
+      "path": "assets/textures/world/plaster_normal.png",
+      "kind": "plaster",
+      "map": "normal",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "db1fcf0e456f3b7d9f2e7fc767a6ab157bec68bbdb9262ce773e4a853a962e97"
+    },
+    {
+      "path": "assets/textures/world/shingles_albedo.png",
+      "kind": "shingles",
+      "map": "albedo",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "6e9073b882d5b6ea1196c1e67c857bb9c064ce1aae9a690f7a190a8ff369a1a6"
+    },
+    {
+      "path": "assets/textures/world/shingles_normal.png",
+      "kind": "shingles",
+      "map": "normal",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "0f3ad21c0d7314a63e68c58b2f0c3bca99c7a4569dabad02b0e4f4e592bd56d1"
+    },
+    {
+      "path": "assets/textures/world/timber_albedo.png",
+      "kind": "timber",
+      "map": "albedo",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "2578567dda57a7f4a2c1d4a9ea80557712761fe8e2400fac340450c571e4550a"
+    },
+    {
+      "path": "assets/textures/world/timber_normal.png",
+      "kind": "timber",
+      "map": "normal",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "836e7cef4726a2e7872e5acf516e47ace16e8a1cd27722e0ad4c2845c4626c3d"
+    },
+    {
+      "path": "assets/textures/world/planks_albedo.png",
+      "kind": "planks",
+      "map": "albedo",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "e0d557a0a10c3e62113b8acacbba29b03620238427e4dec0d9fd1478ed05b6b4"
+    },
+    {
+      "path": "assets/textures/world/planks_normal.png",
+      "kind": "planks",
+      "map": "normal",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "9e3044aadf6244559644426c6d44b8bad6acd663b20d4576af63e86ceddf77a5"
+    },
+    {
+      "path": "assets/textures/world/bark_albedo.png",
+      "kind": "bark",
+      "map": "albedo",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "e8f0fc7f954a953ad0390b8a658fbb1b5c7da27a19a6546f99d32dba120222d1"
+    },
+    {
+      "path": "assets/textures/world/bark_normal.png",
+      "kind": "bark",
+      "map": "normal",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "e5d7dc77dfd61a2debfa1f88860f3331f7c3823d3cb7829aeb52f0d5c2458e7c"
+    },
+    {
+      "path": "assets/textures/world/leaves_albedo.png",
+      "kind": "leaves",
+      "map": "albedo",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "4b5e25cb44e2446fc8a0a4026bdcb6ba913241166570d303935342a59814dd47"
+    },
+    {
+      "path": "assets/textures/world/leaves_normal.png",
+      "kind": "leaves",
+      "map": "normal",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "a54bde7f73fca4c9f36242939b18c533beba988ee6ba1e379266923f7a76a7a4"
+    },
+    {
+      "path": "assets/textures/world/ore_albedo.png",
+      "kind": "ore",
+      "map": "albedo",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "b0c97f7f2d09fd256770b144ed62e79be23ff15b6805ae120b27bb56e85eb461"
+    },
+    {
+      "path": "assets/textures/world/ore_normal.png",
+      "kind": "ore",
+      "map": "normal",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "0a32d571aefcb5990a9d3c71b54e59f6bdf7943be86c141aa52eee2262f503d5"
+    },
+    {
+      "path": "assets/textures/world/canvas_albedo.png",
+      "kind": "canvas",
+      "map": "albedo",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "386ebc7fb3427fc6fae88c2d0f3f7d925b9570473b4d59852c7a5c4449150ce8"
+    },
+    {
+      "path": "assets/textures/world/canvas_normal.png",
+      "kind": "canvas",
+      "map": "normal",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "ff826e5e1342d239ff6105eff2d5c7fa93a9413f4b34931e276a964ae41da5e8"
+    },
+    {
+      "path": "assets/textures/world/metal_albedo.png",
+      "kind": "metal",
+      "map": "albedo",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "6f8942499dfaa941ffe864079565d1bebb81bb2afc59d0b02f0ef71be1111c48"
+    },
+    {
+      "path": "assets/textures/world/metal_normal.png",
+      "kind": "metal",
+      "map": "normal",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "6f612ed5f6fe6654d669bd91ab1d156155981b2f08b3730a8126ee365db6dad9"
+    },
+    {
+      "path": "assets/textures/world/moss_albedo.png",
+      "kind": "moss",
+      "map": "albedo",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "45633cb428f6988d07fec31ad9cab1a109295a14dec5991264e4bd367c62cadd"
+    },
+    {
+      "path": "assets/textures/world/moss_normal.png",
+      "kind": "moss",
+      "map": "normal",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "bc44c6b4948a8baccd6d437b090d3311fc773187e711c980ee6184145e1c01e3"
+    },
+    {
+      "path": "assets/textures/world/fur_albedo.png",
+      "kind": "fur",
+      "map": "albedo",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "78e6ddb7316acc5d7c55c689e4ece8782d47d795cdd6b645209f15f6eb940a72"
+    },
+    {
+      "path": "assets/textures/world/fur_normal.png",
+      "kind": "fur",
+      "map": "normal",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "e8f0037d13a0accaf9e77357e0da82203ad38b8a9f75e8583c6fbe1e60e2111f"
+    },
+    {
+      "path": "assets/textures/world/water_albedo.png",
+      "kind": "water",
+      "map": "albedo",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "4c0f965b30662a309df410a55148c25f0e3ed4fb8dfd45b8488c393293e6a848"
+    },
+    {
+      "path": "assets/textures/world/water_normal.png",
+      "kind": "water",
+      "map": "normal",
+      "width": 512,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "a08410e35c23ed16a84a1389520f99ca24b852ce535b2a0a375d25c79b856980"
+    }
+  ]
+}

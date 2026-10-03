@@ -1,0 +1,101 @@
+PASS: New northern boundary preserves original east/west/south bounds
+PASS: Full expanded reference grid is connected to village spawn
+PASS: Old gate centre is an unobstructed north passage
+PASS: Ironroot cover blocks a direct melee/movement segment
+PASS: Enemy home is on clear terrain: slime_1
+PASS: Enemy home is outside safe areas: slime_1
+PASS: Walking player can outrun pursuit: slime_1
+PASS: Valid species drop and rewards: slime_1
+PASS: Enemy home is on clear terrain: slime_2
+PASS: Enemy home is outside safe areas: slime_2
+PASS: Walking player can outrun pursuit: slime_2
+PASS: Valid species drop and rewards: slime_2
+PASS: Enemy home is on clear terrain: slime_3
+PASS: Enemy home is outside safe areas: slime_3
+PASS: Walking player can outrun pursuit: slime_3
+PASS: Valid species drop and rewards: slime_3
+PASS: Valid dry approach to new target: ranger
+PASS: Continuous route samples clear for new target: ranger
+PASS: Valid dry approach to new target: camp_bank
+PASS: Continuous route samples clear for new target: camp_bank
+PASS: Valid dry approach to new target: camp_fire
+PASS: Continuous route samples clear for new target: camp_fire
+PASS: Valid dry approach to new target: camp_forge
+PASS: Continuous route samples clear for new target: camp_forge
+PASS: Valid dry approach to new target: camp_shop
+PASS: Continuous route samples clear for new target: camp_shop
+PASS: Valid dry approach to new target: oak_2
+PASS: Continuous route samples clear for new target: oak_2
+PASS: Valid dry approach to new target: oak_3
+PASS: Continuous route samples clear for new target: oak_3
+PASS: Valid dry approach to new target: pine_4
+PASS: Continuous route samples clear for new target: pine_4
+PASS: Valid dry approach to new target: iron_2
+PASS: Continuous route samples clear for new target: iron_2
+PASS: Valid dry approach to new target: iron_3
+PASS: Continuous route samples clear for new target: iron_3
+PASS: Valid dry approach to new target: coal_1
+PASS: Continuous route samples clear for new target: coal_1
+PASS: Valid dry approach to new target: coal_2
+PASS: Continuous route samples clear for new target: coal_2
+PASS: Valid dry approach to new target: coal_3
+PASS: Continuous route samples clear for new target: coal_3
+PASS: Enemy home is on clear terrain: wolf_1
+PASS: Enemy home is outside safe areas: wolf_1
+PASS: Walking player can outrun pursuit: wolf_1
+PASS: Valid species drop and rewards: wolf_1
+PASS: Valid dry approach to new target: wolf_1
+PASS: Continuous route samples clear for new target: wolf_1
+PASS: Enemy home is on clear terrain: wolf_2
+PASS: Enemy home is outside safe areas: wolf_2
+PASS: Walking player can outrun pursuit: wolf_2
+PASS: Valid species drop and rewards: wolf_2
+PASS: Valid dry approach to new target: wolf_2
+PASS: Continuous route samples clear for new target: wolf_2
+PASS: Enemy home is on clear terrain: crawler_1
+PASS: Enemy home is outside safe areas: crawler_1
+PASS: Walking player can outrun pursuit: crawler_1
+PASS: Valid species drop and rewards: crawler_1
+PASS: Valid dry approach to new target: crawler_1
+PASS: Continuous route samples clear for new target: crawler_1
+PASS: Enemy home is on clear terrain: crawler_2
+PASS: Enemy home is outside safe areas: crawler_2
+PASS: Walking player can outrun pursuit: crawler_2
+PASS: Valid species drop and rewards: crawler_2
+PASS: Valid dry approach to new target: crawler_2
+PASS: Continuous route samples clear for new target: crawler_2
+PASS: Enemy home is on clear terrain: watchwarden
+PASS: Enemy home is outside safe areas: watchwarden
+PASS: Walking player can outrun pursuit: watchwarden
+PASS: Valid species drop and rewards: watchwarden
+PASS: Valid dry approach to new target: watchwarden
+PASS: Continuous route samples clear for new target: watchwarden
+PASS: Reference route detours around Ironroot cover without clipping
+PASS: Camp uses existing services plus the expedition giver
+PASS: Expedition goals have explicit bounded counts
+PASS: Steel ingredient chain is fully defined
+PASS: Both steel recipes require quest unlock and Smithing 5
+PASS: Steel offers an explicit equipment upgrade
+PASS: Player reach uses live enemy position and line of sight
+PASS: Returning state rejects attack eligibility
+PASS: Safe-area protection blocks impact, not remote approach requests
+PASS: Combat approach cells exclude safety and obstructed melee
+PASS: Single-click player pursuit is time-limited and repath-throttled
+PASS: Enemy impact rechecks distance, cover and safe-town crossings
+PASS: Enemy leash and safe zones are enforced
+PASS: Normal return-home arrival restores health
+PASS: Reprovoking cannot reset attack or windup timers
+PASS: Enemy movement checks crowd spacing and static obstacles
+PASS: Enemy AI cannot manufacture player actions or rewards
+PASS: Enemy death commits before any rewards
+PASS: Each kill handler consumes a valid single action and revalidates target
+PASS: Actual gathering and kills feed the expedition milestones
+PASS: Frontier kills cannot satisfy the starter mossling task
+PASS: Legacy characters receive an empty additive expedition field
+PASS: Moving enemy root and click-box orientation follow simulation presentation
+PASS: Dead enemies stop intercepting clicks
+PASS: Map uses expanded bounds and live enemy markers
+PASS: HUD exposes expedition progress and steel unlock state
+PASS: No new save directory is introduced
+PASS: Windows runner includes the new native regression suite
+FRONTIER REFERENCE RESULT: 100 passed; 0 failed

@@ -1,0 +1,50 @@
+{
+  "version": "0.4.0",
+  "base_archive": "FFDRealms_0.3.0.zip",
+  "release_scope": "Saved slot-name fix, development accounts, optional update-email consent, multiplayer presence test, admin analytics and advancement roadmap.",
+  "save_schema_changed": false,
+  "save_directory_changed": false,
+  "terrain_changed": false,
+  "combat_rules_changed": false,
+  "multiplayer_scope": "Presence only: name, appearance, position, facing, join/leave. Progression remains local.",
+  "backend": {
+    "runtime": "Python 3 + aiohttp + argon2-cffi + SQLite",
+    "password_storage": "Argon2 hashes only",
+    "client_remember_me": "Random session token; no stored password",
+    "email": "Optional consent stored; no outbound email provider in this build",
+    "admin_dashboard": true
+  },
+  "offline_results": {
+    "static": {
+      "passed": 357,
+      "failed": 0
+    },
+    "frontier": {
+      "passed": 100,
+      "failed": 0
+    },
+    "appearance": {
+      "passed": 82,
+      "failed": 0
+    },
+    "combat": {
+      "passed": 99,
+      "failed": 0
+    },
+    "textures": {
+      "passed": 253,
+      "failed": 0
+    },
+    "terrain": {
+      "passed": 116,
+      "failed": 0
+    },
+    "grammar": {
+      "passed": 28,
+      "failed": 0
+    },
+    "backend_end_to_end": "PASS"
+  },
+  "native_engine_tests": "NOT RUN: no Godot executable in build environment",
+  "manual_multiplayer_test": "NOT RUN"
+}

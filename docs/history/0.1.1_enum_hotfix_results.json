@@ -1,0 +1,25 @@
+{
+  "version": "0.1.1",
+  "scope": "Source-level regression guards, not native Godot execution",
+  "original_world_script": {
+    "passed": 108,
+    "failed": 2,
+    "exit_code": 1,
+    "expected_result": "fail",
+    "failing_guards": [
+      "Reflection setting uses the documented Environment enum",
+      "No invalid Environment.REFLECTED_SOURCE_* references in GDScript"
+    ]
+  },
+  "patched_project": {
+    "passed": 110,
+    "failed": 0,
+    "exit_code": 0
+  },
+  "runtime_scripts_changed": [
+    "scripts/world.gd (one enum name)",
+    "scripts/catalog.gd (version string only)"
+  ],
+  "native_godot_execution": "not_run; no installed executable, download failed due to network DNS resolution",
+  "reference": "https://docs.godotengine.org/en/4.3/classes/class_environment.html#enum-environment-reflectionsource"
+}

@@ -1,0 +1,75 @@
+{
+  "scope": "Grammar-level GDScript syntax only, not native Godot compilation",
+  "scripts": 13,
+  "native_engine_run": false,
+  "results": [
+    {
+      "file": "scripts/actor.gd",
+      "syntax": "PASS",
+      "functions": 4
+    },
+    {
+      "file": "scripts/catalog.gd",
+      "syntax": "PASS",
+      "functions": 4
+    },
+    {
+      "file": "scripts/game_state.gd",
+      "syntax": "PASS",
+      "functions": 42
+    },
+    {
+      "file": "scripts/geometry.gd",
+      "syntax": "PASS",
+      "functions": 8
+    },
+    {
+      "file": "scripts/hud.gd",
+      "syntax": "PASS",
+      "functions": 35
+    },
+    {
+      "file": "scripts/main.gd",
+      "syntax": "PASS",
+      "functions": 9
+    },
+    {
+      "file": "scripts/navigation.gd",
+      "syntax": "PASS",
+      "functions": 4
+    },
+    {
+      "file": "scripts/save_store.gd",
+      "syntax": "PASS",
+      "functions": 7
+    },
+    {
+      "file": "scripts/world.gd",
+      "syntax": "PASS",
+      "functions": 9
+    },
+    {
+      "file": "scripts/world_layout.gd",
+      "syntax": "PASS",
+      "functions": 3
+    },
+    {
+      "file": "scripts/world_map.gd",
+      "syntax": "PASS",
+      "functions": 5
+    },
+    {
+      "file": "tests/smoke_runner.gd",
+      "syntax": "PASS",
+      "functions": 3
+    },
+    {
+      "file": "tests/test_runner.gd",
+      "syntax": "PASS",
+      "functions": 15
+    }
+  ],
+  "build_version": "0.1.0",
+  "historical_record": true,
+  "status_for_0_1_1": "not_rerun; retained original 0.1.0 grammar report, not native compilation"
+}

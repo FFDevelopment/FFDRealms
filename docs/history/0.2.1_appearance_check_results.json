@@ -1,0 +1,352 @@
+{
+  "scope": "Data/source and independent Python geometry/navigation only; no GDScript execution",
+  "passed": 82,
+  "failed": 0,
+  "geometry_oracle": {
+    "executed": true,
+    "samples": 10000,
+    "mismatches": 0
+  },
+  "reference_path_points": 43,
+  "source_sha256": {
+    "appearance": "204e0eb8c1b762dc4b807374a2700c36a3c2041d541447696e283ce16e85640c",
+    "actor": "916d33acd0a8f648a8f28981fa62870a08e5411aef1dc5558c56069ce891a09a",
+    "wardrobe": "fb7dee939c50d14a70d06cb66fd37beca89534a00c75b41943113fe4d73fba21",
+    "hud": "a20a22ed327b0874108ef53117c406240d557d2196ace8be708564d1a82fbde3",
+    "main": "779450afed399002ad1a94f3b9e778d8a8542f5ebd61c76b785b338f64c9bc38",
+    "game_state": "3c9ca3572692b5bb0a5dbacef06d31c20cb3f1ff4cc51a90d30e3f117ada1e67",
+    "navigation": "0b78266a778d53c206a1c8cf3ca60f9f04fce4748a5c5eb35e19797e08395f31",
+    "world_layout": "ff9830ff3e19f739afac53768113b950261c1dc86cd63502cc9d39b683d9a5e9",
+    "enemy_ai": "2127856886148ff20fddcd4c07b8ebcde6d3ec5124c23eb343d63fa12355bc70"
+  },
+  "checks": [
+    {
+      "check": "Nine named independent dye channels have defaults",
+      "passed": true
+    },
+    {
+      "check": "Every default color is an opaque RGB hex code",
+      "passed": true
+    },
+    {
+      "check": "All garment/hair choices have labels and valid defaults",
+      "passed": true
+    },
+    {
+      "check": "Jeans, slacks and canvas are separate options",
+      "passed": true
+    },
+    {
+      "check": "Top has four independently selectable fabrics",
+      "passed": true
+    },
+    {
+      "check": "Footwear separates silhouette from material",
+      "passed": true
+    },
+    {
+      "check": "Sanitizer rejects malformed and alpha-bearing color codes",
+      "passed": true
+    },
+    {
+      "check": "Style and visibility inputs are type/allowlist checked",
+      "passed": true
+    },
+    {
+      "check": "Default appearances are deep copies",
+      "passed": true
+    },
+    {
+      "check": "Fabric maps have mipmaps and an explicit image format",
+      "passed": true
+    },
+    {
+      "check": "Generated neutral textures are cached by fabric, not dye",
+      "passed": true
+    },
+    {
+      "check": "Mutable materials belong to each actor, not a shared global material",
+      "passed": true
+    },
+    {
+      "check": "Dye and fabric use distinct material inputs",
+      "passed": true
+    },
+    {
+      "check": "Jeans and slacks have distinct visible mesh details",
+      "passed": true
+    },
+    {
+      "check": "Main character presentation consumes saved appearance",
+      "passed": true
+    },
+    {
+      "check": "Wardrobe preview has no direct Game mutation path",
+      "passed": true
+    },
+    {
+      "check": "Preview has an isolated, explicitly sized SubViewport",
+      "passed": true
+    },
+    {
+      "check": "Each dye uses an opaque color picker",
+      "passed": true
+    },
+    {
+      "check": "Save submits a sanitized draft",
+      "passed": true
+    },
+    {
+      "check": "Wardrobe is discoverable through C and gated to safe towns",
+      "passed": true
+    },
+    {
+      "check": "Opening wardrobe cancels pending gameplay actions",
+      "passed": true
+    },
+    {
+      "check": "HUD commits through the simulation intent path",
+      "passed": true
+    },
+    {
+      "check": "Simulation repeats safe-area and input validation independently of UI",
+      "passed": true
+    },
+    {
+      "check": "Failed save returns before runtime appearance is committed",
+      "passed": true
+    },
+    {
+      "check": "Appearance commit cannot assign money, XP, inventory, health or weapons",
+      "passed": true
+    },
+    {
+      "check": "Legacy/malformed appearance data restores with safe defaults",
+      "passed": true
+    },
+    {
+      "check": "Saved appearance is validated again at serialization",
+      "passed": true
+    },
+    {
+      "check": "Profile directory and schema are unchanged",
+      "passed": true
+    },
+    {
+      "check": "Enemy-only grid marks town footprints plus body clearance solid",
+      "passed": true
+    },
+    {
+      "check": "Enemy route planning never uses the player town grid",
+      "passed": true
+    },
+    {
+      "check": "Every enemy movement substep checks the protected footprint",
+      "passed": true
+    },
+    {
+      "check": "Strafing and backing away also use enemy-only movement guards",
+      "passed": true
+    },
+    {
+      "check": "Patrol destinations must be outside enemy-exclusion areas",
+      "passed": true
+    },
+    {
+      "check": "Spawn and respawn have a valid wilderness-position fallback",
+      "passed": true
+    },
+    {
+      "check": "Invalid runtime placements are repaired before return/combat handling",
+      "passed": true
+    },
+    {
+      "check": "Enemy attacks cannot cross through town between outside endpoints",
+      "passed": true
+    },
+    {
+      "check": "Player attacks cannot pass through or originate within safe towns",
+      "passed": true
+    },
+    {
+      "check": "Damage application has a final independent town check",
+      "passed": true
+    },
+    {
+      "check": "Existing walk-home and heal-on-arrival behavior remains",
+      "passed": true
+    },
+    {
+      "check": "Provoking cannot reset enemy attack timing",
+      "passed": true
+    },
+    {
+      "check": "Existing town extents retained rather than adding a new return radius",
+      "passed": true
+    },
+    {
+      "check": "Enemy path footprint includes conservative current-model body clearance",
+      "passed": true
+    },
+    {
+      "check": "Town 1 includes edge/corner (-29, -12)",
+      "passed": true
+    },
+    {
+      "check": "Town 1 includes edge/corner (29, -12)",
+      "passed": true
+    },
+    {
+      "check": "Town 1 includes edge/corner (29, 29)",
+      "passed": true
+    },
+    {
+      "check": "Town 1 includes edge/corner (-29, 29)",
+      "passed": true
+    },
+    {
+      "check": "Town 1 includes edge/corner (0.0, -12)",
+      "passed": true
+    },
+    {
+      "check": "Town 1 includes edge/corner (29, 8.5)",
+      "passed": true
+    },
+    {
+      "check": "Town 1 includes edge/corner (0.0, 29)",
+      "passed": true
+    },
+    {
+      "check": "Town 1 includes edge/corner (-29, 8.5)",
+      "passed": true
+    },
+    {
+      "check": "Town 1 detected in outside-to-outside crossing",
+      "passed": true
+    },
+    {
+      "check": "Town 1 detected in diagonal crossing",
+      "passed": true
+    },
+    {
+      "check": "Town 1 detects stationary point on exact boundary",
+      "passed": true
+    },
+    {
+      "check": "Town 2 includes edge/corner (-27, -41)",
+      "passed": true
+    },
+    {
+      "check": "Town 2 includes edge/corner (-7, -41)",
+      "passed": true
+    },
+    {
+      "check": "Town 2 includes edge/corner (-7, -31)",
+      "passed": true
+    },
+    {
+      "check": "Town 2 includes edge/corner (-27, -31)",
+      "passed": true
+    },
+    {
+      "check": "Town 2 includes edge/corner (-17.0, -41)",
+      "passed": true
+    },
+    {
+      "check": "Town 2 includes edge/corner (-7, -36.0)",
+      "passed": true
+    },
+    {
+      "check": "Town 2 includes edge/corner (-17.0, -31)",
+      "passed": true
+    },
+    {
+      "check": "Town 2 includes edge/corner (-27, -36.0)",
+      "passed": true
+    },
+    {
+      "check": "Town 2 detected in outside-to-outside crossing",
+      "passed": true
+    },
+    {
+      "check": "Town 2 detected in diagonal crossing",
+      "passed": true
+    },
+    {
+      "check": "Town 2 detects stationary point on exact boundary",
+      "passed": true
+    },
+    {
+      "check": "Ordinary wilderness melee is not blocked by safe geometry",
+      "passed": true
+    },
+    {
+      "check": "Non-finite segment fails closed",
+      "passed": true
+    },
+    {
+      "check": "10,000 seeded reference segments match independent Shapely rectangle intersection",
+      "passed": true
+    },
+    {
+      "check": "Town spawn is still open to player routes, closed to enemies",
+      "passed": true
+    },
+    {
+      "check": "Northreach access remains open to player routes",
+      "passed": true
+    },
+    {
+      "check": "Enemy home remains legal with body margin: slime_1",
+      "passed": true
+    },
+    {
+      "check": "Enemy home remains legal with body margin: slime_2",
+      "passed": true
+    },
+    {
+      "check": "Enemy home remains legal with body margin: slime_3",
+      "passed": true
+    },
+    {
+      "check": "Enemy home remains legal with body margin: wolf_1",
+      "passed": true
+    },
+    {
+      "check": "Enemy home remains legal with body margin: wolf_2",
+      "passed": true
+    },
+    {
+      "check": "Enemy home remains legal with body margin: crawler_1",
+      "passed": true
+    },
+    {
+      "check": "Enemy home remains legal with body margin: crawler_2",
+      "passed": true
+    },
+    {
+      "check": "Enemy home remains legal with body margin: watchwarden",
+      "passed": true
+    },
+    {
+      "check": "Reference enemy return path exists around camp",
+      "passed": true
+    },
+    {
+      "check": "Every reference detour segment remains outside towns with body margin",
+      "passed": true
+    },
+    {
+      "check": "Detour avoids the direct route through the protected camp",
+      "passed": true
+    },
+    {
+      "check": "Boundary regression case would pass terrain-only checks but is caught by exclusion",
+      "passed": true
+    },
+    {
+      "check": "Native appearance/safety suite included in Windows runner",
+      "passed": true
+    }
+  ]
+}

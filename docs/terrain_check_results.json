@@ -1,0 +1,482 @@
+{
+  "version": "0.3.0",
+  "scope": "Offline data, source and independent reference geometry/navigation only. No Godot execution.",
+  "passed": 116,
+  "failed": 0,
+  "maximum_dry_land_grade": 0.6089115547236721,
+  "connected_grid_cells": 5110,
+  "shore_cells_tested": 103,
+  "triangle_interpolation_max_error": 2.6645352591003757e-15,
+  "negative_controls": {
+    "corrupt_height_rejected": true,
+    "flipped_diagonal_rejected": true,
+    "flat_ridge_rejected": true,
+    "safe_layout_change_rejected": true
+  },
+  "checks": [
+    {
+      "check": "Authored resource has all 27,797 finite height samples",
+      "passed": true
+    },
+    {
+      "check": "Half-metre mesh resolution and 54,912 triangle budget are explicit",
+      "passed": true
+    },
+    {
+      "check": "Terrain has real bounded elevation, not a displaced flat plane",
+      "passed": true
+    },
+    {
+      "check": "Terrain bake belongs to the current exact world layout",
+      "passed": true
+    },
+    {
+      "check": "data/terrain/hearthmere_heightfield.tres matches its baked checksum",
+      "passed": true
+    },
+    {
+      "check": "assets/textures/terrain/land_blend.png matches its baked checksum",
+      "passed": true
+    },
+    {
+      "check": "assets/textures/terrain/land_tint.png matches its baked checksum",
+      "passed": true
+    },
+    {
+      "check": "assets/textures/terrain/world_relief.png matches its baked checksum",
+      "passed": true
+    },
+    {
+      "check": "scripts/enemy_ai.gd is byte-identical to the 0.2.3 base",
+      "passed": true
+    },
+    {
+      "check": "scripts/combat_rules.gd is byte-identical to the 0.2.3 base",
+      "passed": true
+    },
+    {
+      "check": "scripts/world_layout.gd is byte-identical to the 0.2.3 base",
+      "passed": true
+    },
+    {
+      "check": "scripts/actor.gd is byte-identical to the 0.2.3 base",
+      "passed": true
+    },
+    {
+      "check": "scripts/appearance.gd is byte-identical to the 0.2.3 base",
+      "passed": true
+    },
+    {
+      "check": "scripts/wardrobe.gd is byte-identical to the 0.2.3 base",
+      "passed": true
+    },
+    {
+      "check": "scripts/geometry.gd is byte-identical to the 0.2.3 base",
+      "passed": true
+    },
+    {
+      "check": "scripts/world_materials.gd is byte-identical to the 0.2.3 base",
+      "passed": true
+    },
+    {
+      "check": "scripts/world.gd _build_environment is unchanged",
+      "passed": true
+    },
+    {
+      "check": "scripts/world.gd show_hover is unchanged",
+      "passed": true
+    },
+    {
+      "check": "scripts/main.gd _unhandled_input is unchanged",
+      "passed": true
+    },
+    {
+      "check": "scripts/main.gd _physics_process is unchanged",
+      "passed": true
+    },
+    {
+      "check": "scripts/main.gd _pick_target is unchanged",
+      "passed": true
+    },
+    {
+      "check": "scripts/main.gd _notification is unchanged",
+      "passed": true
+    },
+    {
+      "check": "scripts/enemy_visual.gd build is unchanged",
+      "passed": true
+    },
+    {
+      "check": "scripts/enemy_visual.gd _triangle_mesh is unchanged",
+      "passed": true
+    },
+    {
+      "check": "scripts/enemy_visual.gd _warning_material is unchanged",
+      "passed": true
+    },
+    {
+      "check": "Navigation differs only by its conservative slope guard; safety/obstacle rules preserved",
+      "passed": true
+    },
+    {
+      "check": "Runtime sampler uses the authored mesh diagonal, not bilinear heights",
+      "passed": true
+    },
+    {
+      "check": "Mesh uses the same A-C diagonal and clockwise upper faces",
+      "passed": true
+    },
+    {
+      "check": "Click collision is derived from the exact rendered mesh",
+      "passed": true
+    },
+    {
+      "check": "Old flat terrain collision is removed",
+      "passed": true
+    },
+    {
+      "check": "Old flat path/frontier overlays are removed rather than left floating",
+      "passed": true
+    },
+    {
+      "check": "Movement clicks raycast real terrain, not the original zero-height plane",
+      "passed": true
+    },
+    {
+      "check": "Logical save coordinates remain separate from actual grounded presentation",
+      "passed": true
+    },
+    {
+      "check": "Live creatures and stationary targets both get terrain grounding",
+      "passed": true
+    },
+    {
+      "check": "Buildings, signs, lights and scenery are grounded",
+      "passed": true
+    },
+    {
+      "check": "Camera focus follows elevation without changing controls",
+      "passed": true
+    },
+    {
+      "check": "Fishing click plane, float and pick target use the same fixed water level",
+      "passed": true
+    },
+    {
+      "check": "Damage popups and the destination marker follow ground height",
+      "passed": true
+    },
+    {
+      "check": "Committed enemy warning vertices project onto the terrain",
+      "passed": true
+    },
+    {
+      "check": "Warning projection is radially subdivided and cached per committed pose",
+      "passed": true
+    },
+    {
+      "check": "Terrain projection preserves the validated strike X/Z footprint",
+      "passed": true
+    },
+    {
+      "check": "Map draws cached real relief and does not hide land under opaque safe-zone fills",
+      "passed": true
+    },
+    {
+      "check": "Map shows actual sampled height and live enemy positions",
+      "passed": true
+    },
+    {
+      "check": "Map never regenerates terrain textures on each frame",
+      "passed": true
+    },
+    {
+      "check": "Terrain shader uniform contract is explicit and complete",
+      "passed": true
+    },
+    {
+      "check": "Terrain shader stays opaque and does not add screen effects or brightness",
+      "passed": true
+    },
+    {
+      "check": "Runtime slope limit matches the authored dataset",
+      "passed": true
+    },
+    {
+      "check": "512 independent triangle-plane samples agree with the terrain height sampler",
+      "passed": true
+    },
+    {
+      "check": "All quarter-metre dry-land samples stay below the walkable slope limit",
+      "passed": true
+    },
+    {
+      "check": "All 5,110 original navigable grid cells remain connected to spawn",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for guide",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for bank",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for campfire",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for forge",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for market",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for pine_1",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for pine_2",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for pine_3",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for oak_1",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for copper_1",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for copper_2",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for tin_1",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for iron_1",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for bait_bucket",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for slime_1",
+      "passed": true
+    },
+    {
+      "check": "Enemy home remains walkable for slime_1",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for slime_2",
+      "passed": true
+    },
+    {
+      "check": "Enemy home remains walkable for slime_2",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for slime_3",
+      "passed": true
+    },
+    {
+      "check": "Enemy home remains walkable for slime_3",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for ranger",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for camp_bank",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for camp_fire",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for camp_forge",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for camp_shop",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for oak_2",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for oak_3",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for pine_4",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for iron_2",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for iron_3",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for coal_1",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for coal_2",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for coal_3",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for wolf_1",
+      "passed": true
+    },
+    {
+      "check": "Enemy home remains walkable for wolf_1",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for wolf_2",
+      "passed": true
+    },
+    {
+      "check": "Enemy home remains walkable for wolf_2",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for crawler_1",
+      "passed": true
+    },
+    {
+      "check": "Enemy home remains walkable for crawler_1",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for crawler_2",
+      "passed": true
+    },
+    {
+      "check": "Enemy home remains walkable for crawler_2",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach remains for watchwarden",
+      "passed": true
+    },
+    {
+      "check": "Enemy home remains walkable for watchwarden",
+      "passed": true
+    },
+    {
+      "check": "All reachable pond-bank cells remain above the water surface",
+      "passed": true
+    },
+    {
+      "check": "Dry access remains at pond bank/corner (12, 3)",
+      "passed": true
+    },
+    {
+      "check": "Dry access remains at pond bank/corner (26, 3)",
+      "passed": true
+    },
+    {
+      "check": "Dry access remains at pond bank/corner (12, 16)",
+      "passed": true
+    },
+    {
+      "check": "Dry access remains at pond bank/corner (26, 16)",
+      "passed": true
+    },
+    {
+      "check": "Dry access remains at pond bank/corner (12, 8)",
+      "passed": true
+    },
+    {
+      "check": "Dry access remains at pond bank/corner (26, 8)",
+      "passed": true
+    },
+    {
+      "check": "Dry access remains at pond bank/corner (19, 3)",
+      "passed": true
+    },
+    {
+      "check": "Dry access remains at pond bank/corner (19, 16)",
+      "passed": true
+    },
+    {
+      "check": "village has its intended level service/encounter pad",
+      "passed": true
+    },
+    {
+      "check": "camp has its intended level service/encounter pad",
+      "passed": true
+    },
+    {
+      "check": "ruins has its intended level service/encounter pad",
+      "passed": true
+    },
+    {
+      "check": "Ironroot has a genuinely raised mining ridge",
+      "passed": true
+    },
+    {
+      "check": "Pond has a recessed basin below its fixed water plane",
+      "passed": true
+    },
+    {
+      "check": "land_tint.png has the declared opaque dimensions",
+      "passed": true
+    },
+    {
+      "check": "land_tint.png has mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "land_blend.png has the declared opaque dimensions",
+      "passed": true
+    },
+    {
+      "check": "land_blend.png has mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "world_relief.png has the declared opaque dimensions",
+      "passed": true
+    },
+    {
+      "check": "world_relief.png has mipmapped import settings",
+      "passed": true
+    },
+    {
+      "check": "Terrain tints reproduce from the same source used by the relief-map baker",
+      "passed": true
+    },
+    {
+      "check": "Windows runner includes native terrain mesh/raycast/projection tests",
+      "passed": true
+    },
+    {
+      "check": "Four intentional data/diagonal/elevation/safe-boundary regressions are rejected",
+      "passed": true
+    }
+  ]
+}

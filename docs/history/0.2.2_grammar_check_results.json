@@ -1,0 +1,116 @@
+{
+  "scope": "Grammar only; no Godot API/type checking, compilation, or execution",
+  "grammar_source": "gdtoolkit 4.3.4 grammar, transcribed from the published source",
+  "indenter": "project subset adapter; no multiline lambdas inside parentheses",
+  "grammar_sha256": "ab12e2c0de314918ffff037d90223d85f9d69c0c0782f011c6f6ca8362f38beb",
+  "passed": 21,
+  "failed": 0,
+  "negative_syntax_controls_passed": true,
+  "files": [
+    {
+      "path": "scripts/actor.gd",
+      "sha256": "916d33acd0a8f648a8f28981fa62870a08e5411aef1dc5558c56069ce891a09a",
+      "passed": true
+    },
+    {
+      "path": "scripts/appearance.gd",
+      "sha256": "204e0eb8c1b762dc4b807374a2700c36a3c2041d541447696e283ce16e85640c",
+      "passed": true
+    },
+    {
+      "path": "scripts/catalog.gd",
+      "sha256": "fe1428f0d3be2df4ac3d87fdb1d24ae6d9d47bafaf31918baae3dcaa33ec5e8f",
+      "passed": true
+    },
+    {
+      "path": "scripts/combat_rules.gd",
+      "sha256": "0c6a73e6e80a31f3741f511d486e9965e8f904adea536ec7981984be8b2253d0",
+      "passed": true
+    },
+    {
+      "path": "scripts/enemy_ai.gd",
+      "sha256": "a7fc40e23e8f0eca92dd2fc35f1ed5cbe995f0cc72f100be835a49979152584f",
+      "passed": true
+    },
+    {
+      "path": "scripts/enemy_visual.gd",
+      "sha256": "25e7057d46075340fcde04402e2fe934a153e6d8f01c4038cc74977ca6d8a0bd",
+      "passed": true
+    },
+    {
+      "path": "scripts/game_state.gd",
+      "sha256": "b58e91ca44b2d36124071e11e435182b19179ec2e79af5d1b1a458261c207fe4",
+      "passed": true
+    },
+    {
+      "path": "scripts/geometry.gd",
+      "sha256": "8bbcbb2a5f43093a98bdf04aefa210e9071e09ad6ea9898c340d6fff6b89bfb6",
+      "passed": true
+    },
+    {
+      "path": "scripts/hud.gd",
+      "sha256": "794a5f96b8267e99aa42838f5c41cb423bdea049da6f2fc65df3304c8095274d",
+      "passed": true
+    },
+    {
+      "path": "scripts/main.gd",
+      "sha256": "1fbe03efc9ab3ad87a0941667c622cfa216cbba38e00c0dab1f2b4a0adaaff61",
+      "passed": true
+    },
+    {
+      "path": "scripts/navigation.gd",
+      "sha256": "0b78266a778d53c206a1c8cf3ca60f9f04fce4748a5c5eb35e19797e08395f31",
+      "passed": true
+    },
+    {
+      "path": "scripts/save_store.gd",
+      "sha256": "a23db8ce4d6369fdd9ca54bb45fde70a366f01776768ed59975c0af5e4d4ccb0",
+      "passed": true
+    },
+    {
+      "path": "scripts/wardrobe.gd",
+      "sha256": "fb7dee939c50d14a70d06cb66fd37beca89534a00c75b41943113fe4d73fba21",
+      "passed": true
+    },
+    {
+      "path": "scripts/world.gd",
+      "sha256": "6fc6d2d04e031fa3b8d283b03b5e1239f8b38a58f37238f29cefd7c97a38a323",
+      "passed": true
+    },
+    {
+      "path": "scripts/world_layout.gd",
+      "sha256": "6b4df5f689119c092c005ad11659774c5b523e5fd36ba3c45837d32007609cc4",
+      "passed": true
+    },
+    {
+      "path": "scripts/world_map.gd",
+      "sha256": "9af4c9e104ab031d445d57cd8fc2cece526f8c21d61332707c1e883f6398e14e",
+      "passed": true
+    },
+    {
+      "path": "tests/appearance_runner.gd",
+      "sha256": "1bff3ca9270f9508f918f5b3d48b1c751edb2ea5d9279d6d755e9c2f6b5a7731",
+      "passed": true
+    },
+    {
+      "path": "tests/combat_runner.gd",
+      "sha256": "6a1a821c823026bb5d0ee75c05b20bcbdde229e2b25068598b50b1b72a93eae7",
+      "passed": true
+    },
+    {
+      "path": "tests/frontier_runner.gd",
+      "sha256": "40cbe4b8765d897fe896c8f1f896a866a82e1551f9b99df166a1c09d2a3688b0",
+      "passed": true
+    },
+    {
+      "path": "tests/smoke_runner.gd",
+      "sha256": "5cf7e2e84b39a3d99f3d460cda6187bc958d33c802d022ae0e13a2dd2456100d",
+      "passed": true
+    },
+    {
+      "path": "tests/test_runner.gd",
+      "sha256": "cf86f0d520794de96066c35fd92ec860d8508ba8282b498236870574f315eeee",
+      "passed": true
+    }
+  ]
+}

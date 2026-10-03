@@ -1,0 +1,35 @@
+{
+  "scope": "Intentional SOURCE regressions rejected by offline checks; not engine execution",
+  "controls": [
+    {
+      "name": "tracking_strike_rejected",
+      "rejected": true,
+      "failed_assertions": [
+        "FAIL: Impact validates current player position against fixed geometry and cover"
+      ]
+    },
+    {
+      "name": "cancel_cooldown_reset_rejected",
+      "rejected": true,
+      "failed_assertions": [
+        "FAIL: Movement/cancel cannot clear weapon cooldown"
+      ]
+    },
+    {
+      "name": "passive_mossling_regression_rejected",
+      "rejected": true,
+      "failed_assertions": [
+        "FAIL: Positive proximity detection within leash: slime_1",
+        "FAIL: Positive proximity detection within leash: slime_2",
+        "FAIL: Positive proximity detection within leash: slime_3"
+      ]
+    },
+    {
+      "name": "growing_warning_regression_rejected",
+      "rejected": true,
+      "failed_assertions": [
+        "FAIL: Warning footprint does not pulse in size"
+      ]
+    }
+  ]
+}

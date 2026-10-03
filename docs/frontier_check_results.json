@@ -1,0 +1,407 @@
+{
+  "scope": "Source/data and independent reference navigation checks only; no GDScript execution",
+  "passed": 100,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "New northern boundary preserves original east/west/south bounds",
+      "passed": true
+    },
+    {
+      "check": "Full expanded reference grid is connected to village spawn",
+      "passed": true
+    },
+    {
+      "check": "Old gate centre is an unobstructed north passage",
+      "passed": true
+    },
+    {
+      "check": "Ironroot cover blocks a direct melee/movement segment",
+      "passed": true
+    },
+    {
+      "check": "Enemy home is on clear terrain: slime_1",
+      "passed": true
+    },
+    {
+      "check": "Enemy home is outside safe areas: slime_1",
+      "passed": true
+    },
+    {
+      "check": "Walking player can outrun pursuit: slime_1",
+      "passed": true
+    },
+    {
+      "check": "Valid species drop and rewards: slime_1",
+      "passed": true
+    },
+    {
+      "check": "Enemy home is on clear terrain: slime_2",
+      "passed": true
+    },
+    {
+      "check": "Enemy home is outside safe areas: slime_2",
+      "passed": true
+    },
+    {
+      "check": "Walking player can outrun pursuit: slime_2",
+      "passed": true
+    },
+    {
+      "check": "Valid species drop and rewards: slime_2",
+      "passed": true
+    },
+    {
+      "check": "Enemy home is on clear terrain: slime_3",
+      "passed": true
+    },
+    {
+      "check": "Enemy home is outside safe areas: slime_3",
+      "passed": true
+    },
+    {
+      "check": "Walking player can outrun pursuit: slime_3",
+      "passed": true
+    },
+    {
+      "check": "Valid species drop and rewards: slime_3",
+      "passed": true
+    },
+    {
+      "check": "Valid dry approach to new target: ranger",
+      "passed": true
+    },
+    {
+      "check": "Continuous route samples clear for new target: ranger",
+      "passed": true
+    },
+    {
+      "check": "Valid dry approach to new target: camp_bank",
+      "passed": true
+    },
+    {
+      "check": "Continuous route samples clear for new target: camp_bank",
+      "passed": true
+    },
+    {
+      "check": "Valid dry approach to new target: camp_fire",
+      "passed": true
+    },
+    {
+      "check": "Continuous route samples clear for new target: camp_fire",
+      "passed": true
+    },
+    {
+      "check": "Valid dry approach to new target: camp_forge",
+      "passed": true
+    },
+    {
+      "check": "Continuous route samples clear for new target: camp_forge",
+      "passed": true
+    },
+    {
+      "check": "Valid dry approach to new target: camp_shop",
+      "passed": true
+    },
+    {
+      "check": "Continuous route samples clear for new target: camp_shop",
+      "passed": true
+    },
+    {
+      "check": "Valid dry approach to new target: oak_2",
+      "passed": true
+    },
+    {
+      "check": "Continuous route samples clear for new target: oak_2",
+      "passed": true
+    },
+    {
+      "check": "Valid dry approach to new target: oak_3",
+      "passed": true
+    },
+    {
+      "check": "Continuous route samples clear for new target: oak_3",
+      "passed": true
+    },
+    {
+      "check": "Valid dry approach to new target: pine_4",
+      "passed": true
+    },
+    {
+      "check": "Continuous route samples clear for new target: pine_4",
+      "passed": true
+    },
+    {
+      "check": "Valid dry approach to new target: iron_2",
+      "passed": true
+    },
+    {
+      "check": "Continuous route samples clear for new target: iron_2",
+      "passed": true
+    },
+    {
+      "check": "Valid dry approach to new target: iron_3",
+      "passed": true
+    },
+    {
+      "check": "Continuous route samples clear for new target: iron_3",
+      "passed": true
+    },
+    {
+      "check": "Valid dry approach to new target: coal_1",
+      "passed": true
+    },
+    {
+      "check": "Continuous route samples clear for new target: coal_1",
+      "passed": true
+    },
+    {
+      "check": "Valid dry approach to new target: coal_2",
+      "passed": true
+    },
+    {
+      "check": "Continuous route samples clear for new target: coal_2",
+      "passed": true
+    },
+    {
+      "check": "Valid dry approach to new target: coal_3",
+      "passed": true
+    },
+    {
+      "check": "Continuous route samples clear for new target: coal_3",
+      "passed": true
+    },
+    {
+      "check": "Enemy home is on clear terrain: wolf_1",
+      "passed": true
+    },
+    {
+      "check": "Enemy home is outside safe areas: wolf_1",
+      "passed": true
+    },
+    {
+      "check": "Walking player can outrun pursuit: wolf_1",
+      "passed": true
+    },
+    {
+      "check": "Valid species drop and rewards: wolf_1",
+      "passed": true
+    },
+    {
+      "check": "Valid dry approach to new target: wolf_1",
+      "passed": true
+    },
+    {
+      "check": "Continuous route samples clear for new target: wolf_1",
+      "passed": true
+    },
+    {
+      "check": "Enemy home is on clear terrain: wolf_2",
+      "passed": true
+    },
+    {
+      "check": "Enemy home is outside safe areas: wolf_2",
+      "passed": true
+    },
+    {
+      "check": "Walking player can outrun pursuit: wolf_2",
+      "passed": true
+    },
+    {
+      "check": "Valid species drop and rewards: wolf_2",
+      "passed": true
+    },
+    {
+      "check": "Valid dry approach to new target: wolf_2",
+      "passed": true
+    },
+    {
+      "check": "Continuous route samples clear for new target: wolf_2",
+      "passed": true
+    },
+    {
+      "check": "Enemy home is on clear terrain: crawler_1",
+      "passed": true
+    },
+    {
+      "check": "Enemy home is outside safe areas: crawler_1",
+      "passed": true
+    },
+    {
+      "check": "Walking player can outrun pursuit: crawler_1",
+      "passed": true
+    },
+    {
+      "check": "Valid species drop and rewards: crawler_1",
+      "passed": true
+    },
+    {
+      "check": "Valid dry approach to new target: crawler_1",
+      "passed": true
+    },
+    {
+      "check": "Continuous route samples clear for new target: crawler_1",
+      "passed": true
+    },
+    {
+      "check": "Enemy home is on clear terrain: crawler_2",
+      "passed": true
+    },
+    {
+      "check": "Enemy home is outside safe areas: crawler_2",
+      "passed": true
+    },
+    {
+      "check": "Walking player can outrun pursuit: crawler_2",
+      "passed": true
+    },
+    {
+      "check": "Valid species drop and rewards: crawler_2",
+      "passed": true
+    },
+    {
+      "check": "Valid dry approach to new target: crawler_2",
+      "passed": true
+    },
+    {
+      "check": "Continuous route samples clear for new target: crawler_2",
+      "passed": true
+    },
+    {
+      "check": "Enemy home is on clear terrain: watchwarden",
+      "passed": true
+    },
+    {
+      "check": "Enemy home is outside safe areas: watchwarden",
+      "passed": true
+    },
+    {
+      "check": "Walking player can outrun pursuit: watchwarden",
+      "passed": true
+    },
+    {
+      "check": "Valid species drop and rewards: watchwarden",
+      "passed": true
+    },
+    {
+      "check": "Valid dry approach to new target: watchwarden",
+      "passed": true
+    },
+    {
+      "check": "Continuous route samples clear for new target: watchwarden",
+      "passed": true
+    },
+    {
+      "check": "Reference route detours around Ironroot cover without clipping",
+      "passed": true
+    },
+    {
+      "check": "Camp uses existing services plus the expedition giver",
+      "passed": true
+    },
+    {
+      "check": "Expedition goals have explicit bounded counts",
+      "passed": true
+    },
+    {
+      "check": "Steel ingredient chain is fully defined",
+      "passed": true
+    },
+    {
+      "check": "Both steel recipes require quest unlock and Smithing 5",
+      "passed": true
+    },
+    {
+      "check": "Steel offers an explicit equipment upgrade",
+      "passed": true
+    },
+    {
+      "check": "Player reach uses live enemy position and line of sight",
+      "passed": true
+    },
+    {
+      "check": "Returning state rejects attack eligibility",
+      "passed": true
+    },
+    {
+      "check": "Safe-area protection blocks impact, not remote approach requests",
+      "passed": true
+    },
+    {
+      "check": "Combat approach cells exclude safety and obstructed melee",
+      "passed": true
+    },
+    {
+      "check": "Single-click player pursuit is time-limited and repath-throttled",
+      "passed": true
+    },
+    {
+      "check": "Enemy impact rechecks distance, cover and safe-town crossings",
+      "passed": true
+    },
+    {
+      "check": "Enemy leash and safe zones are enforced",
+      "passed": true
+    },
+    {
+      "check": "Normal return-home arrival restores health",
+      "passed": true
+    },
+    {
+      "check": "Reprovoking cannot reset attack or windup timers",
+      "passed": true
+    },
+    {
+      "check": "Enemy movement checks crowd spacing and static obstacles",
+      "passed": true
+    },
+    {
+      "check": "Enemy AI cannot manufacture player actions or rewards",
+      "passed": true
+    },
+    {
+      "check": "Enemy death commits before any rewards",
+      "passed": true
+    },
+    {
+      "check": "Each kill handler consumes a valid single action and revalidates target",
+      "passed": true
+    },
+    {
+      "check": "Actual gathering and kills feed the expedition milestones",
+      "passed": true
+    },
+    {
+      "check": "Frontier kills cannot satisfy the starter mossling task",
+      "passed": true
+    },
+    {
+      "check": "Legacy characters receive an empty additive expedition field",
+      "passed": true
+    },
+    {
+      "check": "Moving enemy root and click-box orientation follow simulation presentation",
+      "passed": true
+    },
+    {
+      "check": "Dead enemies stop intercepting clicks",
+      "passed": true
+    },
+    {
+      "check": "Map uses expanded bounds and live enemy markers",
+      "passed": true
+    },
+    {
+      "check": "HUD exposes expedition progress and steel unlock state",
+      "passed": true
+    },
+    {
+      "check": "No new save directory is introduced",
+      "passed": true
+    },
+    {
+      "check": "Windows runner includes the new native regression suite",
+      "passed": true
+    }
+  ]
+}

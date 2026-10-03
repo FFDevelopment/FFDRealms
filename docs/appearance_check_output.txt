@@ -1,0 +1,83 @@
+PASS: Nine named independent dye channels have defaults
+PASS: Every default color is an opaque RGB hex code
+PASS: All garment/hair choices have labels and valid defaults
+PASS: Jeans, slacks and canvas are separate options
+PASS: Top has four independently selectable fabrics
+PASS: Footwear separates silhouette from material
+PASS: Sanitizer rejects malformed and alpha-bearing color codes
+PASS: Style and visibility inputs are type/allowlist checked
+PASS: Default appearances are deep copies
+PASS: Fabric maps have mipmaps and an explicit image format
+PASS: Generated neutral textures are cached by fabric, not dye
+PASS: Mutable materials belong to each actor, not a shared global material
+PASS: Dye and fabric use distinct material inputs
+PASS: Jeans and slacks have distinct visible mesh details
+PASS: Main character presentation consumes saved appearance
+PASS: Wardrobe preview has no direct Game mutation path
+PASS: Preview has an isolated, explicitly sized SubViewport
+PASS: Each dye uses an opaque color picker
+PASS: Save submits a sanitized draft
+PASS: Wardrobe is discoverable through C and gated to safe towns
+PASS: Opening wardrobe cancels pending gameplay actions
+PASS: HUD commits through the simulation intent path
+PASS: Simulation repeats safe-area and input validation independently of UI
+PASS: Failed save returns before runtime appearance is committed
+PASS: Appearance commit cannot assign money, XP, inventory, health or weapons
+PASS: Legacy/malformed appearance data restores with safe defaults
+PASS: Saved appearance is validated again at serialization
+PASS: Profile directory and schema are unchanged
+PASS: Enemy-only grid marks town footprints plus body clearance solid
+PASS: Enemy route planning never uses the player town grid
+PASS: Every enemy movement substep checks the protected footprint
+PASS: Strafing and backing away also use enemy-only movement guards
+PASS: Patrol destinations must be outside enemy-exclusion areas
+PASS: Spawn and respawn have a valid wilderness-position fallback
+PASS: Invalid runtime placements are repaired before return/combat handling
+PASS: Enemy attacks cannot cross through town between outside endpoints
+PASS: Player attacks cannot pass through or originate within safe towns
+PASS: Damage application has a final independent town check
+PASS: Existing walk-home and heal-on-arrival behavior remains
+PASS: Provoking cannot reset enemy attack timing
+PASS: Existing town extents retained rather than adding a new return radius
+PASS: Enemy path footprint includes conservative current-model body clearance
+PASS: Town 1 includes edge/corner (-29, -12)
+PASS: Town 1 includes edge/corner (29, -12)
+PASS: Town 1 includes edge/corner (29, 29)
+PASS: Town 1 includes edge/corner (-29, 29)
+PASS: Town 1 includes edge/corner (0.0, -12)
+PASS: Town 1 includes edge/corner (29, 8.5)
+PASS: Town 1 includes edge/corner (0.0, 29)
+PASS: Town 1 includes edge/corner (-29, 8.5)
+PASS: Town 1 detected in outside-to-outside crossing
+PASS: Town 1 detected in diagonal crossing
+PASS: Town 1 detects stationary point on exact boundary
+PASS: Town 2 includes edge/corner (-27, -41)
+PASS: Town 2 includes edge/corner (-7, -41)
+PASS: Town 2 includes edge/corner (-7, -31)
+PASS: Town 2 includes edge/corner (-27, -31)
+PASS: Town 2 includes edge/corner (-17.0, -41)
+PASS: Town 2 includes edge/corner (-7, -36.0)
+PASS: Town 2 includes edge/corner (-17.0, -31)
+PASS: Town 2 includes edge/corner (-27, -36.0)
+PASS: Town 2 detected in outside-to-outside crossing
+PASS: Town 2 detected in diagonal crossing
+PASS: Town 2 detects stationary point on exact boundary
+PASS: Ordinary wilderness melee is not blocked by safe geometry
+PASS: Non-finite segment fails closed
+PASS: 10,000 seeded reference segments match independent Shapely rectangle intersection
+PASS: Town spawn is still open to player routes, closed to enemies
+PASS: Northreach access remains open to player routes
+PASS: Enemy home remains legal with body margin: slime_1
+PASS: Enemy home remains legal with body margin: slime_2
+PASS: Enemy home remains legal with body margin: slime_3
+PASS: Enemy home remains legal with body margin: wolf_1
+PASS: Enemy home remains legal with body margin: wolf_2
+PASS: Enemy home remains legal with body margin: crawler_1
+PASS: Enemy home remains legal with body margin: crawler_2
+PASS: Enemy home remains legal with body margin: watchwarden
+PASS: Reference enemy return path exists around camp
+PASS: Every reference detour segment remains outside towns with body margin
+PASS: Detour avoids the direct route through the protected camp
+PASS: Boundary regression case would pass terrain-only checks but is caught by exclusion
+PASS: Native appearance/safety suite included in Windows runner
+APPEARANCE REFERENCE RESULT: 82 passed; 0 failed

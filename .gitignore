@@ -1,48 +1,26 @@
-# Godot
 .godot/
-.import/
-export.cfg
-
-# Local saves / runtime
-user://
-profiles/
-*.sqlite3
-*.sqlite3-shm
-*.sqlite3-wal
-server/.venv/
-server/__pycache__/
+.godot_path.txt
+*.log
+*.tmp
 __pycache__/
-*.pyc
+builds/
 
-# Secrets
+# FFDRealms repository additions
+server/ffdrealms.sqlite3
+server/*.sqlite3
+server/*.db
 .env
 .env.*
-!.env.example
-*secret*
-*secrets*
-admin-key*
-credentials*
-
-# Exported builds / packages
+*.secret
+*.key
 builds/
-dist/
 exports/
+release/
+releases/
+*.pck
 *.exe
 *.apk
 *.aab
 *.ipa
-*.dmg
-*.app
-*.pck
-*.zip
-
-# Editor / OS
-.vscode/
-.idea/
 .DS_Store
 Thumbs.db
-desktop.ini
-
-# Logs
-*.log
-test-results.log

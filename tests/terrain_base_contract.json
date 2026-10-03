@@ -1,0 +1,34 @@
+{
+  "base": "FFDRealms_0.2.3.zip",
+  "base_archive_sha256": "57040d29858f36fe07ed96391f6598a93b0db757bfae68357bb78d7d11be5695",
+  "unchanged_files": {
+    "scripts/game_state.gd": "b58e91ca44b2d36124071e11e435182b19179ec2e79af5d1b1a458261c207fe4",
+    "scripts/enemy_ai.gd": "a7fc40e23e8f0eca92dd2fc35f1ed5cbe995f0cc72f100be835a49979152584f",
+    "scripts/combat_rules.gd": "0c6a73e6e80a31f3741f511d486e9965e8f904adea536ec7981984be8b2253d0",
+    "scripts/world_layout.gd": "6b4df5f689119c092c005ad11659774c5b523e5fd36ba3c45837d32007609cc4",
+    "scripts/actor.gd": "916d33acd0a8f648a8f28981fa62870a08e5411aef1dc5558c56069ce891a09a",
+    "scripts/appearance.gd": "204e0eb8c1b762dc4b807374a2700c36a3c2041d541447696e283ce16e85640c",
+    "scripts/wardrobe.gd": "fb7dee939c50d14a70d06cb66fd37beca89534a00c75b41943113fe4d73fba21",
+    "scripts/save_store.gd": "a23db8ce4d6369fdd9ca54bb45fde70a366f01776768ed59975c0af5e4d4ccb0",
+    "scripts/geometry.gd": "8bbcbb2a5f43093a98bdf04aefa210e9071e09ad6ea9898c340d6fff6b89bfb6",
+    "scripts/world_materials.gd": "003c823d1081c1baba4aff1eb8e9bc7404ce7e59f60718d762b300820e971479"
+  },
+  "navigation_before": "0b78266a778d53c206a1c8cf3ca60f9f04fce4748a5c5eb35e19797e08395f31",
+  "unchanged_functions": {
+    "scripts/world.gd": {
+      "_build_environment": "0d4be75aa35a1e0956a0c9054ccc48166c7cadf9a31402d014ef47b73ab81ea6",
+      "show_hover": "5c12cd85b9f490ffc3517ab481c7faf9bf28486b8ca9d3028c0320d7d7c6f816"
+    },
+    "scripts/main.gd": {
+      "_unhandled_input": "cbd313f01783046769c9f5a1574909fab08e4d98bb2027c0a88a83cade701a88",
+      "_physics_process": "5fbd4f30ac635bae116e95cb0a103f8b47873f19f40c59387f75803010ff7661",
+      "_pick_target": "e37d15626d34e443c6579f56a04dd47100beaefaf7955030fd66e474d5ebc353",
+      "_notification": "dfd0533bd852d67352fc3cab924f552f51464b9b4d77fdaed5a6e08f29859c3e"
+    },
+    "scripts/enemy_visual.gd": {
+      "build": "7776be0010296b8458cb8670403aacdfd36ddbbd41c2cca33da08fdc753a53de",
+      "_triangle_mesh": "ac6ce99ffbcd8239090454b4fbe21a870bea1d26397a604590b001d8714d037c",
+      "_warning_material": "2c6fd7b0c1b71d1bfe300efa90c97031d6614c279ea66128467c63f47e6564e7"
+    }
+  }
+}

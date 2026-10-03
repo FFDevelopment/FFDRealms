@@ -1,0 +1,375 @@
+{
+  "project": "FFDRealms \u2014 Northreach",
+  "working_title": true,
+  "version": "0.2.0",
+  "build_date": "2026-10-01",
+  "update_from": "0.1.3",
+  "type": "single-player Godot source prototype",
+  "engine_api_target": "Godot 4.3+ GDScript / Compatibility; native verification required",
+  "engine_bundled": false,
+  "multiplayer_implemented": false,
+  "features_added": [
+    "Live-position enemies with patrol, pursuit, melee windup, recovery, lateral repositioning and return-home states",
+    "Live-position targeting, click boxes, health/status labels and world-map markers",
+    "Timed enemy hit validation against range and registered static cover",
+    "Home-radius and safe-area disengagement with invulnerable return and full health on arrival",
+    "Single-click player pursuit followed by one attack; no automatic player retaliation or action queues",
+    "Northreach Camp, Briarwood, Ironroot Dig and Watchwarden Ruins",
+    "Shared camp banking, supplies, cooking and smithing",
+    "Briar wolves, stone crawlers and Watchwarden guardian with procedural animated shapes",
+    "Coal, steel bars/sword, enemy loot and Beyond the Old Watch quest",
+    "Additive frontier quest persistence and expanded map walking shortcuts"
+  ],
+  "content_counts": {
+    "world_targets": 36,
+    "new_world_targets": 18,
+    "enemy_instances": 8,
+    "new_enemy_types": 3,
+    "item_definitions": 20,
+    "gdscript_files_including_native_tests": 16
+  },
+  "one_click_policy": {
+    "harvest_outputs_per_click": 1,
+    "attacks_per_click": 1,
+    "early_click_queue": false,
+    "held_mouse_repeat": false,
+    "auto_player_retaliation": false,
+    "enemy_retaliation": true,
+    "external_macro_detection": false
+  },
+  "preserved": {
+    "all_bank_pond_fishing": true,
+    "bait_bucket_shop": true,
+    "bait_price": 1,
+    "bait_per_completed_catch": 1,
+    "sun_energy": 0.9,
+    "ambient_energy": 0.32,
+    "exposure": 0.95
+  },
+  "save_compatibility": {
+    "schema": 1,
+    "custom_user_dir": "FFDRealms_Prototype",
+    "intended_no_reset_upgrade": true,
+    "new_character_field": "frontier",
+    "missing_frontier_defaults_to_unaccepted": true,
+    "ai_and_actions_transient": true,
+    "save_store_byte_unchanged": true,
+    "native_legacy_load_test": "included_not_run",
+    "rollback_requires_pre_upgrade_backup": true
+  },
+  "verification": {
+    "source_structural_data_reference_grid": {
+      "status": "pass",
+      "passed": 233,
+      "failed": 0
+    },
+    "frontier_source_data_reference_navigation": {
+      "status": "pass",
+      "passed": 100,
+      "failed": 0
+    },
+    "gdscript_grammar_only": {
+      "status": "pass",
+      "files": 16,
+      "failed": 0,
+      "native_semantic_checking": false,
+      "invalid_syntax_controls": "pass"
+    },
+    "native_godot_import_compile": "not_run; no engine executable available",
+    "native_gameplay_suite": "expanded_included_not_run",
+    "native_frontier_suite": "added_included_not_run",
+    "native_scene_smoke_suite": "expanded_included_not_run",
+    "shader_compilation": "not_run",
+    "rendered_appearance": "not_run",
+    "windows_launchers": "not_run",
+    "manual_playtest": "not_run",
+    "zip_integrity_and_clean_extraction": "pass; ZIP CRC, all file hashes, and all three source/grammar checkers rerun from fresh extraction",
+    "clean_extraction_counts": {
+      "source": 233,
+      "frontier_reference": 100,
+      "grammar_files": 16,
+      "failed": 0
+    }
+  },
+  "limitations": [
+    "Offline single-player; no networking or server anti-cheat",
+    "Procedural blockout visuals; native appearance/performance not reviewed",
+    "Player movement can pass through enemy bodies; enemy spacing is not full mutual character collision",
+    "Guardian courtyard is open-air, not instanced",
+    "World enemy/resource state resets on load"
+  ],
+  "files_added_or_changed_from_0_1_3": [
+    "ASSET_NOTES.md",
+    "Run Tests.bat",
+    "START_HERE.md",
+    "docs/ARCHITECTURE.md",
+    "docs/CHANGELOG.md",
+    "docs/TESTING.md",
+    "docs/frontier_check_output.txt",
+    "docs/frontier_check_results.json",
+    "docs/grammar_check_output.txt",
+    "docs/grammar_check_results.json",
+    "docs/history/0.1.3_BUILD_MANIFEST.json",
+    "docs/history/0.1.3_TESTING.md",
+    "docs/history/0.1.3_grammar_check_results.json",
+    "docs/history/0.1.3_static_check_results.json",
+    "docs/static_check_output.txt",
+    "docs/static_check_results.json",
+    "project.godot",
+    "scripts/actor.gd",
+    "scripts/catalog.gd",
+    "scripts/enemy_ai.gd",
+    "scripts/enemy_visual.gd",
+    "scripts/game_state.gd",
+    "scripts/hud.gd",
+    "scripts/main.gd",
+    "scripts/navigation.gd",
+    "scripts/world.gd",
+    "scripts/world_layout.gd",
+    "scripts/world_map.gd",
+    "tests/check_frontier.py",
+    "tests/check_project.py",
+    "tests/frontier_runner.gd",
+    "tests/smoke_runner.gd",
+    "tests/test_runner.gd"
+  ],
+  "hash_algorithm": "SHA-256",
+  "hash_scope": "All packaged files except BUILD_MANIFEST.json itself",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 57,
+      "sha256": "8cdafdf9926de2a5635311e603e7dd64ca05c5d632a8ee46db1b49e567542810"
+    },
+    {
+      "path": "ASSET_NOTES.md",
+      "bytes": 1065,
+      "sha256": "8e28f2d014f55f050e36ece12d0a36bbe4cc513056a9c97e7d13a8922af9d252"
+    },
+    {
+      "path": "Launch Game.bat",
+      "bytes": 431,
+      "sha256": "0015190e9910718f215ce64f26e3697f1594537f2ae2e7636df67fd2deeeed6c"
+    },
+    {
+      "path": "Run Tests.bat",
+      "bytes": 1727,
+      "sha256": "706fe1918e21086c6338d85040b6f3f8feef344b9f97baa7d3f90877ec644916"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 8717,
+      "sha256": "fa9c69082d816667f442fc3446b0e0e4f6a4b9529a47902e25e9ca9c7c0a179f"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 5292,
+      "sha256": "8c5e43dcf2d8c5f36c58965efd70a49390fa0aecadd1f54b8c27ab238d6f327b"
+    },
+    {
+      "path": "docs/CHANGELOG.md",
+      "bytes": 3024,
+      "sha256": "0be88982703c52139f38b52b939f4650f981b182e9fb808876cfc080db649a35"
+    },
+    {
+      "path": "docs/TESTING.md",
+      "bytes": 6024,
+      "sha256": "88dc5badc27f504e75dec26cf270e2490095307cdc082b0e0f5e069b874e5fde"
+    },
+    {
+      "path": "docs/frontier_check_output.txt",
+      "bytes": 5443,
+      "sha256": "69336f8ff87e3a850efd2618433c14e6998f3e5f19c2faf898852b4d025838e4"
+    },
+    {
+      "path": "docs/frontier_check_results.json",
+      "bytes": 10145,
+      "sha256": "d963d5a12909c822a983b14f7dd98aafa3dbc7cf368dd8a05bda3e192d91b9f9"
+    },
+    {
+      "path": "docs/grammar_check_output.txt",
+      "bytes": 620,
+      "sha256": "746b7966b8a1c9255ad00269ea243308352729dbdc62956fa0379ba0c5612bd6"
+    },
+    {
+      "path": "docs/grammar_check_results.json",
+      "bytes": 2918,
+      "sha256": "c552dd5484eb9d7eee84a03a0f5d43fb6fcaec2adf08f6530f13306626da5e46"
+    },
+    {
+      "path": "docs/history/0.1.0_grammar_results.json",
+      "bytes": 1540,
+      "sha256": "d9c10ce9025120003a10d3e3ab5f4e5869d04025bd6d76b26d3c6bccb3b38c8b"
+    },
+    {
+      "path": "docs/history/0.1.1_enum_hotfix_results.json",
+      "bytes": 823,
+      "sha256": "3040f3b190be76f8aa777a4ff77a001fd64cc260f377f3dbb8bd5dc9707212ad"
+    },
+    {
+      "path": "docs/history/0.1.2_build_manifest.json",
+      "bytes": 7075,
+      "sha256": "80bf7c46636079c2b1eacf5a7669c758ccdf8e9aeed3514e2fa8645b7153f678"
+    },
+    {
+      "path": "docs/history/0.1.2_static_check_results.json",
+      "bytes": 13947,
+      "sha256": "2ea9ac8b1955593198ba2987544139b2e30cddf5a87bddf60ae7f025356c2ef8"
+    },
+    {
+      "path": "docs/history/0.1.3_BUILD_MANIFEST.json",
+      "bytes": 9144,
+      "sha256": "0f45bc4a0540ab9fd8eb9801bba7b366bf2ed0e1921b4de469433abe0af0e707"
+    },
+    {
+      "path": "docs/history/0.1.3_TESTING.md",
+      "bytes": 5073,
+      "sha256": "1f934eb7a977517eb824fee734d9cd09dbce5e560928daaf05c271bde7635df6"
+    },
+    {
+      "path": "docs/history/0.1.3_grammar_check_results.json",
+      "bytes": 2444,
+      "sha256": "535b3a3d0817279448456821278458f6e39dd4bf642bb852e888cacc6a63530c"
+    },
+    {
+      "path": "docs/history/0.1.3_static_check_results.json",
+      "bytes": 17668,
+      "sha256": "cc3db6e9f19d46e5d8e132f74ed235204e656cb846bae0808fd5bffe9fe4fa22"
+    },
+    {
+      "path": "docs/static_check_output.txt",
+      "bytes": 12266,
+      "sha256": "c7703f53a8f407264ae5d3cf9a95b9af90d2e76d8d5002eae0fea9598eeba0b1"
+    },
+    {
+      "path": "docs/static_check_results.json",
+      "bytes": 23087,
+      "sha256": "b56ba40b58b855915f1b2b2967d9fae8b344da2d02bb1bb06b747fcccbc05ca3"
+    },
+    {
+      "path": "icon.svg",
+      "bytes": 394,
+      "sha256": "f0821a06b3fac5842fe512645de965d2fa1efb086c6b4bf4b0c66a83eda32410"
+    },
+    {
+      "path": "project.godot",
+      "bytes": 1125,
+      "sha256": "da72bd208154b5a03d662a33c36de45ecd9b1440066f2a7bd913ee961b18dab1"
+    },
+    {
+      "path": "scenes/main.tscn",
+      "bytes": 164,
+      "sha256": "f02badeff65240926443203373225b9f1bf5007e42f2a7a8356c638d16868f66"
+    },
+    {
+      "path": "scripts/actor.gd",
+      "bytes": 4565,
+      "sha256": "adcd5969ea512cc00f144cd7bc266b02873d6082e42728bb1e4345ca0eb85bd1"
+    },
+    {
+      "path": "scripts/catalog.gd",
+      "bytes": 4832,
+      "sha256": "903fd35eefd78b8d9202d217c121d9a5062630cd45f6844d8153ced7dc6ed6b0"
+    },
+    {
+      "path": "scripts/enemy_ai.gd",
+      "bytes": 10098,
+      "sha256": "a5df476c00d3b9013dbfffcb5ac33b1a803acb8daa163a93dfc8ff22f6dbfc89"
+    },
+    {
+      "path": "scripts/enemy_visual.gd",
+      "bytes": 4527,
+      "sha256": "1b6329bd976b6b3f9acf797bc000e8e8b6865d2c7f2d1630d21e13415ba29076"
+    },
+    {
+      "path": "scripts/game_state.gd",
+      "bytes": 32523,
+      "sha256": "127cc9ad98216ccbaeb9a2a5eb2d4fdd37594af4b0a27a2d169a8977d7448dbd"
+    },
+    {
+      "path": "scripts/geometry.gd",
+      "bytes": 3083,
+      "sha256": "8bbcbb2a5f43093a98bdf04aefa210e9071e09ad6ea9898c340d6fff6b89bfb6"
+    },
+    {
+      "path": "scripts/hud.gd",
+      "bytes": 34028,
+      "sha256": "f4a9f6fa65de8389f4ae9bb102839c9b1ac63069536c41e8182cc8f79784a2c1"
+    },
+    {
+      "path": "scripts/main.gd",
+      "bytes": 9474,
+      "sha256": "920ced1a7dd1ca076b52649c399415f396552bcccedde47958e8cdb26fdecc6a"
+    },
+    {
+      "path": "scripts/navigation.gd",
+      "bytes": 5830,
+      "sha256": "ac1da18cfd01d17accca924848cefd5732c7a64f8607673cd19853bab1c7925d"
+    },
+    {
+      "path": "scripts/save_store.gd",
+      "bytes": 3548,
+      "sha256": "a23db8ce4d6369fdd9ca54bb45fde70a366f01776768ed59975c0af5e4d4ccb0"
+    },
+    {
+      "path": "scripts/world.gd",
+      "bytes": 16415,
+      "sha256": "b2cc6703cfdabef3c999e5a6f58d2de4c3c01fdf31480d36dd58470765bac156"
+    },
+    {
+      "path": "scripts/world_layout.gd",
+      "bytes": 10067,
+      "sha256": "65a9ded5c73f7ab1e9eb98f5ac9f6951dd76d495b8ba0ab340ea5d2ed8dcec7f"
+    },
+    {
+      "path": "scripts/world_map.gd",
+      "bytes": 5017,
+      "sha256": "3cdc8175d1c2a17986ed38e28f20dd0f2e4d99f1129325c96cb57ae0285d0e3e"
+    },
+    {
+      "path": "tests/check_frontier.py",
+      "bytes": 9735,
+      "sha256": "463b465637901bf33ed43658f8f3527079315703878356cdd25fb545c621025f"
+    },
+    {
+      "path": "tests/check_grammar.py",
+      "bytes": 3354,
+      "sha256": "12f5aaa837e32595b58a19ed87f1465183bceb292b28259cf49317d4028528cd"
+    },
+    {
+      "path": "tests/check_project.py",
+      "bytes": 18609,
+      "sha256": "a16a3a1d22fb1f5392a9d8639912ddb5c593a133fe73ef3b3cbc47b96b4242bd"
+    },
+    {
+      "path": "tests/frontier_runner.gd",
+      "bytes": 13951,
+      "sha256": "33043728ed5b3db3ee1d6bf6d9c107c830409dd7f03631461168b57ad0a0fe58"
+    },
+    {
+      "path": "tests/smoke_runner.gd",
+      "bytes": 6819,
+      "sha256": "81a94325593606ac20b720977e33df5c84f31ffe85e254cda543900f47f5cf52"
+    },
+    {
+      "path": "tests/test_runner.gd",
+      "bytes": 29878,
+      "sha256": "004dc359b69674386cdb5aa7f67e7d4ab2a834583778a233dec2854b704b28a7"
+    },
+    {
+      "path": "tests/vendor/gdtoolkit/LICENSE",
+      "bytes": 1068,
+      "sha256": "cbd07061b68c2e40a1334009d35376dcbc371aa2df25a7c30788b7334f952b5b"
+    },
+    {
+      "path": "tests/vendor/gdtoolkit/gdscript.lark",
+      "bytes": 12828,
+      "sha256": "ab12e2c0de314918ffff037d90223d85f9d69c0c0782f011c6f6ca8362f38beb"
+    },
+    {
+      "path": "tools/find_godot.bat",
+      "bytes": 859,
+      "sha256": "f0a3b498a8a8ce9f79686c7ee2db6055a0fb6721a2dfb2e35a332a40ee260d74"
+    }
+  ]
+}

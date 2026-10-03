@@ -1,0 +1,294 @@
+{
+  "project": "FFDRealms — First Steps",
+  "working_title": true,
+  "version": "0.1.3",
+  "build_date": "2026-10-01",
+  "update_from": "0.1.2",
+  "type": "single-player Godot source prototype",
+  "engine_api_target": "Godot 4.3+ GDScript API; native verification remains required",
+  "engine_bundled": false,
+  "renderer": "Compatibility",
+  "multiplayer_implemented": false,
+  "features_added": [
+    "one click per completed harvest or weapon attack",
+    "busy clicks rejected without a queue or timer restart",
+    "click-time eligibility retained across deferred physics handling",
+    "single-use action completion guards",
+    "action-progress-based one-swing tool animation",
+    "independent per-enemy retaliation; no player auto-retaliation",
+    "reachable shoreline fishing on all four banks and corners",
+    "nearby bank position preserved and local cast point per action",
+    "shared world/map water coordinate validation"
+  ],
+  "one_click_policy": {
+    "harvest_outputs_per_click": 1,
+    "attacks_per_click": 1,
+    "early_click_queue": false,
+    "held_mouse_repeat": false,
+    "auto_player_retaliation": false,
+    "enemy_retaliation": true,
+    "external_macro_detection": false,
+    "server_anti_cheat": false
+  },
+  "shoreline": {
+    "bank_range": 2.0,
+    "cast_range": 4.5,
+    "navigation_clearance": 0.65,
+    "fixed_stand_removed": true
+  },
+  "bait": {
+    "price_per_unit": 1,
+    "purchase_packs": [
+      1,
+      5,
+      10
+    ],
+    "units_per_completed_catch": 1,
+    "stackable": true
+  },
+  "lighting": {
+    "unchanged_from": "0.1.2",
+    "sun_energy": 0.9,
+    "ambient_energy": 0.32,
+    "exposure": 0.95
+  },
+  "save_compatibility": {
+    "schema": 1,
+    "custom_user_dir": "FFDRealms_Prototype",
+    "reset_required": false,
+    "new_action_state_is_transient": true,
+    "save_store_source_unchanged": true
+  },
+  "verification": {
+    "source_structural_data_reference_grid": {
+      "status": "pass",
+      "passed": 178,
+      "failed": 0
+    },
+    "gdscript_grammar_only": {
+      "status": "pass",
+      "files": 13,
+      "failed": 0,
+      "tool": "published gdtoolkit 4.3.4 grammar transcription with project-subset Lark indenter",
+      "native_compilation": false,
+      "invalid_syntax_controls": "pass"
+    },
+    "python_validator_compilation": "pass",
+    "preservation_byte_comparison": {
+      "scripts/world.gd": true,
+      "scripts/geometry.gd": true,
+      "scripts/save_store.gd": true
+    },
+    "native_godot_import_compile": "not_run; no Godot executable available",
+    "native_simulation_suite": "expanded_and_included_not_run",
+    "native_scene_smoke_suite": "expanded_and_included_not_run",
+    "shader_compilation": "not_run",
+    "rendered_appearance": "not_run",
+    "windows_launchers": "not_run",
+    "manual_playtest": "not_run",
+    "zip_integrity_and_clean_extraction": "pass"
+  },
+  "runtime_files_changed": [
+    "Run Tests.bat",
+    "project.godot",
+    "scripts/actor.gd",
+    "scripts/catalog.gd",
+    "scripts/game_state.gd",
+    "scripts/hud.gd",
+    "scripts/main.gd",
+    "scripts/navigation.gd",
+    "scripts/world_layout.gd",
+    "scripts/world_map.gd",
+    "tests/smoke_runner.gd",
+    "tests/test_runner.gd"
+  ],
+  "hash_algorithm": "SHA-256",
+  "hash_scope": "All packaged files except BUILD_MANIFEST.json itself",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 57,
+      "sha256": "8cdafdf9926de2a5635311e603e7dd64ca05c5d632a8ee46db1b49e567542810"
+    },
+    {
+      "path": "ASSET_NOTES.md",
+      "bytes": 1702,
+      "sha256": "f67e3519d6f340bb9ec96925c024897a5673c73d623ff7ca68aab8f1534156cb"
+    },
+    {
+      "path": "Launch Game.bat",
+      "bytes": 431,
+      "sha256": "0015190e9910718f215ce64f26e3697f1594537f2ae2e7636df67fd2deeeed6c"
+    },
+    {
+      "path": "Run Tests.bat",
+      "bytes": 1412,
+      "sha256": "e469c85ac88fbdcb665a9f4f0b5c08eae92e48ce891f252cd5cbfe0c208b8331"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 8243,
+      "sha256": "2b70ce510d27bbd03d66de3e5f3396e8c9fc85de04ed9456bd40559c6ecb8578"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 4996,
+      "sha256": "3f8acdac00b0534127aa0bfb4fe7fe129471ab3a1e203a88cdc1fe8eec9389b6"
+    },
+    {
+      "path": "docs/CHANGELOG.md",
+      "bytes": 5172,
+      "sha256": "2ad61979ec7213d88d8a2d209a1caa2a8e431d5b60c62c1d3c0773ab24083d96"
+    },
+    {
+      "path": "docs/TESTING.md",
+      "bytes": 5073,
+      "sha256": "1f934eb7a977517eb824fee734d9cd09dbce5e560928daaf05c271bde7635df6"
+    },
+    {
+      "path": "docs/grammar_check_output.txt",
+      "bytes": 509,
+      "sha256": "2a7aa19a93c7b538363a7475cf2b925aa0e1053186e53d726d8b7bf072593c84"
+    },
+    {
+      "path": "docs/grammar_check_results.json",
+      "bytes": 2444,
+      "sha256": "535b3a3d0817279448456821278458f6e39dd4bf642bb852e888cacc6a63530c"
+    },
+    {
+      "path": "docs/history/0.1.0_grammar_results.json",
+      "bytes": 1540,
+      "sha256": "d9c10ce9025120003a10d3e3ab5f4e5869d04025bd6d76b26d3c6bccb3b38c8b"
+    },
+    {
+      "path": "docs/history/0.1.1_enum_hotfix_results.json",
+      "bytes": 823,
+      "sha256": "3040f3b190be76f8aa777a4ff77a001fd64cc260f377f3dbb8bd5dc9707212ad"
+    },
+    {
+      "path": "docs/history/0.1.2_build_manifest.json",
+      "bytes": 7075,
+      "sha256": "80bf7c46636079c2b1eacf5a7669c758ccdf8e9aeed3514e2fa8645b7153f678"
+    },
+    {
+      "path": "docs/history/0.1.2_static_check_results.json",
+      "bytes": 13947,
+      "sha256": "2ea9ac8b1955593198ba2987544139b2e30cddf5a87bddf60ae7f025356c2ef8"
+    },
+    {
+      "path": "docs/static_check_output.txt",
+      "bytes": 9377,
+      "sha256": "29bd8163464dc5b3888079355bc3e5bb1466e36ae036a40d8c28676bde79b05a"
+    },
+    {
+      "path": "docs/static_check_results.json",
+      "bytes": 17668,
+      "sha256": "cc3db6e9f19d46e5d8e132f74ed235204e656cb846bae0808fd5bffe9fe4fa22"
+    },
+    {
+      "path": "icon.svg",
+      "bytes": 394,
+      "sha256": "f0821a06b3fac5842fe512645de965d2fa1efb086c6b4bf4b0c66a83eda32410"
+    },
+    {
+      "path": "project.godot",
+      "bytes": 1126,
+      "sha256": "569d0ff64ec64ef8c40140d27d421244bb9b83776391914cbeb04a05f21a2586"
+    },
+    {
+      "path": "scenes/main.tscn",
+      "bytes": 164,
+      "sha256": "f02badeff65240926443203373225b9f1bf5007e42f2a7a8356c638d16868f66"
+    },
+    {
+      "path": "scripts/actor.gd",
+      "bytes": 4509,
+      "sha256": "3a4755007cd337aafeda230f937bfd10f273c5b37af7e165c1a3a0e9d78a2086"
+    },
+    {
+      "path": "scripts/catalog.gd",
+      "bytes": 3685,
+      "sha256": "416c54e22c3ce71eff378fc6e8dc4bc98d4d79b3bbc0ba59c27add4b0d5c7c7a"
+    },
+    {
+      "path": "scripts/game_state.gd",
+      "bytes": 28056,
+      "sha256": "555b7e3eaa5f20350baaacbd02185ce51458fbdc03d35f3702156bb3fb5e9407"
+    },
+    {
+      "path": "scripts/geometry.gd",
+      "bytes": 3083,
+      "sha256": "8bbcbb2a5f43093a98bdf04aefa210e9071e09ad6ea9898c340d6fff6b89bfb6"
+    },
+    {
+      "path": "scripts/hud.gd",
+      "bytes": 30082,
+      "sha256": "c1b5f69fc6c7ae3e2f1cc4f8ef934a7968f41b9fc0ec907df9a87873c1334ece"
+    },
+    {
+      "path": "scripts/main.gd",
+      "bytes": 9426,
+      "sha256": "b92fc2987b01cc1e206f6cd15074c096aa4f8bcedfd7a92be9c506664fe555d0"
+    },
+    {
+      "path": "scripts/navigation.gd",
+      "bytes": 5460,
+      "sha256": "d3a3bf919eea737ecd5c8d7e1d76aced70b247aba2c4d5c8d53ce30fbcca5664"
+    },
+    {
+      "path": "scripts/save_store.gd",
+      "bytes": 3548,
+      "sha256": "a23db8ce4d6369fdd9ca54bb45fde70a366f01776768ed59975c0af5e4d4ccb0"
+    },
+    {
+      "path": "scripts/world.gd",
+      "bytes": 14015,
+      "sha256": "46d177f41a3f0909909aa65bd85a579773bbb40fdd2d7d01a9608284641f7c3b"
+    },
+    {
+      "path": "scripts/world_layout.gd",
+      "bytes": 5316,
+      "sha256": "64bf795b15b40d6754917234a96b205e5453b2a9c96dd3bce5cdd5a9c5c28a2f"
+    },
+    {
+      "path": "scripts/world_map.gd",
+      "bytes": 4306,
+      "sha256": "7e5c29c948030eef129c7d6e1136d93c5b0a11a9f5bcffb1989e9784ba6ac89d"
+    },
+    {
+      "path": "tests/check_grammar.py",
+      "bytes": 3354,
+      "sha256": "12f5aaa837e32595b58a19ed87f1465183bceb292b28259cf49317d4028528cd"
+    },
+    {
+      "path": "tests/check_project.py",
+      "bytes": 18414,
+      "sha256": "e126c2c872a22f45c03ed7f66481c40749732cf1270909939f7dfe0bba9f1294"
+    },
+    {
+      "path": "tests/smoke_runner.gd",
+      "bytes": 5711,
+      "sha256": "3081204b7cec312ea715eb545969ba915fdd25db71394e45cc45f2c9a5346366"
+    },
+    {
+      "path": "tests/test_runner.gd",
+      "bytes": 29879,
+      "sha256": "66ee0ad97ad084cb3e62ef22102ca0c556e34cc024ce213f992b908ccd645fad"
+    },
+    {
+      "path": "tests/vendor/gdtoolkit/LICENSE",
+      "bytes": 1068,
+      "sha256": "cbd07061b68c2e40a1334009d35376dcbc371aa2df25a7c30788b7334f952b5b"
+    },
+    {
+      "path": "tests/vendor/gdtoolkit/gdscript.lark",
+      "bytes": 12828,
+      "sha256": "ab12e2c0de314918ffff037d90223d85f9d69c0c0782f011c6f6ca8362f38beb"
+    },
+    {
+      "path": "tools/find_godot.bat",
+      "bytes": 859,
+      "sha256": "f0a3b498a8a8ce9f79686c7ee2db6055a0fb6721a2dfb2e35a332a40ee260d74"
+    }
+  ]
+}

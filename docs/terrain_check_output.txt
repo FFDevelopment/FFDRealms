@@ -1,0 +1,119 @@
+PASS: Authored resource has all 27,797 finite height samples
+PASS: Half-metre mesh resolution and 54,912 triangle budget are explicit
+PASS: Terrain has real bounded elevation, not a displaced flat plane
+PASS: Terrain bake belongs to the current exact world layout
+PASS: data/terrain/hearthmere_heightfield.tres matches its baked checksum
+PASS: assets/textures/terrain/land_blend.png matches its baked checksum
+PASS: assets/textures/terrain/land_tint.png matches its baked checksum
+PASS: assets/textures/terrain/world_relief.png matches its baked checksum
+PASS: scripts/game_state.gd is byte-identical to the 0.2.3 base
+PASS: scripts/enemy_ai.gd is byte-identical to the 0.2.3 base
+PASS: scripts/combat_rules.gd is byte-identical to the 0.2.3 base
+PASS: scripts/world_layout.gd is byte-identical to the 0.2.3 base
+PASS: scripts/actor.gd is byte-identical to the 0.2.3 base
+PASS: scripts/appearance.gd is byte-identical to the 0.2.3 base
+PASS: scripts/wardrobe.gd is byte-identical to the 0.2.3 base
+PASS: scripts/save_store.gd is byte-identical to the 0.2.3 base
+PASS: scripts/geometry.gd is byte-identical to the 0.2.3 base
+PASS: scripts/world_materials.gd is byte-identical to the 0.2.3 base
+PASS: scripts/world.gd _build_environment is unchanged
+PASS: scripts/world.gd show_hover is unchanged
+PASS: scripts/main.gd _unhandled_input is unchanged
+PASS: scripts/main.gd _physics_process is unchanged
+PASS: scripts/main.gd _pick_target is unchanged
+PASS: scripts/main.gd _notification is unchanged
+PASS: scripts/enemy_visual.gd build is unchanged
+PASS: scripts/enemy_visual.gd _triangle_mesh is unchanged
+PASS: scripts/enemy_visual.gd _warning_material is unchanged
+PASS: Navigation differs only by its conservative slope guard; safety/obstacle rules preserved
+PASS: Runtime sampler uses the authored mesh diagonal, not bilinear heights
+PASS: Mesh uses the same A-C diagonal and clockwise upper faces
+PASS: Click collision is derived from the exact rendered mesh
+PASS: Old flat terrain collision is removed
+PASS: Old flat path/frontier overlays are removed rather than left floating
+PASS: Movement clicks raycast real terrain, not the original zero-height plane
+PASS: Logical save coordinates remain separate from actual grounded presentation
+PASS: Live creatures and stationary targets both get terrain grounding
+PASS: Buildings, signs, lights and scenery are grounded
+PASS: Camera focus follows elevation without changing controls
+PASS: Fishing click plane, float and pick target use the same fixed water level
+PASS: Damage popups and the destination marker follow ground height
+PASS: Committed enemy warning vertices project onto the terrain
+PASS: Warning projection is radially subdivided and cached per committed pose
+PASS: Terrain projection preserves the validated strike X/Z footprint
+PASS: Map draws cached real relief and does not hide land under opaque safe-zone fills
+PASS: Map shows actual sampled height and live enemy positions
+PASS: Map never regenerates terrain textures on each frame
+PASS: Terrain shader uniform contract is explicit and complete
+PASS: Terrain shader stays opaque and does not add screen effects or brightness
+PASS: Runtime slope limit matches the authored dataset
+PASS: 512 independent triangle-plane samples agree with the terrain height sampler
+PASS: All quarter-metre dry-land samples stay below the walkable slope limit
+PASS: All 5,110 original navigable grid cells remain connected to spawn
+PASS: Reachable interaction approach remains for guide
+PASS: Reachable interaction approach remains for bank
+PASS: Reachable interaction approach remains for campfire
+PASS: Reachable interaction approach remains for forge
+PASS: Reachable interaction approach remains for market
+PASS: Reachable interaction approach remains for pine_1
+PASS: Reachable interaction approach remains for pine_2
+PASS: Reachable interaction approach remains for pine_3
+PASS: Reachable interaction approach remains for oak_1
+PASS: Reachable interaction approach remains for copper_1
+PASS: Reachable interaction approach remains for copper_2
+PASS: Reachable interaction approach remains for tin_1
+PASS: Reachable interaction approach remains for iron_1
+PASS: Reachable interaction approach remains for bait_bucket
+PASS: Reachable interaction approach remains for slime_1
+PASS: Enemy home remains walkable for slime_1
+PASS: Reachable interaction approach remains for slime_2
+PASS: Enemy home remains walkable for slime_2
+PASS: Reachable interaction approach remains for slime_3
+PASS: Enemy home remains walkable for slime_3
+PASS: Reachable interaction approach remains for ranger
+PASS: Reachable interaction approach remains for camp_bank
+PASS: Reachable interaction approach remains for camp_fire
+PASS: Reachable interaction approach remains for camp_forge
+PASS: Reachable interaction approach remains for camp_shop
+PASS: Reachable interaction approach remains for oak_2
+PASS: Reachable interaction approach remains for oak_3
+PASS: Reachable interaction approach remains for pine_4
+PASS: Reachable interaction approach remains for iron_2
+PASS: Reachable interaction approach remains for iron_3
+PASS: Reachable interaction approach remains for coal_1
+PASS: Reachable interaction approach remains for coal_2
+PASS: Reachable interaction approach remains for coal_3
+PASS: Reachable interaction approach remains for wolf_1
+PASS: Enemy home remains walkable for wolf_1
+PASS: Reachable interaction approach remains for wolf_2
+PASS: Enemy home remains walkable for wolf_2
+PASS: Reachable interaction approach remains for crawler_1
+PASS: Enemy home remains walkable for crawler_1
+PASS: Reachable interaction approach remains for crawler_2
+PASS: Enemy home remains walkable for crawler_2
+PASS: Reachable interaction approach remains for watchwarden
+PASS: Enemy home remains walkable for watchwarden
+PASS: All reachable pond-bank cells remain above the water surface
+PASS: Dry access remains at pond bank/corner (12, 3)
+PASS: Dry access remains at pond bank/corner (26, 3)
+PASS: Dry access remains at pond bank/corner (12, 16)
+PASS: Dry access remains at pond bank/corner (26, 16)
+PASS: Dry access remains at pond bank/corner (12, 8)
+PASS: Dry access remains at pond bank/corner (26, 8)
+PASS: Dry access remains at pond bank/corner (19, 3)
+PASS: Dry access remains at pond bank/corner (19, 16)
+PASS: village has its intended level service/encounter pad
+PASS: camp has its intended level service/encounter pad
+PASS: ruins has its intended level service/encounter pad
+PASS: Ironroot has a genuinely raised mining ridge
+PASS: Pond has a recessed basin below its fixed water plane
+PASS: land_tint.png has the declared opaque dimensions
+PASS: land_tint.png has mipmapped import settings
+PASS: land_blend.png has the declared opaque dimensions
+PASS: land_blend.png has mipmapped import settings
+PASS: world_relief.png has the declared opaque dimensions
+PASS: world_relief.png has mipmapped import settings
+PASS: Terrain tints reproduce from the same source used by the relief-map baker
+PASS: Windows runner includes native terrain mesh/raycast/projection tests
+PASS: Four intentional data/diagonal/elevation/safe-boundary regressions are rejected
+TERRAIN REFERENCE RESULT: 118 passed; 0 failed. Native engine tests NOT RUN.

@@ -1,0 +1,81 @@
+{
+  "version": "0.3.0",
+  "seed": "authored deterministic height functions; no RNG",
+  "source_layout_sha256": "6b4df5f689119c092c005ad11659774c5b523e5fd36ba3c45837d32007609cc4",
+  "origin": [
+    -33.0,
+    -71.0
+  ],
+  "step": 0.5,
+  "columns": 133,
+  "rows": 209,
+  "vertex_count": 27797,
+  "triangle_count": 54912,
+  "water_height": -0.25,
+  "maximum_walkable_grade": 0.7,
+  "roads": [
+    [
+      0,
+      -11,
+      3.6,
+      31
+    ],
+    [
+      -8,
+      -5,
+      17,
+      3.2
+    ],
+    [
+      8,
+      -10,
+      17,
+      3.2
+    ],
+    [
+      7,
+      8,
+      15,
+      3
+    ],
+    [
+      0,
+      20,
+      3.6,
+      14
+    ],
+    [
+      0,
+      -42,
+      3.6,
+      36
+    ],
+    [
+      -7,
+      -35,
+      14,
+      2.8
+    ],
+    [
+      8,
+      -40,
+      16,
+      2.8
+    ]
+  ],
+  "map_bounds": [
+    -31,
+    -69,
+    62,
+    100
+  ],
+  "map_pixels_per_metre": 8,
+  "minimum_height": -1.569984,
+  "maximum_height": 7.110166,
+  "assets": {
+    "data/terrain/hearthmere_heightfield.tres": "34990aa49c996da6c674de205cf2a1640feb164625c6f00ac52da59a8630a72f",
+    "assets/textures/terrain/land_blend.png": "233f44c57ba7b52bbf778aa13b18184449daaf79b9f244ad4b06b01fe1317949",
+    "assets/textures/terrain/land_tint.png": "061b24d80ed11aa4130dbc092690b92741e14d93355d8e94a55c7b08294c179e",
+    "assets/textures/terrain/world_relief.png": "033da09ecbc3d67dfca8aee4cca9a785c3e6f1400d8722b9e1e6c66abd5d41d3"
+  }
+}

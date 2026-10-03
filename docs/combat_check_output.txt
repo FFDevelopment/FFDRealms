@@ -1,0 +1,100 @@
+PASS: Quick strike uses a separate original-rate minimum attack interval
+PASS: All eight enemies and four species are covered
+PASS: Positive proximity detection within leash: slime_1
+PASS: Telegraph and recovery windows are explicit: slime_1
+PASS: Stationary player in front is hit: slime_1
+PASS: Sideways dodge works inside nominal reach: slime_1
+PASS: Behind the committed strike is outside its arc: slime_1
+PASS: No hidden range beyond the visible radius: slime_1
+PASS: Configured speed permits strike then dodge during windup: slime_1
+PASS: Moving out then returning before impact remains hittable: slime_1
+PASS: Positive proximity detection within leash: slime_2
+PASS: Telegraph and recovery windows are explicit: slime_2
+PASS: Stationary player in front is hit: slime_2
+PASS: Sideways dodge works inside nominal reach: slime_2
+PASS: Behind the committed strike is outside its arc: slime_2
+PASS: No hidden range beyond the visible radius: slime_2
+PASS: Configured speed permits strike then dodge during windup: slime_2
+PASS: Moving out then returning before impact remains hittable: slime_2
+PASS: Positive proximity detection within leash: slime_3
+PASS: Telegraph and recovery windows are explicit: slime_3
+PASS: Stationary player in front is hit: slime_3
+PASS: Sideways dodge works inside nominal reach: slime_3
+PASS: Behind the committed strike is outside its arc: slime_3
+PASS: No hidden range beyond the visible radius: slime_3
+PASS: Configured speed permits strike then dodge during windup: slime_3
+PASS: Moving out then returning before impact remains hittable: slime_3
+PASS: Positive proximity detection within leash: wolf_1
+PASS: Telegraph and recovery windows are explicit: wolf_1
+PASS: Stationary player in front is hit: wolf_1
+PASS: Sideways dodge works inside nominal reach: wolf_1
+PASS: Behind the committed strike is outside its arc: wolf_1
+PASS: No hidden range beyond the visible radius: wolf_1
+PASS: Configured speed permits strike then dodge during windup: wolf_1
+PASS: Moving out then returning before impact remains hittable: wolf_1
+PASS: Positive proximity detection within leash: wolf_2
+PASS: Telegraph and recovery windows are explicit: wolf_2
+PASS: Stationary player in front is hit: wolf_2
+PASS: Sideways dodge works inside nominal reach: wolf_2
+PASS: Behind the committed strike is outside its arc: wolf_2
+PASS: No hidden range beyond the visible radius: wolf_2
+PASS: Configured speed permits strike then dodge during windup: wolf_2
+PASS: Moving out then returning before impact remains hittable: wolf_2
+PASS: Positive proximity detection within leash: crawler_1
+PASS: Telegraph and recovery windows are explicit: crawler_1
+PASS: Stationary player in front is hit: crawler_1
+PASS: Sideways dodge works inside nominal reach: crawler_1
+PASS: Behind the committed strike is outside its arc: crawler_1
+PASS: No hidden range beyond the visible radius: crawler_1
+PASS: Configured speed permits strike then dodge during windup: crawler_1
+PASS: Moving out then returning before impact remains hittable: crawler_1
+PASS: Positive proximity detection within leash: crawler_2
+PASS: Telegraph and recovery windows are explicit: crawler_2
+PASS: Stationary player in front is hit: crawler_2
+PASS: Sideways dodge works inside nominal reach: crawler_2
+PASS: Behind the committed strike is outside its arc: crawler_2
+PASS: No hidden range beyond the visible radius: crawler_2
+PASS: Configured speed permits strike then dodge during windup: crawler_2
+PASS: Moving out then returning before impact remains hittable: crawler_2
+PASS: Positive proximity detection within leash: watchwarden
+PASS: Telegraph and recovery windows are explicit: watchwarden
+PASS: Stationary player in front is hit: watchwarden
+PASS: Sideways dodge works inside nominal reach: watchwarden
+PASS: Behind the committed strike is outside its arc: watchwarden
+PASS: No hidden range beyond the visible radius: watchwarden
+PASS: Configured speed permits strike then dodge during windup: watchwarden
+PASS: Moving out then returning before impact remains hittable: watchwarden
+PASS: 12,000 seeded vector/angle sector comparisons agree
+PASS: Windup snapshots strike_origin
+PASS: Windup snapshots strike_facing
+PASS: Windup snapshots strike_reach
+PASS: Windup snapshots strike_half_angle
+PASS: Windup snapshots strike_duration
+PASS: Impact validates current player position against fixed geometry and cover
+PASS: Committed swing cannot chase or swivel
+PASS: Facing updates exclude committed and recovery states
+PASS: Each impact transitions out of windup before any damage return
+PASS: Player hits cannot restart enemy timers
+PASS: Unconfigured enemy defaults to close-range LOS detection, with explicit zero opt-out
+PASS: Return-home behavior runs before proximity acquisition
+PASS: Safe towns and body-safe placement still gate combat
+PASS: Movement/cancel cannot clear weapon cooldown
+PASS: Swing duration and cadence are set separately when the swing starts
+PASS: Cooldown rejection preserves the existing movement route
+PASS: Weapon cooldown advances independently of active action
+PASS: Reward path still consumes one authorized click
+PASS: Enemy simulation never grants player counterattacks
+PASS: Miss feedback is emitted only on a new strike result
+PASS: Clear movement clicks use direct continuous movement
+PASS: Warning builder uses the same reach/angle functions as combat
+PASS: Warning pose follows the committed snapshot, not current target
+PASS: Warning footprint does not pulse in size
+PASS: Warning materials are independent per instance
+PASS: World creates the sector and countdown label
+PASS: Shift-click can bypass target pick boxes for movement
+PASS: HUD action text differentiates weapon cooldown and readiness
+PASS: Profile stores appearance, not transient combat actions
+PASS: Native combat suite is wired into the local test launcher
+PASS: Reference cancel-spam leaves no authorized action
+PASS: Reference cooldown expiry grants readiness, not an attack
+COMBAT REFERENCE RESULT: 99 passed; 0 failed. No engine execution.

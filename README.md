@@ -22,6 +22,10 @@ Development baseline: **v0.4.0**
 2. Import `project.godot`.
 3. Press **F5** to run the project.
 
+Windows helpers are included:
+- `Launch Game.bat`
+- `Run Tests.bat`
+
 ## Development server
 
 The test backend lives in `server/`.
@@ -29,7 +33,7 @@ The test backend lives in `server/`.
 See:
 - `server/README.md`
 - `SERVER_ADMIN_SETUP.md`
-- `docs/ROADMAP.md`
+- `docs/ONLINE_TEST.md`
 
 The v0.4.x network test synchronizes authenticated player presence, character names, appearance, position, facing, and join/leave state. Inventory, XP, coins, quests, gathering rewards, and combat rewards are not yet server-authoritative.
 
@@ -54,3 +58,18 @@ Primary targets:
 - iOS
 
 Console support is a later platform-certification phase.
+
+## Roadmap
+
+See `docs/ROADMAP.md`.
+
+## Repository policy
+
+Do not commit:
+- real admin keys or secrets
+- production databases
+- user account databases
+- generated `.godot/` cache data
+- exported release binaries directly to the source tree
+
+GitHub Releases should be used for packaged test builds.

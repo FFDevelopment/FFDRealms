@@ -1,0 +1,1015 @@
+{
+  "scope": "Structural, catalog and reference-grid validation; not native Godot execution",
+  "passed": 252,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "Resource exists: actor.gd -> res://scripts/geometry.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: actor.gd -> res://scripts/appearance.gd",
+      "passed": true
+    },
+    {
+      "check": "Unique function names: actor.gd",
+      "passed": true
+    },
+    {
+      "check": "Tab indentation: actor.gd",
+      "passed": true
+    },
+    {
+      "check": "Unique function names: appearance.gd",
+      "passed": true
+    },
+    {
+      "check": "Tab indentation: appearance.gd",
+      "passed": true
+    },
+    {
+      "check": "Unique function names: catalog.gd",
+      "passed": true
+    },
+    {
+      "check": "Tab indentation: catalog.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: enemy_ai.gd -> res://scripts/world_layout.gd",
+      "passed": true
+    },
+    {
+      "check": "Unique function names: enemy_ai.gd",
+      "passed": true
+    },
+    {
+      "check": "Tab indentation: enemy_ai.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: enemy_visual.gd -> res://scripts/geometry.gd",
+      "passed": true
+    },
+    {
+      "check": "Unique function names: enemy_visual.gd",
+      "passed": true
+    },
+    {
+      "check": "Tab indentation: enemy_visual.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: game_state.gd -> res://scripts/catalog.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: game_state.gd -> res://scripts/world_layout.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: game_state.gd -> res://scripts/navigation.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: game_state.gd -> res://scripts/save_store.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: game_state.gd -> res://scripts/enemy_ai.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: game_state.gd -> res://scripts/appearance.gd",
+      "passed": true
+    },
+    {
+      "check": "Unique function names: game_state.gd",
+      "passed": true
+    },
+    {
+      "check": "Tab indentation: game_state.gd",
+      "passed": true
+    },
+    {
+      "check": "Unique function names: geometry.gd",
+      "passed": true
+    },
+    {
+      "check": "Tab indentation: geometry.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: hud.gd -> res://scripts/catalog.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: hud.gd -> res://scripts/world_layout.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: hud.gd -> res://scripts/save_store.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: hud.gd -> res://scripts/world_map.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: hud.gd -> res://scripts/wardrobe.gd",
+      "passed": true
+    },
+    {
+      "check": "Unique function names: hud.gd",
+      "passed": true
+    },
+    {
+      "check": "Tab indentation: hud.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: main.gd -> res://scripts/world.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: main.gd -> res://scripts/actor.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: main.gd -> res://scripts/hud.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: main.gd -> res://scripts/geometry.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: main.gd -> res://scripts/world_layout.gd",
+      "passed": true
+    },
+    {
+      "check": "Unique function names: main.gd",
+      "passed": true
+    },
+    {
+      "check": "Tab indentation: main.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: navigation.gd -> res://scripts/world_layout.gd",
+      "passed": true
+    },
+    {
+      "check": "Unique function names: navigation.gd",
+      "passed": true
+    },
+    {
+      "check": "Tab indentation: navigation.gd",
+      "passed": true
+    },
+    {
+      "check": "Unique function names: save_store.gd",
+      "passed": true
+    },
+    {
+      "check": "Tab indentation: save_store.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: wardrobe.gd -> res://scripts/appearance.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: wardrobe.gd -> res://scripts/actor.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: wardrobe.gd -> res://scripts/geometry.gd",
+      "passed": true
+    },
+    {
+      "check": "Unique function names: wardrobe.gd",
+      "passed": true
+    },
+    {
+      "check": "Tab indentation: wardrobe.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: world.gd -> res://scripts/geometry.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: world.gd -> res://scripts/world_layout.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: world.gd -> res://scripts/catalog.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: world.gd -> res://scripts/actor.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: world.gd -> res://scripts/enemy_visual.gd",
+      "passed": true
+    },
+    {
+      "check": "Unique function names: world.gd",
+      "passed": true
+    },
+    {
+      "check": "Tab indentation: world.gd",
+      "passed": true
+    },
+    {
+      "check": "Unique function names: world_layout.gd",
+      "passed": true
+    },
+    {
+      "check": "Tab indentation: world_layout.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: world_map.gd -> res://scripts/world_layout.gd",
+      "passed": true
+    },
+    {
+      "check": "Unique function names: world_map.gd",
+      "passed": true
+    },
+    {
+      "check": "Tab indentation: world_map.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: appearance_runner.gd -> res://scripts/game_state.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: appearance_runner.gd -> res://scripts/appearance.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: appearance_runner.gd -> res://scripts/actor.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: appearance_runner.gd -> res://scripts/wardrobe.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: appearance_runner.gd -> res://scripts/world_layout.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: appearance_runner.gd -> res://scripts/enemy_ai.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: appearance_runner.gd -> res://scripts/save_store.gd",
+      "passed": true
+    },
+    {
+      "check": "Unique function names: appearance_runner.gd",
+      "passed": true
+    },
+    {
+      "check": "Tab indentation: appearance_runner.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: frontier_runner.gd -> res://scripts/game_state.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: frontier_runner.gd -> res://scripts/enemy_ai.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: frontier_runner.gd -> res://scripts/catalog.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: frontier_runner.gd -> res://scripts/world_layout.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: frontier_runner.gd -> res://scripts/world_map.gd",
+      "passed": true
+    },
+    {
+      "check": "Unique function names: frontier_runner.gd",
+      "passed": true
+    },
+    {
+      "check": "Tab indentation: frontier_runner.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: smoke_runner.gd -> res://scenes/main.tscn",
+      "passed": true
+    },
+    {
+      "check": "Unique function names: smoke_runner.gd",
+      "passed": true
+    },
+    {
+      "check": "Tab indentation: smoke_runner.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: test_runner.gd -> res://scripts/game_state.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: test_runner.gd -> res://scripts/catalog.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: test_runner.gd -> res://scripts/save_store.gd",
+      "passed": true
+    },
+    {
+      "check": "Resource exists: test_runner.gd -> res://scripts/world_layout.gd",
+      "passed": true
+    },
+    {
+      "check": "Unique function names: test_runner.gd",
+      "passed": true
+    },
+    {
+      "check": "Tab indentation: test_runner.gd",
+      "passed": true
+    },
+    {
+      "check": "Reflection setting uses the documented Environment enum",
+      "passed": true
+    },
+    {
+      "check": "No invalid Environment.REFLECTED_SOURCE_* references in GDScript",
+      "passed": true
+    },
+    {
+      "check": "Entry scene is configured",
+      "passed": true
+    },
+    {
+      "check": "Game autoload is configured",
+      "passed": true
+    },
+    {
+      "check": "Compatibility renderer is configured",
+      "passed": true
+    },
+    {
+      "check": "36 interactive world targets are defined",
+      "passed": true
+    },
+    {
+      "check": "Target identifiers are unique",
+      "passed": true
+    },
+    {
+      "check": "6 skills and 20 item types are defined",
+      "passed": true
+    },
+    {
+      "check": "Recipe item references: smelt_steel",
+      "passed": true
+    },
+    {
+      "check": "Positive recipe costs: smelt_steel",
+      "passed": true
+    },
+    {
+      "check": "Recipe skill and XP: smelt_steel",
+      "passed": true
+    },
+    {
+      "check": "Recipe item references: forge_steel",
+      "passed": true
+    },
+    {
+      "check": "Positive recipe costs: forge_steel",
+      "passed": true
+    },
+    {
+      "check": "Recipe skill and XP: forge_steel",
+      "passed": true
+    },
+    {
+      "check": "Recipe item references: cook_trout",
+      "passed": true
+    },
+    {
+      "check": "Positive recipe costs: cook_trout",
+      "passed": true
+    },
+    {
+      "check": "Recipe skill and XP: cook_trout",
+      "passed": true
+    },
+    {
+      "check": "Recipe item references: smelt_bronze",
+      "passed": true
+    },
+    {
+      "check": "Positive recipe costs: smelt_bronze",
+      "passed": true
+    },
+    {
+      "check": "Recipe skill and XP: smelt_bronze",
+      "passed": true
+    },
+    {
+      "check": "Recipe item references: forge_bronze",
+      "passed": true
+    },
+    {
+      "check": "Positive recipe costs: forge_bronze",
+      "passed": true
+    },
+    {
+      "check": "Recipe skill and XP: forge_bronze",
+      "passed": true
+    },
+    {
+      "check": "Recipe item references: smelt_iron",
+      "passed": true
+    },
+    {
+      "check": "Positive recipe costs: smelt_iron",
+      "passed": true
+    },
+    {
+      "check": "Recipe skill and XP: smelt_iron",
+      "passed": true
+    },
+    {
+      "check": "Recipe item references: forge_iron",
+      "passed": true
+    },
+    {
+      "check": "Positive recipe costs: forge_iron",
+      "passed": true
+    },
+    {
+      "check": "Recipe skill and XP: forge_iron",
+      "passed": true
+    },
+    {
+      "check": "Gathering references: pine_1",
+      "passed": true
+    },
+    {
+      "check": "Gathering timer and stock: pine_1",
+      "passed": true
+    },
+    {
+      "check": "Gathering references: pine_2",
+      "passed": true
+    },
+    {
+      "check": "Gathering timer and stock: pine_2",
+      "passed": true
+    },
+    {
+      "check": "Gathering references: pine_3",
+      "passed": true
+    },
+    {
+      "check": "Gathering timer and stock: pine_3",
+      "passed": true
+    },
+    {
+      "check": "Gathering references: oak_1",
+      "passed": true
+    },
+    {
+      "check": "Gathering timer and stock: oak_1",
+      "passed": true
+    },
+    {
+      "check": "Gathering references: copper_1",
+      "passed": true
+    },
+    {
+      "check": "Gathering timer and stock: copper_1",
+      "passed": true
+    },
+    {
+      "check": "Gathering references: copper_2",
+      "passed": true
+    },
+    {
+      "check": "Gathering timer and stock: copper_2",
+      "passed": true
+    },
+    {
+      "check": "Gathering references: tin_1",
+      "passed": true
+    },
+    {
+      "check": "Gathering timer and stock: tin_1",
+      "passed": true
+    },
+    {
+      "check": "Gathering references: iron_1",
+      "passed": true
+    },
+    {
+      "check": "Gathering timer and stock: iron_1",
+      "passed": true
+    },
+    {
+      "check": "Gathering references: fish_1",
+      "passed": true
+    },
+    {
+      "check": "Gathering timer and stock: fish_1",
+      "passed": true
+    },
+    {
+      "check": "Gathering references: oak_2",
+      "passed": true
+    },
+    {
+      "check": "Gathering timer and stock: oak_2",
+      "passed": true
+    },
+    {
+      "check": "Gathering references: oak_3",
+      "passed": true
+    },
+    {
+      "check": "Gathering timer and stock: oak_3",
+      "passed": true
+    },
+    {
+      "check": "Gathering references: pine_4",
+      "passed": true
+    },
+    {
+      "check": "Gathering timer and stock: pine_4",
+      "passed": true
+    },
+    {
+      "check": "Gathering references: iron_2",
+      "passed": true
+    },
+    {
+      "check": "Gathering timer and stock: iron_2",
+      "passed": true
+    },
+    {
+      "check": "Gathering references: iron_3",
+      "passed": true
+    },
+    {
+      "check": "Gathering timer and stock: iron_3",
+      "passed": true
+    },
+    {
+      "check": "Gathering references: coal_1",
+      "passed": true
+    },
+    {
+      "check": "Gathering timer and stock: coal_1",
+      "passed": true
+    },
+    {
+      "check": "Gathering references: coal_2",
+      "passed": true
+    },
+    {
+      "check": "Gathering timer and stock: coal_2",
+      "passed": true
+    },
+    {
+      "check": "Gathering references: coal_3",
+      "passed": true
+    },
+    {
+      "check": "Gathering timer and stock: coal_3",
+      "passed": true
+    },
+    {
+      "check": "Spawn is walkable in the reference grid",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: guide",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: bank",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: campfire",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: forge",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: market",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: pine_1",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: pine_2",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: pine_3",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: oak_1",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: copper_1",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: copper_2",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: tin_1",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: iron_1",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: bait_bucket",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: fish_1",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: slime_1",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: slime_2",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: slime_3",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: ranger",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: camp_bank",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: camp_fire",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: camp_forge",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: camp_shop",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: oak_2",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: oak_3",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: pine_4",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: iron_2",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: iron_3",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: coal_1",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: coal_2",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: coal_3",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: wolf_1",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: wolf_2",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: crawler_1",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: crawler_2",
+      "passed": true
+    },
+    {
+      "check": "Reachable interaction approach in reference grid: watchwarden",
+      "passed": true
+    },
+    {
+      "check": "Reference grid contains no isolated walkable islands",
+      "passed": true
+    },
+    {
+      "check": "Bucket is a shop and cannot define a fish yield",
+      "passed": true
+    },
+    {
+      "check": "Pond fish require the catalog bait item",
+      "passed": true
+    },
+    {
+      "check": "Fish visual/cast point lies in the pond",
+      "passed": true
+    },
+    {
+      "check": "Fish target does not hard-code one bank position",
+      "passed": true
+    },
+    {
+      "check": "Many reachable bank cells exist, not just a few fixed spots",
+      "passed": true
+    },
+    {
+      "check": "Every sampled west bank cell is clear and reachable",
+      "passed": true
+    },
+    {
+      "check": "Every sampled east bank cell is clear and reachable",
+      "passed": true
+    },
+    {
+      "check": "Every sampled north bank cell is clear and reachable",
+      "passed": true
+    },
+    {
+      "check": "Every sampled south bank cell is clear and reachable",
+      "passed": true
+    },
+    {
+      "check": "Every sampled corners bank cell is clear and reachable",
+      "passed": true
+    },
+    {
+      "check": "Off-grid dry shoreline sample is valid: 11.8, 11.2",
+      "passed": true
+    },
+    {
+      "check": "Off-grid dry shoreline sample is valid: 26.2, 6.4",
+      "passed": true
+    },
+    {
+      "check": "Off-grid dry shoreline sample is valid: 15.4, 2.8",
+      "passed": true
+    },
+    {
+      "check": "Off-grid dry shoreline sample is valid: 21.6, 16.2",
+      "passed": true
+    },
+    {
+      "check": "Nearest casts from all reachable bank cells lie in water within rod range",
+      "passed": true
+    },
+    {
+      "check": "Water, unsafe edge and far-away positions are not fishing stands",
+      "passed": true
+    },
+    {
+      "check": "Bait bucket is not a valid stand or fish source",
+      "passed": true
+    },
+    {
+      "check": "Bait bucket remains on dry land",
+      "passed": true
+    },
+    {
+      "check": "Bucket obstacle and fishing visual have separate navigation roles",
+      "passed": true
+    },
+    {
+      "check": "Bait is explicitly stackable",
+      "passed": true
+    },
+    {
+      "check": "Existing item types retain one-slot-per-unit behavior",
+      "passed": true
+    },
+    {
+      "check": "Bait price and offered pack sizes match the requested design",
+      "passed": true
+    },
+    {
+      "check": "Bait has no buy/sell profit loop",
+      "passed": true
+    },
+    {
+      "check": "Backpack capacity remains 28 slots",
+      "passed": true
+    },
+    {
+      "check": "Existing save directory is unchanged",
+      "passed": true
+    },
+    {
+      "check": "Save file schema remains version 1",
+      "passed": true
+    },
+    {
+      "check": "Simulation uses live target positions and a separate fishing plan",
+      "passed": true
+    },
+    {
+      "check": "Catch commits the bait/fish exchange as one bag replacement",
+      "passed": true
+    },
+    {
+      "check": "Catch completion contains a fresh bait/capacity check",
+      "passed": true
+    },
+    {
+      "check": "Purchase handler checks offered pack sizes",
+      "passed": true
+    },
+    {
+      "check": "Inventory capacity checks use post-transaction slot usage",
+      "passed": true
+    },
+    {
+      "check": "Actor has a rod-tip marker and fishing-specific pose",
+      "passed": true
+    },
+    {
+      "check": "Fishing visuals connect the actor rod tip and water cast point",
+      "passed": true
+    },
+    {
+      "check": "Fishing visuals are hidden outside active fishing",
+      "passed": true
+    },
+    {
+      "check": "Water hit area is centered over the pond, not the bucket",
+      "passed": true
+    },
+    {
+      "check": "Map pond clicks remain separate from service marker interactions",
+      "passed": true
+    },
+    {
+      "check": "Bait shop buttons use the shared purchase/capacity rules",
+      "passed": true
+    },
+    {
+      "check": "Ambient energy reduced from 0.55 to 0.32",
+      "passed": true
+    },
+    {
+      "check": "Sun energy reduced from 1.45 to 0.90",
+      "passed": true
+    },
+    {
+      "check": "Exposure is explicitly set below the former default",
+      "passed": true
+    },
+    {
+      "check": "Fog brightness and density reduced",
+      "passed": true
+    },
+    {
+      "check": "Water shader has reduced specular glare",
+      "passed": true
+    },
+    {
+      "check": "World materials have restrained specular highlights",
+      "passed": true
+    },
+    {
+      "check": "Directional shadows remain enabled",
+      "passed": true
+    },
+    {
+      "check": "Catalog and project versions both identify 0.2.1",
+      "passed": true
+    },
+    {
+      "check": "Single action consumes both active and pending target",
+      "passed": true
+    },
+    {
+      "check": "Both harvesting and combat require a single-use completion",
+      "passed": true
+    },
+    {
+      "check": "Action tick does not reset a repeat timer or run a repeated-action loop",
+      "passed": true
+    },
+    {
+      "check": "Duplicate or premature completion is rejected",
+      "passed": true
+    },
+    {
+      "check": "Busy interaction clicks are rejected before they can restart the timer",
+      "passed": true
+    },
+    {
+      "check": "Reward resolution rejects reentrant interaction requests",
+      "passed": true
+    },
+    {
+      "check": "World input records click readiness before deferred physics handling",
+      "passed": true
+    },
+    {
+      "check": "World actions use press events rather than held mouse polling",
+      "passed": true
+    },
+    {
+      "check": "Keyboard repeat events are ignored by HUD hotkeys",
+      "passed": true
+    },
+    {
+      "check": "World and map clicks both carry pond coordinates into the same simulation",
+      "passed": true
+    },
+    {
+      "check": "Rod float follows the per-action cast point",
+      "passed": true
+    },
+    {
+      "check": "Fishing keeps exact nearby bank position",
+      "passed": true
+    },
+    {
+      "check": "Far casts select a reachable dry bank through navigation",
+      "passed": true
+    },
+    {
+      "check": "Simulation validates water intent type and pond bounds",
+      "passed": true
+    },
+    {
+      "check": "Active fishing revalidates bank and cast range",
+      "passed": true
+    },
+    {
+      "check": "Enemy retaliation has a separate simulation update",
+      "passed": true
+    },
+    {
+      "check": "Canceling a player action cannot reset enemy retaliation",
+      "passed": true
+    },
+    {
+      "check": "Enemy retaliation never produces player attacks or harvests",
+      "passed": true
+    },
+    {
+      "check": "Player swing is tied to one action timeline instead of cycling",
+      "passed": true
+    },
+    {
+      "check": "In-game instructions describe the manual action rule",
+      "passed": true
+    },
+    {
+      "check": "Native regression suite includes shoreline and single-action tests (execution separate)",
+      "passed": true
+    }
+  ]
+}

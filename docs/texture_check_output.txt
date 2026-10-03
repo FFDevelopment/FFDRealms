@@ -1,0 +1,256 @@
+PASS: Exactly 18 original albedo/normal map pairs are packaged
+PASS: Texture manifest has no duplicate path entries
+PASS: All and only the packaged maps are explicitly preloaded for export inclusion
+PASS: grass_albedo matches its manifest checksum
+PASS: grass_albedo is an opaque 512x512 RGB map
+PASS: grass_albedo has matching opposite tile boundaries
+PASS: grass_albedo has portable lossless/mipmapped import settings
+PASS: grass_albedo remains neutral to preserve its source tint
+PASS: grass_albedo contains restrained visible detail, not a flat fill or full-contrast noise
+PASS: grass_normal matches its manifest checksum
+PASS: grass_normal is an opaque 512x512 RGB map
+PASS: grass_normal has matching opposite tile boundaries
+PASS: grass_normal has portable lossless/mipmapped import settings
+PASS: grass_normal has normalized, positive-Z tangent normals
+PASS: grass_normal is marked as normal data
+PASS: earth_albedo matches its manifest checksum
+PASS: earth_albedo is an opaque 512x512 RGB map
+PASS: earth_albedo has matching opposite tile boundaries
+PASS: earth_albedo has portable lossless/mipmapped import settings
+PASS: earth_albedo remains neutral to preserve its source tint
+PASS: earth_albedo contains restrained visible detail, not a flat fill or full-contrast noise
+PASS: earth_normal matches its manifest checksum
+PASS: earth_normal is an opaque 512x512 RGB map
+PASS: earth_normal has matching opposite tile boundaries
+PASS: earth_normal has portable lossless/mipmapped import settings
+PASS: earth_normal has normalized, positive-Z tangent normals
+PASS: earth_normal is marked as normal data
+PASS: path_albedo matches its manifest checksum
+PASS: path_albedo is an opaque 512x512 RGB map
+PASS: path_albedo has matching opposite tile boundaries
+PASS: path_albedo has portable lossless/mipmapped import settings
+PASS: path_albedo remains neutral to preserve its source tint
+PASS: path_albedo contains restrained visible detail, not a flat fill or full-contrast noise
+PASS: path_normal matches its manifest checksum
+PASS: path_normal is an opaque 512x512 RGB map
+PASS: path_normal has matching opposite tile boundaries
+PASS: path_normal has portable lossless/mipmapped import settings
+PASS: path_normal has normalized, positive-Z tangent normals
+PASS: path_normal is marked as normal data
+PASS: cobble_albedo matches its manifest checksum
+PASS: cobble_albedo is an opaque 512x512 RGB map
+PASS: cobble_albedo has matching opposite tile boundaries
+PASS: cobble_albedo has portable lossless/mipmapped import settings
+PASS: cobble_albedo remains neutral to preserve its source tint
+PASS: cobble_albedo contains restrained visible detail, not a flat fill or full-contrast noise
+PASS: cobble_normal matches its manifest checksum
+PASS: cobble_normal is an opaque 512x512 RGB map
+PASS: cobble_normal has matching opposite tile boundaries
+PASS: cobble_normal has portable lossless/mipmapped import settings
+PASS: cobble_normal has normalized, positive-Z tangent normals
+PASS: cobble_normal is marked as normal data
+PASS: stone_albedo matches its manifest checksum
+PASS: stone_albedo is an opaque 512x512 RGB map
+PASS: stone_albedo has matching opposite tile boundaries
+PASS: stone_albedo has portable lossless/mipmapped import settings
+PASS: stone_albedo remains neutral to preserve its source tint
+PASS: stone_albedo contains restrained visible detail, not a flat fill or full-contrast noise
+PASS: stone_normal matches its manifest checksum
+PASS: stone_normal is an opaque 512x512 RGB map
+PASS: stone_normal has matching opposite tile boundaries
+PASS: stone_normal has portable lossless/mipmapped import settings
+PASS: stone_normal has normalized, positive-Z tangent normals
+PASS: stone_normal is marked as normal data
+PASS: masonry_albedo matches its manifest checksum
+PASS: masonry_albedo is an opaque 512x512 RGB map
+PASS: masonry_albedo has matching opposite tile boundaries
+PASS: masonry_albedo has portable lossless/mipmapped import settings
+PASS: masonry_albedo remains neutral to preserve its source tint
+PASS: masonry_albedo contains restrained visible detail, not a flat fill or full-contrast noise
+PASS: masonry_normal matches its manifest checksum
+PASS: masonry_normal is an opaque 512x512 RGB map
+PASS: masonry_normal has matching opposite tile boundaries
+PASS: masonry_normal has portable lossless/mipmapped import settings
+PASS: masonry_normal has normalized, positive-Z tangent normals
+PASS: masonry_normal is marked as normal data
+PASS: plaster_albedo matches its manifest checksum
+PASS: plaster_albedo is an opaque 512x512 RGB map
+PASS: plaster_albedo has matching opposite tile boundaries
+PASS: plaster_albedo has portable lossless/mipmapped import settings
+PASS: plaster_albedo remains neutral to preserve its source tint
+PASS: plaster_albedo contains restrained visible detail, not a flat fill or full-contrast noise
+PASS: plaster_normal matches its manifest checksum
+PASS: plaster_normal is an opaque 512x512 RGB map
+PASS: plaster_normal has matching opposite tile boundaries
+PASS: plaster_normal has portable lossless/mipmapped import settings
+PASS: plaster_normal has normalized, positive-Z tangent normals
+PASS: plaster_normal is marked as normal data
+PASS: shingles_albedo matches its manifest checksum
+PASS: shingles_albedo is an opaque 512x512 RGB map
+PASS: shingles_albedo has matching opposite tile boundaries
+PASS: shingles_albedo has portable lossless/mipmapped import settings
+PASS: shingles_albedo remains neutral to preserve its source tint
+PASS: shingles_albedo contains restrained visible detail, not a flat fill or full-contrast noise
+PASS: shingles_normal matches its manifest checksum
+PASS: shingles_normal is an opaque 512x512 RGB map
+PASS: shingles_normal has matching opposite tile boundaries
+PASS: shingles_normal has portable lossless/mipmapped import settings
+PASS: shingles_normal has normalized, positive-Z tangent normals
+PASS: shingles_normal is marked as normal data
+PASS: timber_albedo matches its manifest checksum
+PASS: timber_albedo is an opaque 512x512 RGB map
+PASS: timber_albedo has matching opposite tile boundaries
+PASS: timber_albedo has portable lossless/mipmapped import settings
+PASS: timber_albedo remains neutral to preserve its source tint
+PASS: timber_albedo contains restrained visible detail, not a flat fill or full-contrast noise
+PASS: timber_normal matches its manifest checksum
+PASS: timber_normal is an opaque 512x512 RGB map
+PASS: timber_normal has matching opposite tile boundaries
+PASS: timber_normal has portable lossless/mipmapped import settings
+PASS: timber_normal has normalized, positive-Z tangent normals
+PASS: timber_normal is marked as normal data
+PASS: planks_albedo matches its manifest checksum
+PASS: planks_albedo is an opaque 512x512 RGB map
+PASS: planks_albedo has matching opposite tile boundaries
+PASS: planks_albedo has portable lossless/mipmapped import settings
+PASS: planks_albedo remains neutral to preserve its source tint
+PASS: planks_albedo contains restrained visible detail, not a flat fill or full-contrast noise
+PASS: planks_normal matches its manifest checksum
+PASS: planks_normal is an opaque 512x512 RGB map
+PASS: planks_normal has matching opposite tile boundaries
+PASS: planks_normal has portable lossless/mipmapped import settings
+PASS: planks_normal has normalized, positive-Z tangent normals
+PASS: planks_normal is marked as normal data
+PASS: bark_albedo matches its manifest checksum
+PASS: bark_albedo is an opaque 512x512 RGB map
+PASS: bark_albedo has matching opposite tile boundaries
+PASS: bark_albedo has portable lossless/mipmapped import settings
+PASS: bark_albedo remains neutral to preserve its source tint
+PASS: bark_albedo contains restrained visible detail, not a flat fill or full-contrast noise
+PASS: bark_normal matches its manifest checksum
+PASS: bark_normal is an opaque 512x512 RGB map
+PASS: bark_normal has matching opposite tile boundaries
+PASS: bark_normal has portable lossless/mipmapped import settings
+PASS: bark_normal has normalized, positive-Z tangent normals
+PASS: bark_normal is marked as normal data
+PASS: leaves_albedo matches its manifest checksum
+PASS: leaves_albedo is an opaque 512x512 RGB map
+PASS: leaves_albedo has matching opposite tile boundaries
+PASS: leaves_albedo has portable lossless/mipmapped import settings
+PASS: leaves_albedo remains neutral to preserve its source tint
+PASS: leaves_albedo contains restrained visible detail, not a flat fill or full-contrast noise
+PASS: leaves_normal matches its manifest checksum
+PASS: leaves_normal is an opaque 512x512 RGB map
+PASS: leaves_normal has matching opposite tile boundaries
+PASS: leaves_normal has portable lossless/mipmapped import settings
+PASS: leaves_normal has normalized, positive-Z tangent normals
+PASS: leaves_normal is marked as normal data
+PASS: ore_albedo matches its manifest checksum
+PASS: ore_albedo is an opaque 512x512 RGB map
+PASS: ore_albedo has matching opposite tile boundaries
+PASS: ore_albedo has portable lossless/mipmapped import settings
+PASS: ore_albedo remains neutral to preserve its source tint
+PASS: ore_albedo contains restrained visible detail, not a flat fill or full-contrast noise
+PASS: ore_normal matches its manifest checksum
+PASS: ore_normal is an opaque 512x512 RGB map
+PASS: ore_normal has matching opposite tile boundaries
+PASS: ore_normal has portable lossless/mipmapped import settings
+PASS: ore_normal has normalized, positive-Z tangent normals
+PASS: ore_normal is marked as normal data
+PASS: canvas_albedo matches its manifest checksum
+PASS: canvas_albedo is an opaque 512x512 RGB map
+PASS: canvas_albedo has matching opposite tile boundaries
+PASS: canvas_albedo has portable lossless/mipmapped import settings
+PASS: canvas_albedo remains neutral to preserve its source tint
+PASS: canvas_albedo contains restrained visible detail, not a flat fill or full-contrast noise
+PASS: canvas_normal matches its manifest checksum
+PASS: canvas_normal is an opaque 512x512 RGB map
+PASS: canvas_normal has matching opposite tile boundaries
+PASS: canvas_normal has portable lossless/mipmapped import settings
+PASS: canvas_normal has normalized, positive-Z tangent normals
+PASS: canvas_normal is marked as normal data
+PASS: metal_albedo matches its manifest checksum
+PASS: metal_albedo is an opaque 512x512 RGB map
+PASS: metal_albedo has matching opposite tile boundaries
+PASS: metal_albedo has portable lossless/mipmapped import settings
+PASS: metal_albedo remains neutral to preserve its source tint
+PASS: metal_albedo contains restrained visible detail, not a flat fill or full-contrast noise
+PASS: metal_normal matches its manifest checksum
+PASS: metal_normal is an opaque 512x512 RGB map
+PASS: metal_normal has matching opposite tile boundaries
+PASS: metal_normal has portable lossless/mipmapped import settings
+PASS: metal_normal has normalized, positive-Z tangent normals
+PASS: metal_normal is marked as normal data
+PASS: moss_albedo matches its manifest checksum
+PASS: moss_albedo is an opaque 512x512 RGB map
+PASS: moss_albedo has matching opposite tile boundaries
+PASS: moss_albedo has portable lossless/mipmapped import settings
+PASS: moss_albedo remains neutral to preserve its source tint
+PASS: moss_albedo contains restrained visible detail, not a flat fill or full-contrast noise
+PASS: moss_normal matches its manifest checksum
+PASS: moss_normal is an opaque 512x512 RGB map
+PASS: moss_normal has matching opposite tile boundaries
+PASS: moss_normal has portable lossless/mipmapped import settings
+PASS: moss_normal has normalized, positive-Z tangent normals
+PASS: moss_normal is marked as normal data
+PASS: fur_albedo matches its manifest checksum
+PASS: fur_albedo is an opaque 512x512 RGB map
+PASS: fur_albedo has matching opposite tile boundaries
+PASS: fur_albedo has portable lossless/mipmapped import settings
+PASS: fur_albedo remains neutral to preserve its source tint
+PASS: fur_albedo contains restrained visible detail, not a flat fill or full-contrast noise
+PASS: fur_normal matches its manifest checksum
+PASS: fur_normal is an opaque 512x512 RGB map
+PASS: fur_normal has matching opposite tile boundaries
+PASS: fur_normal has portable lossless/mipmapped import settings
+PASS: fur_normal has normalized, positive-Z tangent normals
+PASS: fur_normal is marked as normal data
+PASS: water_albedo matches its manifest checksum
+PASS: water_albedo is an opaque 512x512 RGB map
+PASS: water_albedo has matching opposite tile boundaries
+PASS: water_albedo has portable lossless/mipmapped import settings
+PASS: water_albedo remains neutral to preserve its source tint
+PASS: water_albedo contains restrained visible detail, not a flat fill or full-contrast noise
+PASS: water_normal matches its manifest checksum
+PASS: water_normal is an opaque 512x512 RGB map
+PASS: water_normal has matching opposite tile boundaries
+PASS: water_normal has portable lossless/mipmapped import settings
+PASS: water_normal has normalized, positive-Z tangent normals
+PASS: water_normal is marked as normal data
+PASS: World mapping is explicit and moving creatures default to local-space textures
+PASS: Repeating textures use mipmapped filtering
+PASS: Materials are cached instead of recreated per frame
+PASS: Emissive/transparent indicators are excluded from material replacement
+PASS: Material application preserves each original mesh tint
+PASS: Textured world materials retain restrained specular highlights
+PASS: World tick does not load new material scripts
+PASS: No texture allocation or application occurs in the world frame loop
+PASS: Enemy animation does not recreate or remap textures each frame
+PASS: Every solid-surface preset is assigned to a mesh or blended terrain material
+PASS: scripts/game_state.gd is byte-identical to the 0.2.2 gameplay base
+PASS: scripts/enemy_ai.gd is byte-identical to the 0.2.2 gameplay base
+PASS: scripts/combat_rules.gd is byte-identical to the 0.2.2 gameplay base
+PASS: scripts/world_layout.gd is byte-identical to the 0.2.2 gameplay base
+PASS: scripts/actor.gd is byte-identical to the 0.2.2 gameplay base
+PASS: scripts/appearance.gd is byte-identical to the 0.2.2 gameplay base
+PASS: scripts/wardrobe.gd is byte-identical to the 0.2.2 gameplay base
+PASS: scripts/save_store.gd is byte-identical to the 0.2.2 gameplay base
+PASS: scripts/geometry.gd is byte-identical to the 0.2.2 gameplay base
+PASS: scenes/main.tscn is byte-identical to the 0.2.2 gameplay base
+PASS: Catalog differs only by the release version, not item/skill/economy rules
+PASS: scripts/world.gd _build_environment preserves behavior after height projection
+PASS: scripts/world.gd _process preserves behavior after height projection
+PASS: scripts/world.gd show_hover preserves behavior after height projection
+PASS: scripts/enemy_visual.gd _triangle_mesh preserves behavior after height projection
+PASS: scripts/enemy_visual.gd _warning_material preserves behavior after height projection
+PASS: All original creature geometry construction calls are preserved
+PASS: Water keeps the reduced-glare roughness and specular settings
+PASS: New water shader requires no screen/depth texture, transparency or glow
+PASS: Water vertex motion has the original amplitude and period
+PASS: Every water shader uniform is bound by world.gd with no misspelled names
+PASS: Water normal detail has a bounded strength and a disable path
+PASS: New visual settings default to textures with normal detail enabled
+PASS: Both solid surfaces and water retain legacy material fallback
+PASS: Windows runner includes the new native import/material suite
+PASS: Four intentional asset/geometry/safety/warning regressions are rejected
+TEXTURE SOURCE RESULT: 255 passed; 0 failed. Native/GPU tests not run.

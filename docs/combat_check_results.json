@@ -1,0 +1,418 @@
+{
+  "version": "0.3.0",
+  "scope": "Source/data and independent Python sector/timing checks only; no GDScript execution",
+  "passed": 99,
+  "failed": 0,
+  "sector_oracle": {
+    "samples": 12000,
+    "mismatches": 0
+  },
+  "checks": [
+    {
+      "check": "Quick strike uses a separate original-rate minimum attack interval",
+      "passed": true
+    },
+    {
+      "check": "All eight enemies and four species are covered",
+      "passed": true
+    },
+    {
+      "check": "Positive proximity detection within leash: slime_1",
+      "passed": true
+    },
+    {
+      "check": "Telegraph and recovery windows are explicit: slime_1",
+      "passed": true
+    },
+    {
+      "check": "Stationary player in front is hit: slime_1",
+      "passed": true
+    },
+    {
+      "check": "Sideways dodge works inside nominal reach: slime_1",
+      "passed": true
+    },
+    {
+      "check": "Behind the committed strike is outside its arc: slime_1",
+      "passed": true
+    },
+    {
+      "check": "No hidden range beyond the visible radius: slime_1",
+      "passed": true
+    },
+    {
+      "check": "Configured speed permits strike then dodge during windup: slime_1",
+      "passed": true
+    },
+    {
+      "check": "Moving out then returning before impact remains hittable: slime_1",
+      "passed": true
+    },
+    {
+      "check": "Positive proximity detection within leash: slime_2",
+      "passed": true
+    },
+    {
+      "check": "Telegraph and recovery windows are explicit: slime_2",
+      "passed": true
+    },
+    {
+      "check": "Stationary player in front is hit: slime_2",
+      "passed": true
+    },
+    {
+      "check": "Sideways dodge works inside nominal reach: slime_2",
+      "passed": true
+    },
+    {
+      "check": "Behind the committed strike is outside its arc: slime_2",
+      "passed": true
+    },
+    {
+      "check": "No hidden range beyond the visible radius: slime_2",
+      "passed": true
+    },
+    {
+      "check": "Configured speed permits strike then dodge during windup: slime_2",
+      "passed": true
+    },
+    {
+      "check": "Moving out then returning before impact remains hittable: slime_2",
+      "passed": true
+    },
+    {
+      "check": "Positive proximity detection within leash: slime_3",
+      "passed": true
+    },
+    {
+      "check": "Telegraph and recovery windows are explicit: slime_3",
+      "passed": true
+    },
+    {
+      "check": "Stationary player in front is hit: slime_3",
+      "passed": true
+    },
+    {
+      "check": "Sideways dodge works inside nominal reach: slime_3",
+      "passed": true
+    },
+    {
+      "check": "Behind the committed strike is outside its arc: slime_3",
+      "passed": true
+    },
+    {
+      "check": "No hidden range beyond the visible radius: slime_3",
+      "passed": true
+    },
+    {
+      "check": "Configured speed permits strike then dodge during windup: slime_3",
+      "passed": true
+    },
+    {
+      "check": "Moving out then returning before impact remains hittable: slime_3",
+      "passed": true
+    },
+    {
+      "check": "Positive proximity detection within leash: wolf_1",
+      "passed": true
+    },
+    {
+      "check": "Telegraph and recovery windows are explicit: wolf_1",
+      "passed": true
+    },
+    {
+      "check": "Stationary player in front is hit: wolf_1",
+      "passed": true
+    },
+    {
+      "check": "Sideways dodge works inside nominal reach: wolf_1",
+      "passed": true
+    },
+    {
+      "check": "Behind the committed strike is outside its arc: wolf_1",
+      "passed": true
+    },
+    {
+      "check": "No hidden range beyond the visible radius: wolf_1",
+      "passed": true
+    },
+    {
+      "check": "Configured speed permits strike then dodge during windup: wolf_1",
+      "passed": true
+    },
+    {
+      "check": "Moving out then returning before impact remains hittable: wolf_1",
+      "passed": true
+    },
+    {
+      "check": "Positive proximity detection within leash: wolf_2",
+      "passed": true
+    },
+    {
+      "check": "Telegraph and recovery windows are explicit: wolf_2",
+      "passed": true
+    },
+    {
+      "check": "Stationary player in front is hit: wolf_2",
+      "passed": true
+    },
+    {
+      "check": "Sideways dodge works inside nominal reach: wolf_2",
+      "passed": true
+    },
+    {
+      "check": "Behind the committed strike is outside its arc: wolf_2",
+      "passed": true
+    },
+    {
+      "check": "No hidden range beyond the visible radius: wolf_2",
+      "passed": true
+    },
+    {
+      "check": "Configured speed permits strike then dodge during windup: wolf_2",
+      "passed": true
+    },
+    {
+      "check": "Moving out then returning before impact remains hittable: wolf_2",
+      "passed": true
+    },
+    {
+      "check": "Positive proximity detection within leash: crawler_1",
+      "passed": true
+    },
+    {
+      "check": "Telegraph and recovery windows are explicit: crawler_1",
+      "passed": true
+    },
+    {
+      "check": "Stationary player in front is hit: crawler_1",
+      "passed": true
+    },
+    {
+      "check": "Sideways dodge works inside nominal reach: crawler_1",
+      "passed": true
+    },
+    {
+      "check": "Behind the committed strike is outside its arc: crawler_1",
+      "passed": true
+    },
+    {
+      "check": "No hidden range beyond the visible radius: crawler_1",
+      "passed": true
+    },
+    {
+      "check": "Configured speed permits strike then dodge during windup: crawler_1",
+      "passed": true
+    },
+    {
+      "check": "Moving out then returning before impact remains hittable: crawler_1",
+      "passed": true
+    },
+    {
+      "check": "Positive proximity detection within leash: crawler_2",
+      "passed": true
+    },
+    {
+      "check": "Telegraph and recovery windows are explicit: crawler_2",
+      "passed": true
+    },
+    {
+      "check": "Stationary player in front is hit: crawler_2",
+      "passed": true
+    },
+    {
+      "check": "Sideways dodge works inside nominal reach: crawler_2",
+      "passed": true
+    },
+    {
+      "check": "Behind the committed strike is outside its arc: crawler_2",
+      "passed": true
+    },
+    {
+      "check": "No hidden range beyond the visible radius: crawler_2",
+      "passed": true
+    },
+    {
+      "check": "Configured speed permits strike then dodge during windup: crawler_2",
+      "passed": true
+    },
+    {
+      "check": "Moving out then returning before impact remains hittable: crawler_2",
+      "passed": true
+    },
+    {
+      "check": "Positive proximity detection within leash: watchwarden",
+      "passed": true
+    },
+    {
+      "check": "Telegraph and recovery windows are explicit: watchwarden",
+      "passed": true
+    },
+    {
+      "check": "Stationary player in front is hit: watchwarden",
+      "passed": true
+    },
+    {
+      "check": "Sideways dodge works inside nominal reach: watchwarden",
+      "passed": true
+    },
+    {
+      "check": "Behind the committed strike is outside its arc: watchwarden",
+      "passed": true
+    },
+    {
+      "check": "No hidden range beyond the visible radius: watchwarden",
+      "passed": true
+    },
+    {
+      "check": "Configured speed permits strike then dodge during windup: watchwarden",
+      "passed": true
+    },
+    {
+      "check": "Moving out then returning before impact remains hittable: watchwarden",
+      "passed": true
+    },
+    {
+      "check": "12,000 seeded vector/angle sector comparisons agree",
+      "passed": true
+    },
+    {
+      "check": "Windup snapshots strike_origin",
+      "passed": true
+    },
+    {
+      "check": "Windup snapshots strike_facing",
+      "passed": true
+    },
+    {
+      "check": "Windup snapshots strike_reach",
+      "passed": true
+    },
+    {
+      "check": "Windup snapshots strike_half_angle",
+      "passed": true
+    },
+    {
+      "check": "Windup snapshots strike_duration",
+      "passed": true
+    },
+    {
+      "check": "Impact validates current player position against fixed geometry and cover",
+      "passed": true
+    },
+    {
+      "check": "Committed swing cannot chase or swivel",
+      "passed": true
+    },
+    {
+      "check": "Facing updates exclude committed and recovery states",
+      "passed": true
+    },
+    {
+      "check": "Each impact transitions out of windup before any damage return",
+      "passed": true
+    },
+    {
+      "check": "Player hits cannot restart enemy timers",
+      "passed": true
+    },
+    {
+      "check": "Unconfigured enemy defaults to close-range LOS detection, with explicit zero opt-out",
+      "passed": true
+    },
+    {
+      "check": "Return-home behavior runs before proximity acquisition",
+      "passed": true
+    },
+    {
+      "check": "Safe towns and body-safe placement still gate combat",
+      "passed": true
+    },
+    {
+      "check": "Movement/cancel cannot clear weapon cooldown",
+      "passed": true
+    },
+    {
+      "check": "Swing duration and cadence are set separately when the swing starts",
+      "passed": true
+    },
+    {
+      "check": "Cooldown rejection preserves the existing movement route",
+      "passed": true
+    },
+    {
+      "check": "Weapon cooldown advances independently of active action",
+      "passed": true
+    },
+    {
+      "check": "Reward path still consumes one authorized click",
+      "passed": true
+    },
+    {
+      "check": "Enemy simulation never grants player counterattacks",
+      "passed": true
+    },
+    {
+      "check": "Miss feedback is emitted only on a new strike result",
+      "passed": true
+    },
+    {
+      "check": "Clear movement clicks use direct continuous movement",
+      "passed": true
+    },
+    {
+      "check": "Warning builder uses the same reach/angle functions as combat",
+      "passed": true
+    },
+    {
+      "check": "Warning pose follows the committed snapshot, not current target",
+      "passed": true
+    },
+    {
+      "check": "Warning footprint does not pulse in size",
+      "passed": true
+    },
+    {
+      "check": "Warning materials are independent per instance",
+      "passed": true
+    },
+    {
+      "check": "World creates the sector and countdown label",
+      "passed": true
+    },
+    {
+      "check": "Shift-click can bypass target pick boxes for movement",
+      "passed": true
+    },
+    {
+      "check": "HUD action text differentiates weapon cooldown and readiness",
+      "passed": true
+    },
+    {
+      "check": "Profile stores appearance, not transient combat actions",
+      "passed": true
+    },
+    {
+      "check": "Native combat suite is wired into the local test launcher",
+      "passed": true
+    },
+    {
+      "check": "Reference cancel-spam leaves no authorized action",
+      "passed": true
+    },
+    {
+      "check": "Reference cooldown expiry grants readiness, not an attack",
+      "passed": true
+    }
+  ],
+  "source_sha256": {
+    "enemy_ai": "a7fc40e23e8f0eca92dd2fc35f1ed5cbe995f0cc72f100be835a49979152584f",
+    "combat_rules": "0c6a73e6e80a31f3741f511d486e9965e8f904adea536ec7981984be8b2253d0",
+    "game_state": "f51022d42bc99bfb69a45fa2339604855749383360600c289b71800f42f1a4b5",
+    "world_layout": "6b4df5f689119c092c005ad11659774c5b523e5fd36ba3c45837d32007609cc4",
+    "enemy_visual": "4d45073673faeed374f271c0754b8c13c8f24e8de59142943631a0c1dbd2ff07",
+    "world": "86ff070dae7d79342a444f510d5b99fb32e8d8565856f636f08aaa878ecf434a",
+    "hud": "0783ed78081e764d5d3a61f7c26fd0e2b078c183c1a123848d27582919668ebe",
+    "main": "09956d9f3dfce37a897b21d3655caaa7fccacf97e1f25e2ec30521d63283bca3"
+  }
+}
