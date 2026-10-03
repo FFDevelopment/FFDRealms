@@ -59,7 +59,7 @@ jobs:
         shell: bash
         run: |
           mkdir -p build/windows
-          godot --headless --verbose --path . --export-release "Windows Desktop" "build/windows/FFDRealms.exe"
+          godot --headless --verbose --path . --export-debug "Windows Desktop" "build/windows/FFDRealms.exe"
           test -f build/windows/FFDRealms.exe
 
       - name: Add tester instructions and diagnostic launcher
@@ -70,9 +70,9 @@ jobs:
 
           1. Extract this ZIP completely.
           2. Run FFDRealms.exe.
-          3. If it closes immediately, run RUN-WITH-LOG.bat instead.
-          4. Send ffdrealms-startup.log when reporting startup problems.
-          5. For multiplayer testing, start the separate development backend from the source repository/server folder first.
+          3. Run FFDRealms.console.exe first for this diagnostic build if it is present.\n          4. If it closes immediately, run RUN-WITH-LOG.bat instead.
+          5. Send both ffdrealms-startup.log and ffdrealms-boot.log when reporting startup problems.
+          6. For multiplayer testing, start the separate development backend from the source repository/server folder first.
           EOF
           cat > build/windows/RUN-WITH-LOG.bat <<'EOF'
           @echo off
