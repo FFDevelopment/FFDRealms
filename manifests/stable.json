@@ -1,0 +1,12 @@
+{
+  "channel": "stable",
+  "version": "0.4.0",
+  "required": false,
+  "download": "",
+  "sha256": "",
+  "notes": [
+    "Initial GitHub development baseline",
+    "Account/login and multiplayer presence test",
+    "Terrain, textures, combat, and character customization"
+  ]
+}
