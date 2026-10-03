@@ -46,8 +46,14 @@ jobs:
 
       - name: Validate project imports
         shell: bash
+        run: godot --headless --editor --path . --quit
+
+      - name: Run startup smoke test
+        shell: bash
         run: |
-          godot --headless --editor --path . --quit
+          set -o pipefail
+          timeout 30s godot --headless --path . -- --smoke-test 2>&1 | tee startup-smoke.log
+          grep -q "SMOKE PASS:" startup-smoke.log
 
       - name: Export Windows release
         shell: bash
@@ -55,8 +61,9 @@ jobs:
           mkdir -p build/windows
           godot --headless --verbose --path . --export-release "Windows Desktop" "build/windows/FFDRealms.exe"
           test -f build/windows/FFDRealms.exe
+          test -f build/windows/FFDRealms.pck
 
-      - name: Add tester instructions
+      - name: Add tester instructions and diagnostic launcher
         shell: bash
         run: |
           cat > build/windows/README-TEST-BUILD.txt <<'EOF'
@@ -64,8 +71,22 @@ jobs:
 
           1. Extract this ZIP completely.
           2. Run FFDRealms.exe.
-          3. For multiplayer testing, start the separate development backend from the source repository/server folder first.
-          4. This is a development build. Back up important saves before testing.
+          3. If it closes immediately, run RUN-WITH-LOG.bat instead.
+          4. Send ffdrealms-startup.log when reporting startup problems.
+          5. For multiplayer testing, start the separate development backend from the source repository/server folder first.
+          EOF
+          cat > build/windows/RUN-WITH-LOG.bat <<'EOF'
+          @echo off
+          cd /d "%~dp0"
+          echo Starting FFDRealms...
+          "FFDRealms.exe" --verbose > ffdrealms-startup.log 2>&1
+          echo.
+          echo FFDRealms exited. Startup log:
+          echo ----------------------------------------
+          type ffdrealms-startup.log
+          echo ----------------------------------------
+          echo Log saved to: %CD%\ffdrealms-startup.log
+          pause
           EOF
 
       - name: Upload playable Windows build
