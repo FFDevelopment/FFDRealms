@@ -40,7 +40,7 @@ window/size/min_height=640
 
 [ffdrealms]
 
-network/server_url="http://127.0.0.1:8765"
+network/server_url="https://cambridge-conceptual-contributed-various.trycloudflare.com"
 visuals/world_textures=true
 visuals/normal_maps=true
 
